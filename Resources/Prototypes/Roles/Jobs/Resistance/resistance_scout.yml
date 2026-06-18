@@ -1,0 +1,23 @@
+# #Misfits Change - HL2 Resistance Scout
+- type: job
+  id: ResistanceScout
+  name: job-name-resistance-scout
+  description: job-description-resistance-scout
+  playTimeTracker: JobResistanceScout
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Resistance
+      time: 4h
+  startingGear: ScoutGear
+  icon: "JobIconResistanceScout"
+  supervisors: job-supervisors-lambda
+  access:
+  - Resistance
+  - Maintenance
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: ScoutGear
+  equipment:
+    id: ResistancePasscard

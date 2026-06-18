@@ -1,0 +1,24 @@
+# #Misfits Change - HL2 Lambda Cell Leader
+- type: job
+  id: LambdaCellLeader
+  name: job-name-lambda-leader
+  description: job-description-lambda-leader
+  playTimeTracker: JobLambdaCellLeader
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Resistance
+      time: 16h
+  startingGear: LambdaLeaderGear
+  icon: "JobIconLambdaLeader"
+  supervisors: job-supervisors-lambda
+  access:
+  - Resistance
+  - ResistanceCommand
+  - Maintenance
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: LambdaLeaderGear
+  equipment:
+    id: ResistanceLeaderPasscard

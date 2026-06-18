@@ -1,0 +1,18 @@
+# #Misfits Change - HL2 Lambda Cell Member
+- type: job
+  id: LambdaCellMember
+  name: job-name-lambda-cell
+  description: job-description-lambda-cell
+  playTimeTracker: JobLambdaCellMember
+  startingGear: LambdaCellGear
+  icon: "JobIconLambdaCell"
+  supervisors: job-supervisors-lambda
+  access:
+  - Resistance
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: LambdaCellGear
+  equipment:
+    id: ResistancePasscard
