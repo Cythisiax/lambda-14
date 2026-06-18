@@ -1,0 +1,26 @@
+# #Misfits Change - HL2 Maintenance Worker
+- type: job
+  id: MaintenanceWorker
+  name: job-name-maintenance
+  description: job-description-maintenance
+  playTimeTracker: JobMaintenanceWorker
+  startingGear: MaintenanceGear
+  icon: "JobIconMaintenanceWorker"
+  supervisors: job-supervisors-logistics
+  access:
+  - Maintenance
+  - Logistics
+  - Cryogenics
+
+- type: startingGear
+  id: MaintenanceGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    gloves: ClothingHandsGlovesWork
+    ears: ClothingHeadsetLogistics
+    id: LogisticsPasscard
+  storage:
+    back:
+    - Crowbar
+    - Wrench
+    - Screwdriver

@@ -1,0 +1,26 @@
+# #Misfits Change - HL2 Train Yard Worker
+- type: job
+  id: TrainYardWorker
+  name: job-name-train-yard
+  description: job-description-train-yard
+  playTimeTracker: JobTrainYardWorker
+  startingGear: TrainYardGear
+  icon: "JobIconTrainYardWorker"
+  supervisors: job-supervisors-logistics
+  access:
+  - Logistics
+  - Maintenance
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: TrainYardGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    gloves: ClothingHandsGlovesWork
+    ears: ClothingHeadsetLogistics
+    id: LogisticsPasscard
+  storage:
+    back:
+    - Crowbar
+    - Wrench

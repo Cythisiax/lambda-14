@@ -1,0 +1,28 @@
+# #Misfits Change - HL2 Logistics Officer
+- type: job
+  id: LogisticsOfficer
+  name: job-name-logistics
+  description: job-description-logistics
+  playTimeTracker: JobLogisticsOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Logistics
+      time: 4h
+  startingGear: LogisticsOfficerGear
+  icon: "JobIconLogisticsOfficer"
+  supervisors: job-supervisors-logistics
+  access:
+  - Logistics
+  - LogisticsCommand
+  - Maintenance
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: LogisticsOfficerGear
+  equipment:
+    ears: ClothingHeadsetLogistics
+    id: LogisticsOfficerPasscard
+  storage:
+    back:
+    - Crowbar

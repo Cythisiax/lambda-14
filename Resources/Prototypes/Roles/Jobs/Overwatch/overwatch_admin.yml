@@ -1,0 +1,28 @@
+# #Misfits Change - HL2 Overwatch Administrator
+- type: job
+  id: OverwatchAdministrator
+  name: job-name-ovwatch-admin
+  description: job-description-ovwatch-admin
+  playTimeTracker: JobOverwatchAdministrator
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Overwatch
+      time: 8h
+  startingGear: OverwatchAdminGear
+  icon: "JobIconOverwatchAdmin"
+  supervisors: job-supervisors-ovwatch
+  access:
+  - Overwatch
+  - OverwatchCommand
+  - CivilProtectionCommand
+  - Armory
+  - Brig
+  - Maintenance
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: OverwatchAdminGear
+  equipment:
+    ears: ClothingHeadsetOverwatch
+    id: OverwatchAdminPasscard

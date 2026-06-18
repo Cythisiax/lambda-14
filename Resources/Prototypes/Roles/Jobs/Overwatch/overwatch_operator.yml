@@ -1,0 +1,24 @@
+# #Misfits Change - HL2 Overwatch Operator
+- type: job
+  id: OverwatchOperator
+  name: job-name-ovwatch-operator
+  description: job-description-ovatch-operator
+  playTimeTracker: JobOverwatchOperator
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Overwatch
+      time: 4h
+  startingGear: OverwatchOperatorGear
+  icon: "JobIconOverwatchOperator"
+  supervisors: job-supervisors-ovwatch
+  access:
+  - Overwatch
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: OverwatchOperatorGear
+  equipment:
+    ears: ClothingHeadsetOverwatch
+    eyes: ClothingEyesGlassesSecurity
+    id: OverwatchPasscard
