@@ -25,32 +25,32 @@ department-CivilServices-short = CS
 department-Resistance-short = RES
 
 ## Job Names
-job-name-cpofficer = Civil Protection Officer
-job-name-cpsergeant = Civil Protection Sergeant
-job-name-cpcaptain = Civil Protection Captain
-job-name-ovwatch-officer = Overwatch Officer
+job-name-cpofficer = [CP-O] Civil Protection Officer
+job-name-cpsergeant = [CP-SGT] Civil Protection Sergeant
+job-name-cpcaptain = [CP-CPT] Civil Protection Captain
+job-name-ovwatch-officer = [OW-IA] Overwatch Officer
 
-job-name-combine-soldier = Combine Soldier
-job-name-elite-soldier = Elite Soldier
-job-name-hunter-seeker = Hunter-Seeker Operator
+job-name-combine-soldier = [TA-S] Combine Soldier
+job-name-elite-soldier = [TA-E] Elite Soldier
+job-name-hunter-seeker = [TA-H] Hunter-Seeker Operator
 
-job-name-ovwatch-admin = Overwatch Administrator
-job-name-ovwatch-operator = Overwatch Operator
+job-name-ovwatch-admin = [OW-ADM] Overwatch Administrator
+job-name-ovwatch-operator = [OW-OP] Overwatch Operator
 
-job-name-maintenance = Maintenance Worker
-job-name-logistics = Logistics Officer
-job-name-train-yard = Train Yard Worker
+job-name-maintenance = [LOG-M] Maintenance Worker
+job-name-logistics = [LOG-O] Logistics Officer
+job-name-train-yard = [LOG-T] Train Yard Worker
 
-job-name-civil-worker = Civil Worker
-job-name-civil-medic = Civil Medical Worker
-job-name-union-rep = Union Representative
+job-name-civil-worker = [CS-W] Civil Worker
+job-name-civil-medic = [CS-M] Civil Medical Worker
+job-name-union-rep = [CS-UR] Union Representative
 
 job-name-citizen = Citizen
 job-name-refugee = Refugee
 
-job-name-lambda-cell = Lambda Cell Member
-job-name-resistance-scout = Resistance Scout
-job-name-lambda-leader = Lambda Cell Leader
+job-name-lambda-cell = [RES-C] Lambda Cell Member
+job-name-resistance-scout = [RES-S] Resistance Scout
+job-name-lambda-leader = [RES-L] Lambda Cell Leader
 
 ## Job Descriptions
 job-description-cpofficer = Maintain order in the city. Patrol the streets, man checkpoints, enforce Combine law. Report suspicious activity to Overwatch.
