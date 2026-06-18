@@ -92,6 +92,22 @@
       uniform:
       - state: blacksuit
 
+# ===== NECK ITEMS =====
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckHL2
+  name: neckwear
+  description: A neck accessory.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/neck.rsi
+    state: icon
+  - type: Clothing
+    sprite: _HL2/mob/clothing/neck.rsi
+    clothingVisuals:
+      neck:
+      - state: icon
+
 # ===== CIVILIAN OUTER =====
 - type: entity
   parent: ClothingOuterBase
