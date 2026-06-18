@@ -1,0 +1,251 @@
+# #Misfits Change - HL2 Effects, Actions & Terrain Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== EFFECTS =====
+- type: entity
+  name: large effect (96x96)
+  parent: BaseItem
+  id: EffectLarge96HL2
+  description: A large visual effect.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/96x96.rsi
+    state: icon
+
+- type: entity
+  name: large effect (96x157)
+  parent: BaseItem
+  id: EffectLarge157HL2
+  description: A very large visual effect.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/96x157.rsi
+    state: icon
+
+- type: entity
+  name: border effect
+  parent: BaseItem
+  id: EffectBorderHL2
+  description: A border effect overlay.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/border.rsi
+    state: icon
+
+- type: entity
+  name: effect overlay
+  parent: BaseItem
+  id: EffectOverlayHL2
+  description: A generic visual effect.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/effects.rsi
+    state: icon
+
+- type: entity
+  name: progress bar
+  parent: BaseItem
+  id: EffectProgressbarHL2
+  description: A progress bar indicator.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/progressbar.rsi
+    state: icon
+
+- type: entity
+  name: random spawner marker
+  parent: BaseItem
+  id: RandomSpawnerHL2
+  description: A random spawn point marker.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/random_spawners.rsi
+    state: icon
+
+# ===== COMBINE FORCEFIELD =====
+- type: entity
+  name: forcefield
+  parent: BaseItem
+  id: ForcefieldHL2
+  description: A Combine energy forcefield barrier.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/forcefield.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== TERRAIN CUTTERS (hl13cutter) =====
+- type: entity
+  name: brick terrain
+  parent: BaseItem
+  id: TerrainBrickHL2
+  description: Brick terrain tile.
+  components:
+  - type: Sprite
+    sprite: _HL2/hl13cutter/brick.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: bunker terrain
+  parent: BaseItem
+  id: TerrainBunkerHL2
+  description: Bunker terrain tile.
+  components:
+  - type: Sprite
+    sprite: _HL2/hl13cutter/bunker.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: combine terrain
+  parent: BaseItem
+  id: TerrainCombineHL2
+  description: Combine-constructed terrain tile.
+  components:
+  - type: Sprite
+    sprite: _HL2/hl13cutter/combine.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: concrete terrain (alt)
+  parent: BaseItem
+  id: TerrainConcreteAltHL2
+  description: Alternate concrete terrain tile.
+  components:
+  - type: Sprite
+    sprite: _HL2/hl13cutter/concretealt.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== CLUTTER =====
+- type: entity
+  name: clutter
+  parent: BaseItem
+  id: ClutterHL2
+  description: Miscellaneous clutter.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clutter.rsi
+    state: icon
+
+- type: entity
+  name: misc items
+  parent: BaseItem
+  id: MiscItemsHL2
+  description: Various small items.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/misc_items.rsi
+    state: icon
+
+- type: entity
+  name: miscellaneous
+  parent: BaseItem
+  id: MiscHL2
+  description: Miscellaneous objects.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/miscellaneous.rsi
+    state: icon
+
+- type: entity
+  name: large miscellaneous
+  parent: BaseItem
+  id: MiscLargeHL2
+  description: Large miscellaneous objects.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/miscellaneous_large.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== ACTION ICONS =====
+- type: entity
+  name: advisor action
+  parent: BaseItem
+  id: ActionAdvisorHL2
+  description: Advisor-associated action icon.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/actions/actions_advisor.rsi
+    state: icon
+
+- type: entity
+  name: gonome action
+  parent: BaseItem
+  id: ActionGonomeHL2
+  description: Gonome-associated action icon.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/actions/actions_gonome.rsi
+    state: icon
+
+- type: entity
+  name: misc action
+  parent: BaseItem
+  id: ActionMiscHL2
+  description: Miscellaneous action icon.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/actions/actions_misc.rsi
+    state: icon
+
+- type: entity
+  name: uprising action
+  parent: BaseItem
+  id: ActionUprisingHL2
+  description: Uprising-associated action icon.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/actions/actions_uprising.rsi
+    state: icon
+
+- type: entity
+  name: vortal action
+  parent: BaseItem
+  id: ActionVortalHL2
+  description: Vortal energy action icon.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/actions/actions_vortal.rsi
+    state: icon
+
+# ===== GUN FRAMES =====
+- type: entity
+  name: gun frame
+  parent: BaseItem
+  id: GunFrameHL2
+  description: An unfinished gun frame.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/frames.rsi
+    state: icon
+
+- type: entity
+  name: wide gun frame
+  parent: BaseItem
+  id: GunFrameWideHL2
+  description: An unfinished wide gun frame.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/wideframes.rsi
+    state: icon
+
+# ===== INVENTORY / CASES =====
+- type: entity
+  name: gun case
+  parent: BaseItem
+  id: CaseHL2
+  description: A gun carrying case.
+  components:
+  - type: Sprite
+    sprite: _HL2/mob/inhands/cases_lefthand.rsi
+    state: icon
