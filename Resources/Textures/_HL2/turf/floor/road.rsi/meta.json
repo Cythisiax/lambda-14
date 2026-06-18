@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\road.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "road"
+    },
+    {
+      "name": "road-0"
+    },
+    {
+      "name": "road-1"
+    },
+    {
+      "name": "road-2"
+    },
+    {
+      "name": "road-3"
+    },
+    {
+      "name": "road-4"
+    },
+    {
+      "name": "road-5"
+    },
+    {
+      "name": "road-6"
+    },
+    {
+      "name": "road-7"
+    },
+    {
+      "name": "road-8"
+    },
+    {
+      "name": "road-9"
+    },
+    {
+      "name": "road-10"
+    },
+    {
+      "name": "road-11"
+    },
+    {
+      "name": "road-12"
+    },
+    {
+      "name": "road-13"
+    },
+    {
+      "name": "road-14"
+    },
+    {
+      "name": "road-15"
+    },
+    {
+      "name": "road-21"
+    },
+    {
+      "name": "road-23"
+    },
+    {
+      "name": "road-29"
+    },
+    {
+      "name": "road-31"
+    },
+    {
+      "name": "road-38"
+    },
+    {
+      "name": "road-39"
+    },
+    {
+      "name": "road-46"
+    },
+    {
+      "name": "road-47"
+    },
+    {
+      "name": "road-55"
+    },
+    {
+      "name": "road-63"
+    },
+    {
+      "name": "road-74"
+    },
+    {
+      "name": "road-75"
+    },
+    {
+      "name": "road-78"
+    },
+    {
+      "name": "road-79"
+    },
+    {
+      "name": "road-95"
+    },
+    {
+      "name": "road-110"
+    },
+    {
+      "name": "road-111"
+    },
+    {
+      "name": "road-127"
+    },
+    {
+      "name": "road-137"
+    },
+    {
+      "name": "road-139"
+    },
+    {
+      "name": "road-141"
+    },
+    {
+      "name": "road-143"
+    },
+    {
+      "name": "road-157"
+    },
+    {
+      "name": "road-159"
+    },
+    {
+      "name": "road-175"
+    },
+    {
+      "name": "road-191"
+    },
+    {
+      "name": "road-203"
+    },
+    {
+      "name": "road-207"
+    },
+    {
+      "name": "road-223"
+    },
+    {
+      "name": "road-239"
+    },
+    {
+      "name": "road-255"
+    }
+  ]
+}

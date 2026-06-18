@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\border.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "border",
+      "directions": 8
+    },
+    {
+      "name": "border_corner",
+      "directions": 4
+    }
+  ]
+}

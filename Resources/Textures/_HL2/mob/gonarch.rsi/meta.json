@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\gonarch.dmi",
+  "size": {
+    "x": 96,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "gonarch",
+      "directions": 4
+    },
+    {
+      "name": "gonarch",
+      "directions": 4,
+      "delays": [
+        [
+          2.0,
+          2.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "gonarch_attack"
+    },
+    {
+      "name": "gonarch_rest"
+    },
+    {
+      "name": "gonarch_dead"
+    },
+    {
+      "name": "gonarch_warning"
+    }
+  ]
+}

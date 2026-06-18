@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\walls\\metal.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "urban_wall_regular-0"
+    },
+    {
+      "name": "urban_wall_regular-1"
+    },
+    {
+      "name": "urban_wall_regular-2"
+    },
+    {
+      "name": "urban_wall_regular-3"
+    },
+    {
+      "name": "urban_wall_regular-4"
+    },
+    {
+      "name": "urban_wall_regular-5"
+    },
+    {
+      "name": "urban_wall_regular-6"
+    },
+    {
+      "name": "urban_wall_regular-7"
+    },
+    {
+      "name": "urban_wall_regular-8"
+    },
+    {
+      "name": "urban_wall_regular-9"
+    },
+    {
+      "name": "urban_wall_regular-10"
+    },
+    {
+      "name": "urban_wall_regular-11"
+    },
+    {
+      "name": "urban_wall_regular-12"
+    },
+    {
+      "name": "urban_wall_regular-13"
+    },
+    {
+      "name": "urban_wall_regular-14"
+    },
+    {
+      "name": "urban_wall_regular-15"
+    },
+    {
+      "name": "urban_wall_regular-21"
+    },
+    {
+      "name": "urban_wall_regular-23"
+    },
+    {
+      "name": "urban_wall_regular-29"
+    },
+    {
+      "name": "urban_wall_regular-31"
+    },
+    {
+      "name": "urban_wall_regular-38"
+    },
+    {
+      "name": "urban_wall_regular-39"
+    },
+    {
+      "name": "urban_wall_regular-46"
+    },
+    {
+      "name": "urban_wall_regular-47"
+    },
+    {
+      "name": "urban_wall_regular-55"
+    },
+    {
+      "name": "urban_wall_regular-63"
+    },
+    {
+      "name": "urban_wall_regular-74"
+    },
+    {
+      "name": "urban_wall_regular-75"
+    },
+    {
+      "name": "urban_wall_regular-78"
+    },
+    {
+      "name": "urban_wall_regular-79"
+    },
+    {
+      "name": "urban_wall_regular-95"
+    },
+    {
+      "name": "urban_wall_regular-110"
+    },
+    {
+      "name": "urban_wall_regular-111"
+    },
+    {
+      "name": "urban_wall_regular-127"
+    },
+    {
+      "name": "urban_wall_regular-137"
+    },
+    {
+      "name": "urban_wall_regular-139"
+    },
+    {
+      "name": "urban_wall_regular-141"
+    },
+    {
+      "name": "urban_wall_regular-143"
+    },
+    {
+      "name": "urban_wall_regular-157"
+    },
+    {
+      "name": "urban_wall_regular-159"
+    },
+    {
+      "name": "urban_wall_regular-175"
+    },
+    {
+      "name": "urban_wall_regular-191"
+    },
+    {
+      "name": "urban_wall_regular-203"
+    },
+    {
+      "name": "urban_wall_regular-207"
+    },
+    {
+      "name": "urban_wall_regular-223"
+    },
+    {
+      "name": "urban_wall_regular-239"
+    },
+    {
+      "name": "urban_wall_regular-255"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\wallcovering.dmi",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "wallpaper_green"
+    },
+    {
+      "name": "wallpaper_stripes"
+    },
+    {
+      "name": "wallpaper_red"
+    },
+    {
+      "name": "wallpaper_blue"
+    },
+    {
+      "name": "tiles_cyan"
+    },
+    {
+      "name": "tiles_white"
+    },
+    {
+      "name": "paint_gray"
+    },
+    {
+      "name": "paint_white"
+    },
+    {
+      "name": "paint_red"
+    },
+    {
+      "name": "paint_yellow"
+    },
+    {
+      "name": "paint_green"
+    },
+    {
+      "name": "paint_blue"
+    }
+  ]
+}

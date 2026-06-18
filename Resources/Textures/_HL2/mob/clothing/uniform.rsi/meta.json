@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\clothing\\uniform.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "blueshift",
+      "directions": 4
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "rebelblue",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection_exptaser",
+      "directions": 4
+    },
+    {
+      "name": "elitecivilprotection",
+      "directions": 4
+    },
+    {
+      "name": "divisionallead",
+      "directions": 4
+    },
+    {
+      "name": "overwatch",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_white",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_red",
+      "directions": 4
+    },
+    {
+      "name": "heeledsuit",
+      "directions": 4
+    },
+    {
+      "name": "formal",
+      "directions": 4
+    },
+    {
+      "name": "grunt",
+      "directions": 4
+    },
+    {
+      "name": "classysuit",
+      "directions": 4
+    },
+    {
+      "name": "citizenblue",
+      "directions": 4
+    },
+    {
+      "name": "rebelprisoner",
+      "directions": 4
+    },
+    {
+      "name": "prisoner",
+      "directions": 4
+    },
+    {
+      "name": "prisoner_d",
+      "directions": 4
+    },
+    {
+      "name": "citizenblue_d",
+      "directions": 4
+    },
+    {
+      "name": "refugee",
+      "directions": 4
+    },
+    {
+      "name": "green_refugee",
+      "directions": 4
+    },
+    {
+      "name": "brownsuit",
+      "directions": 4
+    },
+    {
+      "name": "blacksuit",
+      "directions": 4
+    },
+    {
+      "name": "gsuit",
+      "directions": 4
+    },
+    {
+      "name": "assassin",
+      "directions": 4
+    },
+    {
+      "name": "suppressor",
+      "directions": 4
+    },
+    {
+      "name": "warden",
+      "directions": 4
+    }
+  ]
+}

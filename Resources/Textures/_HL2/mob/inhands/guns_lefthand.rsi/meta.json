@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\inhands\\guns_lefthand.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "usp",
+      "directions": 4
+    },
+    {
+      "name": "mp7",
+      "directions": 4
+    },
+    {
+      "name": "zipgun",
+      "directions": 4
+    },
+    {
+      "name": "luty",
+      "directions": 4
+    },
+    {
+      "name": "ar2",
+      "directions": 4
+    },
+    {
+      "name": "antixenshotgun",
+      "directions": 4
+    },
+    {
+      "name": "service",
+      "directions": 4
+    },
+    {
+      "name": "ak47",
+      "directions": 4
+    },
+    {
+      "name": "mosin_nagant",
+      "directions": 4
+    },
+    {
+      "name": "service_wood",
+      "directions": 4
+    },
+    {
+      "name": "suppressor",
+      "directions": 4
+    },
+    {
+      "name": "combine_sniper",
+      "directions": 4
+    },
+    {
+      "name": "immolator",
+      "directions": 4
+    },
+    {
+      "name": "rocketlauncher",
+      "directions": 4
+    },
+    {
+      "name": "cheapak47",
+      "directions": 4
+    },
+    {
+      "name": "colt_python",
+      "directions": 4
+    },
+    {
+      "name": "rpd",
+      "directions": 4
+    },
+    {
+      "name": "famas",
+      "directions": 4
+    }
+  ]
+}

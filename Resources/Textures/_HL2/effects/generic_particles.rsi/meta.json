@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\generic_particles.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "cross"
+    },
+    {
+      "name": "rectangle"
+    },
+    {
+      "name": "up_arrow"
+    },
+    {
+      "name": "down_arrow"
+    },
+    {
+      "name": "x"
+    },
+    {
+      "name": "square"
+    },
+    {
+      "name": "fire"
+    },
+    {
+      "name": "lemon"
+    },
+    {
+      "name": "drip"
+    },
+    {
+      "name": "spark"
+    },
+    {
+      "name": "wood"
+    },
+    {
+      "name": "leaf"
+    },
+    {
+      "name": "glass"
+    },
+    {
+      "name": "rock"
+    },
+    {
+      "name": "brick"
+    },
+    {
+      "name": "snow"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\clothing\\back.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "radiopack",
+      "directions": 4
+    },
+    {
+      "name": "sack",
+      "directions": 4
+    },
+    {
+      "name": "military",
+      "directions": 4
+    },
+    {
+      "name": "military_duffel",
+      "directions": 4
+    },
+    {
+      "name": "leather_backpack",
+      "directions": 4
+    },
+    {
+      "name": "satchel",
+      "directions": 4
+    },
+    {
+      "name": "pack",
+      "directions": 4
+    },
+    {
+      "name": "large_pack",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    }
+  ]
+}

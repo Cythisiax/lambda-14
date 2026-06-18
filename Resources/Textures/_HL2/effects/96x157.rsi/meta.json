@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\96x157.dmi",
+  "size": {
+    "x": 96,
+    "y": 157
+  },
+  "states": [
+    {
+      "name": "smoke"
+    },
+    {
+      "name": "smoke2"
+    }
+  ]
+}

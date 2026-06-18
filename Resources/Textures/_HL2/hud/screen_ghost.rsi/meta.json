@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - hud\\screen_ghost.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "orbit_anim"
+    },
+    {
+      "name": "teleport_anim"
+    },
+    {
+      "name": "reenter_corpse_anim"
+    },
+    {
+      "name": "orbit"
+    },
+    {
+      "name": "teleport"
+    },
+    {
+      "name": "reenter_corpse"
+    },
+    {
+      "name": "pai"
+    },
+    {
+      "name": "spawners_anim"
+    },
+    {
+      "name": "spawners"
+    },
+    {
+      "name": "minigames"
+    },
+    {
+      "name": "minigames_anim"
+    },
+    {
+      "name": "respawn"
+    },
+    {
+      "name": "respawn_anim"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\barnacle.dmi",
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "barnacle"
+    },
+    {
+      "name": "barnacle_dead"
+    },
+    {
+      "name": "barnacle_tongue_down_idle",
+      "delays": [
+        [
+          40.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "barnacle_tongue_up",
+      "delays": [
+        [
+          8.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          99.0
+        ]
+      ]
+    },
+    {
+      "name": "barnacle_tongue_up_idle"
+    },
+    {
+      "name": "barnacle_tongue_down",
+      "delays": [
+        [
+          8.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          99.0
+        ]
+      ]
+    },
+    {
+      "name": "barnacle_tongue_only"
+    }
+  ]
+}

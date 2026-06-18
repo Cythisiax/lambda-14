@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\cut\\hl_snow.dmi",
+  "size": {
+    "x": 50,
+    "y": 50
+  },
+  "states": [
+    {
+      "name": "hl_snow-0"
+    },
+    {
+      "name": "hl_snow-1"
+    },
+    {
+      "name": "hl_snow-2"
+    },
+    {
+      "name": "hl_snow-3"
+    },
+    {
+      "name": "hl_snow-4"
+    },
+    {
+      "name": "hl_snow-5"
+    },
+    {
+      "name": "hl_snow-6"
+    },
+    {
+      "name": "hl_snow-7"
+    },
+    {
+      "name": "hl_snow-8"
+    },
+    {
+      "name": "hl_snow-9"
+    },
+    {
+      "name": "hl_snow-10"
+    },
+    {
+      "name": "hl_snow-11"
+    },
+    {
+      "name": "hl_snow-12"
+    },
+    {
+      "name": "hl_snow-13"
+    },
+    {
+      "name": "hl_snow-14"
+    },
+    {
+      "name": "hl_snow-15"
+    },
+    {
+      "name": "hl_snow-21"
+    },
+    {
+      "name": "hl_snow-23"
+    },
+    {
+      "name": "hl_snow-29"
+    },
+    {
+      "name": "hl_snow-31"
+    },
+    {
+      "name": "hl_snow-38"
+    },
+    {
+      "name": "hl_snow-39"
+    },
+    {
+      "name": "hl_snow-46"
+    },
+    {
+      "name": "hl_snow-47"
+    },
+    {
+      "name": "hl_snow-55"
+    },
+    {
+      "name": "hl_snow-63"
+    },
+    {
+      "name": "hl_snow-74"
+    },
+    {
+      "name": "hl_snow-75"
+    },
+    {
+      "name": "hl_snow-78"
+    },
+    {
+      "name": "hl_snow-79"
+    },
+    {
+      "name": "hl_snow-95"
+    },
+    {
+      "name": "hl_snow-110"
+    },
+    {
+      "name": "hl_snow-111"
+    },
+    {
+      "name": "hl_snow-127"
+    },
+    {
+      "name": "hl_snow-137"
+    },
+    {
+      "name": "hl_snow-139"
+    },
+    {
+      "name": "hl_snow-141"
+    },
+    {
+      "name": "hl_snow-143"
+    },
+    {
+      "name": "hl_snow-157"
+    },
+    {
+      "name": "hl_snow-159"
+    },
+    {
+      "name": "hl_snow-175"
+    },
+    {
+      "name": "hl_snow-191"
+    },
+    {
+      "name": "hl_snow-203"
+    },
+    {
+      "name": "hl_snow-207"
+    },
+    {
+      "name": "hl_snow-223"
+    },
+    {
+      "name": "hl_snow-239"
+    },
+    {
+      "name": "hl_snow-255"
+    }
+  ]
+}

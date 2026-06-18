@@ -1,0 +1,678 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\floors.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "lino"
+    },
+    {
+      "name": "sterilesquares"
+    },
+    {
+      "name": "grooved"
+    },
+    {
+      "name": "grooved2"
+    },
+    {
+      "name": "tiled9"
+    },
+    {
+      "name": "tiled10"
+    },
+    {
+      "name": "industrial tiles"
+    },
+    {
+      "name": "steel_industrial"
+    },
+    {
+      "name": "steel_industrial_b",
+      "directions": 4
+    },
+    {
+      "name": "steel_industrial_b_corner",
+      "directions": 4
+    },
+    {
+      "name": "steel_industrial_b_end",
+      "directions": 4
+    },
+    {
+      "name": "steel_industrial_b_sides",
+      "directions": 4
+    },
+    {
+      "name": "steel_stayclear",
+      "directions": 4
+    },
+    {
+      "name": "steel_solid",
+      "directions": 4
+    },
+    {
+      "name": "steel_tiles",
+      "directions": 4
+    },
+    {
+      "name": "combine_metal_alt2_2"
+    },
+    {
+      "name": "combine_metal_alt2_1"
+    },
+    {
+      "name": "combine_metal_alt2"
+    },
+    {
+      "name": "combine_metal_alt"
+    },
+    {
+      "name": "combine_metal_smooth"
+    },
+    {
+      "name": "combine_metal"
+    },
+    {
+      "name": "steel_grate",
+      "directions": 4
+    },
+    {
+      "name": "steel_grate_alt"
+    },
+    {
+      "name": "steel_grate_border",
+      "directions": 4
+    },
+    {
+      "name": "steel_grate_border_1",
+      "directions": 4
+    },
+    {
+      "name": "steel_grate_border_2",
+      "directions": 4
+    },
+    {
+      "name": "steel_grate_border_3",
+      "directions": 4
+    },
+    {
+      "name": "steel_grate_warning",
+      "directions": 4
+    },
+    {
+      "name": "concrete_industrial"
+    },
+    {
+      "name": "concrete_industrial_split"
+    },
+    {
+      "name": "concrete_industrial_alt"
+    },
+    {
+      "name": "concrete_walkway",
+      "directions": 4
+    },
+    {
+      "name": "concrete_walkway_corner",
+      "directions": 4
+    },
+    {
+      "name": "concrete_walkway_end",
+      "directions": 4
+    },
+    {
+      "name": "steel_walkway",
+      "directions": 4
+    },
+    {
+      "name": "steel_walkway_corner",
+      "directions": 4
+    },
+    {
+      "name": "steel_walkway_end",
+      "directions": 4
+    },
+    {
+      "name": "concrete_cable_straight",
+      "directions": 4
+    },
+    {
+      "name": "concrete_cable_curve",
+      "directions": 4
+    },
+    {
+      "name": "concrete_cable_merge",
+      "directions": 4
+    },
+    {
+      "name": "concrete_cable_intersection"
+    },
+    {
+      "name": "concrete_cable_box",
+      "directions": 4
+    },
+    {
+      "name": "concrete_cable_node",
+      "directions": 4
+    },
+    {
+      "name": "concrete tiles"
+    },
+    {
+      "name": "concrete_small"
+    },
+    {
+      "name": "concrete_small_1"
+    },
+    {
+      "name": "concrete_small_2"
+    },
+    {
+      "name": "concrete_big"
+    },
+    {
+      "name": "concrete_bricks"
+    },
+    {
+      "name": "concrete_bricks_1"
+    },
+    {
+      "name": "concrete_bricks_2"
+    },
+    {
+      "name": "concrete_bricks_3"
+    },
+    {
+      "name": "concrete_bricks_4"
+    },
+    {
+      "name": "concrete_bricks_5"
+    },
+    {
+      "name": "concrete_bricks_6"
+    },
+    {
+      "name": "concrete_bricks_7"
+    },
+    {
+      "name": "concrete_bricks_8"
+    },
+    {
+      "name": "Pipe Floors"
+    },
+    {
+      "name": "pipe_straight",
+      "directions": 4
+    },
+    {
+      "name": "pipe_corner",
+      "directions": 4
+    },
+    {
+      "name": "pipe_intersection",
+      "directions": 4
+    },
+    {
+      "name": "brick tiles"
+    },
+    {
+      "name": "brick",
+      "directions": 4
+    },
+    {
+      "name": "brick_1",
+      "directions": 4
+    },
+    {
+      "name": "brick_2",
+      "directions": 4
+    },
+    {
+      "name": "brick_3",
+      "directions": 4
+    },
+    {
+      "name": "brick_4",
+      "directions": 4
+    },
+    {
+      "name": "brick_5",
+      "directions": 4
+    },
+    {
+      "name": "brick_6",
+      "directions": 4
+    },
+    {
+      "name": "brick_7",
+      "directions": 4
+    },
+    {
+      "name": "brick_8",
+      "directions": 4
+    },
+    {
+      "name": "ceramic"
+    },
+    {
+      "name": "ceramic_1"
+    },
+    {
+      "name": "ceramic_2"
+    },
+    {
+      "name": "tiled tiles"
+    },
+    {
+      "name": "kitchentile"
+    },
+    {
+      "name": "grey_long"
+    },
+    {
+      "name": "grey_long_1"
+    },
+    {
+      "name": "grey_long_2"
+    },
+    {
+      "name": "grey_long_3"
+    },
+    {
+      "name": "blue_long"
+    },
+    {
+      "name": "blue_long_1"
+    },
+    {
+      "name": "blue_long_2"
+    },
+    {
+      "name": "blue_long_3"
+    },
+    {
+      "name": "brown"
+    },
+    {
+      "name": "brown_1"
+    },
+    {
+      "name": "brown_2"
+    },
+    {
+      "name": "brown_3"
+    },
+    {
+      "name": "navy"
+    },
+    {
+      "name": "navy_1"
+    },
+    {
+      "name": "navy_2"
+    },
+    {
+      "name": "navy_3"
+    },
+    {
+      "name": "grey"
+    },
+    {
+      "name": "grey_1"
+    },
+    {
+      "name": "grey_2"
+    },
+    {
+      "name": "grey_3"
+    },
+    {
+      "name": "black"
+    },
+    {
+      "name": "black_1"
+    },
+    {
+      "name": "black_2"
+    },
+    {
+      "name": "black_3"
+    },
+    {
+      "name": "fancy"
+    },
+    {
+      "name": "grey_large"
+    },
+    {
+      "name": "grey_large_1"
+    },
+    {
+      "name": "grey_large_2"
+    },
+    {
+      "name": "grey_large_3"
+    },
+    {
+      "name": "navy_large"
+    },
+    {
+      "name": "navy_large_1"
+    },
+    {
+      "name": "navy_large_2"
+    },
+    {
+      "name": "navy_full"
+    },
+    {
+      "name": "black_large"
+    },
+    {
+      "name": "black_large_1"
+    },
+    {
+      "name": "black_large_2"
+    },
+    {
+      "name": "black_full"
+    },
+    {
+      "name": "green_large"
+    },
+    {
+      "name": "green_large_1"
+    },
+    {
+      "name": "green_large_2"
+    },
+    {
+      "name": "green_full"
+    },
+    {
+      "name": "white_large"
+    },
+    {
+      "name": "white_large_1"
+    },
+    {
+      "name": "white_large_2"
+    },
+    {
+      "name": "white_full"
+    },
+    {
+      "name": "checker_large"
+    },
+    {
+      "name": "checker_large_1"
+    },
+    {
+      "name": "checker_large_2"
+    },
+    {
+      "name": "checker_large_3"
+    },
+    {
+      "name": "cafe_large"
+    },
+    {
+      "name": "cafe_large_1"
+    },
+    {
+      "name": "cafe_large_2"
+    },
+    {
+      "name": "cafe_large_3"
+    },
+    {
+      "name": "wood tiles"
+    },
+    {
+      "name": "wood_common"
+    },
+    {
+      "name": "wood_common_1"
+    },
+    {
+      "name": "wood_common_2"
+    },
+    {
+      "name": "wood_common_3"
+    },
+    {
+      "name": "wood_common_4"
+    },
+    {
+      "name": "wood_common_5"
+    },
+    {
+      "name": "wood_common_6"
+    },
+    {
+      "name": "wood_common_7"
+    },
+    {
+      "name": "wood_fancy"
+    },
+    {
+      "name": "wood_fancy_1"
+    },
+    {
+      "name": "wood_fancy_2"
+    },
+    {
+      "name": "wood_fancy_3"
+    },
+    {
+      "name": "wood_fancy_4"
+    },
+    {
+      "name": "wood_fancy_5"
+    },
+    {
+      "name": "wood_fancy_6"
+    },
+    {
+      "name": "wood_fancy_7"
+    },
+    {
+      "name": "wood_wide"
+    },
+    {
+      "name": "wood_wide_1"
+    },
+    {
+      "name": "wood_wide_2"
+    },
+    {
+      "name": "wood_wide_3"
+    },
+    {
+      "name": "wood_wide_4"
+    },
+    {
+      "name": "wood_wide_5"
+    },
+    {
+      "name": "wood_wide_6"
+    },
+    {
+      "name": "wood_wide_7"
+    },
+    {
+      "name": "wood_mosaic"
+    },
+    {
+      "name": "wood_mosaic_1"
+    },
+    {
+      "name": "wood_mosaic_2"
+    },
+    {
+      "name": "wood_mosaic_3"
+    },
+    {
+      "name": "wood_mosaic_4"
+    },
+    {
+      "name": "wood_mosaic_5"
+    },
+    {
+      "name": "wood_mosaic_6"
+    },
+    {
+      "name": "wood_mosaic_7"
+    },
+    {
+      "name": "carpet"
+    },
+    {
+      "name": "carpet_red"
+    },
+    {
+      "name": "carpet_violet"
+    },
+    {
+      "name": "carpet_green"
+    },
+    {
+      "name": "carpet_blue"
+    },
+    {
+      "name": "new"
+    },
+    {
+      "name": "carpet_fancy_red"
+    },
+    {
+      "name": "carpet_fancy_violet"
+    },
+    {
+      "name": "carpet_fancy_blue"
+    },
+    {
+      "name": "carpet_fancy_green"
+    },
+    {
+      "name": "travel",
+      "delays": [
+        [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "train"
+    },
+    {
+      "name": "cave"
+    },
+    {
+      "name": "cave_1"
+    },
+    {
+      "name": "cave_2"
+    },
+    {
+      "name": "cave_3"
+    },
+    {
+      "name": "cave_4"
+    },
+    {
+      "name": "cave_5"
+    },
+    {
+      "name": "cave_6"
+    },
+    {
+      "name": "cave_7"
+    },
+    {
+      "name": "deadgrass_1"
+    },
+    {
+      "name": "deadgrass_2"
+    },
+    {
+      "name": "deadgrass_3"
+    },
+    {
+      "name": "dirt_1"
+    },
+    {
+      "name": "dirt_2"
+    },
+    {
+      "name": "dirt_3"
+    },
+    {
+      "name": "drydirt_1"
+    },
+    {
+      "name": "drydirt_2"
+    },
+    {
+      "name": "drydirt_3"
+    },
+    {
+      "name": "mud_1"
+    },
+    {
+      "name": "mud_2"
+    },
+    {
+      "name": "mud_3"
+    },
+    {
+      "name": "gravel_1"
+    },
+    {
+      "name": "gravel_2"
+    },
+    {
+      "name": "hl_grass"
+    },
+    {
+      "name": "train_carpet"
+    },
+    {
+      "name": "train_floor"
+    },
+    {
+      "name": "hl_snow"
+    },
+    {
+      "name": "mud_moving",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ]
+}

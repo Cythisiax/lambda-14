@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\stonebrick.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "brick"
+    },
+    {
+      "name": "brick-0"
+    },
+    {
+      "name": "brick-1"
+    },
+    {
+      "name": "brick-2"
+    },
+    {
+      "name": "brick-3"
+    },
+    {
+      "name": "brick-4"
+    },
+    {
+      "name": "brick-5"
+    },
+    {
+      "name": "brick-6"
+    },
+    {
+      "name": "brick-7"
+    },
+    {
+      "name": "brick-8"
+    },
+    {
+      "name": "brick-9"
+    },
+    {
+      "name": "brick-10"
+    },
+    {
+      "name": "brick-11"
+    },
+    {
+      "name": "brick-12"
+    },
+    {
+      "name": "brick-13"
+    },
+    {
+      "name": "brick-14"
+    },
+    {
+      "name": "brick-15"
+    },
+    {
+      "name": "brick-21"
+    },
+    {
+      "name": "brick-23"
+    },
+    {
+      "name": "brick-29"
+    },
+    {
+      "name": "brick-31"
+    },
+    {
+      "name": "brick-38"
+    },
+    {
+      "name": "brick-39"
+    },
+    {
+      "name": "brick-46"
+    },
+    {
+      "name": "brick-47"
+    },
+    {
+      "name": "brick-55"
+    },
+    {
+      "name": "brick-63"
+    },
+    {
+      "name": "brick-74"
+    },
+    {
+      "name": "brick-75"
+    },
+    {
+      "name": "brick-78"
+    },
+    {
+      "name": "brick-79"
+    },
+    {
+      "name": "brick-95"
+    },
+    {
+      "name": "brick-110"
+    },
+    {
+      "name": "brick-111"
+    },
+    {
+      "name": "brick-127"
+    },
+    {
+      "name": "brick-137"
+    },
+    {
+      "name": "brick-139"
+    },
+    {
+      "name": "brick-141"
+    },
+    {
+      "name": "brick-143"
+    },
+    {
+      "name": "brick-157"
+    },
+    {
+      "name": "brick-159"
+    },
+    {
+      "name": "brick-175"
+    },
+    {
+      "name": "brick-191"
+    },
+    {
+      "name": "brick-203"
+    },
+    {
+      "name": "brick-207"
+    },
+    {
+      "name": "brick-223"
+    },
+    {
+      "name": "brick-239"
+    },
+    {
+      "name": "brick-255"
+    }
+  ]
+}

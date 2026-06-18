@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\walls\\train.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "train1-0"
+    },
+    {
+      "name": "train1-1"
+    },
+    {
+      "name": "train1-2"
+    },
+    {
+      "name": "train1-3"
+    },
+    {
+      "name": "train1-4"
+    },
+    {
+      "name": "train1-5"
+    },
+    {
+      "name": "train1-6"
+    },
+    {
+      "name": "train1-7"
+    },
+    {
+      "name": "train1-8"
+    },
+    {
+      "name": "train1-9"
+    },
+    {
+      "name": "train1-10"
+    },
+    {
+      "name": "train1-11"
+    },
+    {
+      "name": "train1-12"
+    },
+    {
+      "name": "train1-13"
+    },
+    {
+      "name": "train1-14"
+    },
+    {
+      "name": "train1-15"
+    },
+    {
+      "name": "train1-21"
+    },
+    {
+      "name": "train1-23"
+    },
+    {
+      "name": "train1-29"
+    },
+    {
+      "name": "train1-31"
+    },
+    {
+      "name": "train1-38"
+    },
+    {
+      "name": "train1-39"
+    },
+    {
+      "name": "train1-46"
+    },
+    {
+      "name": "train1-47"
+    },
+    {
+      "name": "train1-55"
+    },
+    {
+      "name": "train1-63"
+    },
+    {
+      "name": "train1-74"
+    },
+    {
+      "name": "train1-75"
+    },
+    {
+      "name": "train1-78"
+    },
+    {
+      "name": "train1-79"
+    },
+    {
+      "name": "train1-95"
+    },
+    {
+      "name": "train1-110"
+    },
+    {
+      "name": "train1-111"
+    },
+    {
+      "name": "train1-127"
+    },
+    {
+      "name": "train1-137"
+    },
+    {
+      "name": "train1-139"
+    },
+    {
+      "name": "train1-141"
+    },
+    {
+      "name": "train1-143"
+    },
+    {
+      "name": "train1-157"
+    },
+    {
+      "name": "train1-159"
+    },
+    {
+      "name": "train1-175"
+    },
+    {
+      "name": "train1-191"
+    },
+    {
+      "name": "train1-203"
+    },
+    {
+      "name": "train1-207"
+    },
+    {
+      "name": "train1-223"
+    },
+    {
+      "name": "train1-239"
+    },
+    {
+      "name": "train1-255"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\halflife_tall.dmi",
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "hunter",
+      "directions": 4
+    },
+    {
+      "name": "hunter_dead"
+    },
+    {
+      "name": "gonome_dead"
+    },
+    {
+      "name": "gonome",
+      "directions": 4
+    },
+    {
+      "name": "weakgonome",
+      "directions": 4
+    },
+    {
+      "name": "crematorzombie",
+      "directions": 4
+    },
+    {
+      "name": "crematorzombie_dead"
+    },
+    {
+      "name": "standardgonome_dead"
+    },
+    {
+      "name": "standardgonome",
+      "directions": 4
+    },
+    {
+      "name": "lurker",
+      "directions": 4
+    },
+    {
+      "name": "lurker_dead"
+    }
+  ]
+}

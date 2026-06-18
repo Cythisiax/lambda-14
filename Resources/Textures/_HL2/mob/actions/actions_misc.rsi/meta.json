@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\actions\\actions_misc.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bash"
+    },
+    {
+      "name": "shield"
+    },
+    {
+      "name": "cloak"
+    },
+    {
+      "name": "disguise"
+    },
+    {
+      "name": "sandbag"
+    },
+    {
+      "name": "fortification"
+    },
+    {
+      "name": "antlion"
+    },
+    {
+      "name": "medkit"
+    },
+    {
+      "name": "rally_rebel"
+    },
+    {
+      "name": "rally_combine"
+    },
+    {
+      "name": "tinbomb"
+    },
+    {
+      "name": "grenade"
+    },
+    {
+      "name": "knife"
+    },
+    {
+      "name": "trap"
+    },
+    {
+      "name": "arm"
+    },
+    {
+      "name": "razorwire"
+    },
+    {
+      "name": "spit"
+    },
+    {
+      "name": "climbinghook"
+    },
+    {
+      "name": "play_dead"
+    },
+    {
+      "name": "rune"
+    },
+    {
+      "name": "rocket"
+    },
+    {
+      "name": "viscerator"
+    },
+    {
+      "name": "bloodloss"
+    },
+    {
+      "name": "mp7"
+    },
+    {
+      "name": "ak47"
+    },
+    {
+      "name": "radio"
+    },
+    {
+      "name": "python"
+    }
+  ]
+}

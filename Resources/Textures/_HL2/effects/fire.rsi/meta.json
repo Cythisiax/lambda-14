@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\fire.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "red_3",
+      "delays": [
+        [
+          1.0,
+          2.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "red_2",
+      "delays": [
+        [
+          1.0,
+          2.0,
+          1.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "red_1",
+      "delays": [
+        [
+          1.0,
+          2.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "blue_3"
+    },
+    {
+      "name": "green_3"
+    },
+    {
+      "name": "blue_2"
+    },
+    {
+      "name": "green_1"
+    },
+    {
+      "name": "blue_1"
+    },
+    {
+      "name": "green_2"
+    }
+  ]
+}

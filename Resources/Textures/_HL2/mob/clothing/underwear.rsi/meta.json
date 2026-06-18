@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\clothing\\underwear.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "underwear"
+    },
+    {
+      "name": "rag_u_m",
+      "directions": 4
+    },
+    {
+      "name": "rag_u_f",
+      "directions": 4
+    },
+    {
+      "name": "bikini",
+      "directions": 4
+    },
+    {
+      "name": "bralette",
+      "directions": 4
+    },
+    {
+      "name": "briefs",
+      "directions": 4
+    },
+    {
+      "name": "boxers",
+      "directions": 4
+    },
+    {
+      "name": "undershirts"
+    },
+    {
+      "name": "rag_s",
+      "directions": 4
+    },
+    {
+      "name": "shirt",
+      "directions": 4
+    },
+    {
+      "name": "vest",
+      "directions": 4
+    },
+    {
+      "name": "socks"
+    },
+    {
+      "name": "rag_so",
+      "directions": 4
+    },
+    {
+      "name": "short",
+      "directions": 4
+    },
+    {
+      "name": "long",
+      "directions": 4
+    }
+  ]
+}

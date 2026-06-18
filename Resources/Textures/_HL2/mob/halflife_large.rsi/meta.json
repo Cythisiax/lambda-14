@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\halflife_large.dmi",
+  "size": {
+    "x": 48,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "guard",
+      "directions": 4
+    },
+    {
+      "name": "guard_dead"
+    },
+    {
+      "name": "guardian",
+      "directions": 4
+    },
+    {
+      "name": "guardian_dead"
+    },
+    {
+      "name": "advisor",
+      "directions": 4
+    },
+    {
+      "name": "advisor_dead"
+    },
+    {
+      "name": "bullsquid_blue",
+      "directions": 4,
+      "delays": [
+        [
+          3.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "bullsquid_blue_dead"
+    },
+    {
+      "name": "bullsquid",
+      "directions": 4,
+      "delays": [
+        [
+          3.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "bullsquid_dead"
+    },
+    {
+      "name": "bullsquid_fanged",
+      "directions": 4,
+      "delays": [
+        [
+          3.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "bullsquid_fanged_dead"
+    },
+    {
+      "name": "bullsquid_chicken",
+      "directions": 4,
+      "delays": [
+        [
+          3.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "bullsquid_chicken_dead"
+    },
+    {
+      "name": "bullsquid_chicken_rest"
+    },
+    {
+      "name": "bullsquid_fanged_rest"
+    },
+    {
+      "name": "bullsquid_rest"
+    },
+    {
+      "name": "bullsquid_blue_rest"
+    }
+  ]
+}

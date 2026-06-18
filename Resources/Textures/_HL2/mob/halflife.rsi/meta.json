@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\halflife.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "NewHeadCrabBuddies"
+    },
+    {
+      "name": "headcrab_headcopy",
+      "directions": 4
+    },
+    {
+      "name": "armoredheadcrab_headcopy",
+      "directions": 4
+    },
+    {
+      "name": "headcrab_icon",
+      "directions": 4
+    },
+    {
+      "name": "headcrab",
+      "directions": 4
+    },
+    {
+      "name": "headcrab",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          3.0,
+          3.0
+        ]
+      ]
+    },
+    {
+      "name": "headcrab_dead"
+    },
+    {
+      "name": "zombie",
+      "directions": 4
+    },
+    {
+      "name": "zombie_dead"
+    },
+    {
+      "name": "zombie_dead_nocrab"
+    },
+    {
+      "name": "zombine",
+      "directions": 4
+    },
+    {
+      "name": "zombine_grenade",
+      "directions": 4
+    },
+    {
+      "name": "zombine_dead"
+    },
+    {
+      "name": "zombine_dead_nocrab"
+    },
+    {
+      "name": "fastheadcrab_icon"
+    },
+    {
+      "name": "fastcrab",
+      "directions": 4
+    },
+    {
+      "name": "fastcrab",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          1.2,
+          1.2
+        ]
+      ]
+    },
+    {
+      "name": "fastcrab_dead"
+    },
+    {
+      "name": "fastzombie",
+      "directions": 4
+    },
+    {
+      "name": "fastzombie_dead"
+    },
+    {
+      "name": "fastzombie_nocrab"
+    },
+    {
+      "name": "armoredheadcrab",
+      "directions": 4
+    },
+    {
+      "name": "armoredheadcrab",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          3.0,
+          3.0
+        ]
+      ]
+    },
+    {
+      "name": "armoredheadcrab_dead"
+    },
+    {
+      "name": "fungalzombie",
+      "directions": 4
+    },
+    {
+      "name": "fungalzombie_dead"
+    },
+    {
+      "name": "fungalzombie_nocrab"
+    },
+    {
+      "name": "protogonome",
+      "directions": 4
+    },
+    {
+      "name": "protogonome_dead"
+    },
+    {
+      "name": "protogonome_nocrab"
+    },
+    {
+      "name": "grunt",
+      "directions": 4
+    },
+    {
+      "name": "grunt_dead"
+    },
+    {
+      "name": "poisonheadcrab_icon"
+    },
+    {
+      "name": "poisonheadcrab",
+      "directions": 4
+    },
+    {
+      "name": "poisonheadcrab",
+      "directions": 4,
+      "delays": [
+        [
+          2.0,
+          4.0,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "poisonheadcrab_dead"
+    },
+    {
+      "name": "poisonzombie",
+      "directions": 4
+    },
+    {
+      "name": "poisonzombie_dead"
+    },
+    {
+      "name": "headcrabhead",
+      "directions": 4
+    },
+    {
+      "name": "zombieoverlay",
+      "directions": 4
+    },
+    {
+      "name": "elite",
+      "directions": 4
+    },
+    {
+      "name": "elite_grenade",
+      "directions": 4
+    },
+    {
+      "name": "elite_dead"
+    },
+    {
+      "name": "engineer",
+      "directions": 4
+    },
+    {
+      "name": "engineer_dead"
+    },
+    {
+      "name": "engineer_dead_nocrab"
+    },
+    {
+      "name": "infestationcontrol",
+      "directions": 4
+    },
+    {
+      "name": "infestationcontrol_dead"
+    },
+    {
+      "name": "infestationcontrol_dead_nocrab"
+    },
+    {
+      "name": "cityscanner",
+      "directions": 4
+    },
+    {
+      "name": "cityscanner_transform"
+    },
+    {
+      "name": "grub",
+      "directions": 4
+    },
+    {
+      "name": "grub_dead",
+      "directions": 4
+    },
+    {
+      "name": "grub_anchor",
+      "directions": 4
+    },
+    {
+      "name": "bugbait"
+    },
+    {
+      "name": "grub_nugget"
+    },
+    {
+      "name": "antlion",
+      "directions": 4
+    },
+    {
+      "name": "antlion_dead"
+    },
+    {
+      "name": "antlion",
+      "directions": 4
+    },
+    {
+      "name": "antlionworker",
+      "directions": 4
+    },
+    {
+      "name": "antlionworker_dead"
+    },
+    {
+      "name": "antlionworker",
+      "directions": 4
+    },
+    {
+      "name": "babycrab",
+      "directions": 4
+    },
+    {
+      "name": "babycrab_dead"
+    },
+    {
+      "name": "snark"
+    },
+    {
+      "name": "chumtoad",
+      "directions": 4
+    },
+    {
+      "name": "chumtoad",
+      "directions": 4,
+      "delays": [
+        [
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "chumtoad_dead"
+    },
+    {
+      "name": "houndeye",
+      "directions": 4,
+      "delays": [
+        [
+          60.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "houndeye_attack",
+      "directions": 4
+    },
+    {
+      "name": "houndeye_rest",
+      "delays": [
+        [
+          60.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "houndeye_sleep"
+    },
+    {
+      "name": "houndeye_dead"
+    },
+    {
+      "name": "manhack_nolight"
+    },
+    {
+      "name": "manhack_light"
+    },
+    {
+      "name": "manhack_attack",
+      "delays": [
+        [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "manhack_light_overlay"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\inhands\\64x_guns_right.dmi",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "spas12",
+      "directions": 4
+    },
+    {
+      "name": "svd",
+      "directions": 4
+    }
+  ]
+}

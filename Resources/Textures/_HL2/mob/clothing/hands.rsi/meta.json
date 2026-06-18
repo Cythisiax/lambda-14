@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\clothing\\hands.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "overwatch",
+      "directions": 4
+    },
+    {
+      "name": "grunt",
+      "directions": 4
+    },
+    {
+      "name": "engineer",
+      "directions": 4
+    },
+    {
+      "name": "foreman",
+      "directions": 4
+    },
+    {
+      "name": "cleanup",
+      "directions": 4
+    },
+    {
+      "name": "leather",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\walls\\stone.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "wall-invincible"
+    },
+    {
+      "name": "black_stone_walls-0"
+    },
+    {
+      "name": "black_stone_walls-1"
+    },
+    {
+      "name": "black_stone_walls-2"
+    },
+    {
+      "name": "black_stone_walls-3"
+    },
+    {
+      "name": "black_stone_walls-4"
+    },
+    {
+      "name": "black_stone_walls-5"
+    },
+    {
+      "name": "black_stone_walls-6"
+    },
+    {
+      "name": "black_stone_walls-7"
+    },
+    {
+      "name": "black_stone_walls-8"
+    },
+    {
+      "name": "black_stone_walls-9"
+    },
+    {
+      "name": "black_stone_walls-10"
+    },
+    {
+      "name": "black_stone_walls-11"
+    },
+    {
+      "name": "black_stone_walls-12"
+    },
+    {
+      "name": "black_stone_walls-13"
+    },
+    {
+      "name": "black_stone_walls-14"
+    },
+    {
+      "name": "black_stone_walls-15"
+    },
+    {
+      "name": "black_stone_walls-21"
+    },
+    {
+      "name": "black_stone_walls-23"
+    },
+    {
+      "name": "black_stone_walls-29"
+    },
+    {
+      "name": "black_stone_walls-31"
+    },
+    {
+      "name": "black_stone_walls-38"
+    },
+    {
+      "name": "black_stone_walls-39"
+    },
+    {
+      "name": "black_stone_walls-46"
+    },
+    {
+      "name": "black_stone_walls-47"
+    },
+    {
+      "name": "black_stone_walls-55"
+    },
+    {
+      "name": "black_stone_walls-63"
+    },
+    {
+      "name": "black_stone_walls-74"
+    },
+    {
+      "name": "black_stone_walls-75"
+    },
+    {
+      "name": "black_stone_walls-78"
+    },
+    {
+      "name": "black_stone_walls-79"
+    },
+    {
+      "name": "black_stone_walls-95"
+    },
+    {
+      "name": "black_stone_walls-110"
+    },
+    {
+      "name": "black_stone_walls-111"
+    },
+    {
+      "name": "black_stone_walls-127"
+    },
+    {
+      "name": "black_stone_walls-137"
+    },
+    {
+      "name": "black_stone_walls-139"
+    },
+    {
+      "name": "black_stone_walls-141"
+    },
+    {
+      "name": "black_stone_walls-143"
+    },
+    {
+      "name": "black_stone_walls-157"
+    },
+    {
+      "name": "black_stone_walls-159"
+    },
+    {
+      "name": "black_stone_walls-175"
+    },
+    {
+      "name": "black_stone_walls-191"
+    },
+    {
+      "name": "black_stone_walls-203"
+    },
+    {
+      "name": "black_stone_walls-207"
+    },
+    {
+      "name": "black_stone_walls-223"
+    },
+    {
+      "name": "black_stone_walls-239"
+    },
+    {
+      "name": "black_stone_walls-255"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\clothing\\masks.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "moderngasmask",
+      "directions": 4
+    },
+    {
+      "name": "military_gasmask",
+      "directions": 4
+    },
+    {
+      "name": "russiamask",
+      "directions": 4
+    },
+    {
+      "name": "swatmask",
+      "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4
+    },
+    {
+      "name": "combatchef",
+      "directions": 4
+    },
+    {
+      "name": "medicalofficer",
+      "directions": 4
+    },
+    {
+      "name": "overseer",
+      "directions": 4
+    },
+    {
+      "name": "dv_mask",
+      "directions": 4
+    },
+    {
+      "name": "elitecpo_mask",
+      "directions": 4
+    },
+    {
+      "name": "sectoral_mask",
+      "directions": 4
+    },
+    {
+      "name": "overwatch",
+      "directions": 4
+    },
+    {
+      "name": "wallhammer",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_white",
+      "directions": 4
+    },
+    {
+      "name": "overwatch_red",
+      "directions": 4
+    },
+    {
+      "name": "grunt",
+      "directions": 4
+    },
+    {
+      "name": "crematormask",
+      "directions": 4
+    },
+    {
+      "name": "oldmask",
+      "directions": 4
+    },
+    {
+      "name": "cwuengi",
+      "directions": 4
+    },
+    {
+      "name": "suppressor",
+      "directions": 4
+    }
+  ]
+}

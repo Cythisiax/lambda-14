@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\water.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "water_deep"
+    },
+    {
+      "name": "water_medium"
+    },
+    {
+      "name": "water_shallow"
+    },
+    {
+      "name": "water_shallow_top"
+    },
+    {
+      "name": "water_shallow_bottom"
+    },
+    {
+      "name": "water_medium_top"
+    },
+    {
+      "name": "water_medium_bottom"
+    },
+    {
+      "name": "water_deep_top"
+    },
+    {
+      "name": "water_deep_bottom"
+    },
+    {
+      "name": "sewer_deep"
+    },
+    {
+      "name": "sewer_medium"
+    },
+    {
+      "name": "sewer_shallow"
+    },
+    {
+      "name": "sewer_shallow_top"
+    },
+    {
+      "name": "sewer_shallow_bottom"
+    },
+    {
+      "name": "sewer_medium_top"
+    },
+    {
+      "name": "sewer_medium_bottom"
+    },
+    {
+      "name": "sewer_deep_top"
+    },
+    {
+      "name": "sewer_deep_bottom"
+    },
+    {
+      "name": "sludge_deep"
+    },
+    {
+      "name": "sludge_medium"
+    },
+    {
+      "name": "sludge_shallow"
+    }
+  ]
+}

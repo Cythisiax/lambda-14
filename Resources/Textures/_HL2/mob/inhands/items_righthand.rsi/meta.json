@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\inhands\\items_righthand.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tribalspear",
+      "directions": 4
+    },
+    {
+      "name": "mat",
+      "directions": 4
+    },
+    {
+      "name": "rug",
+      "directions": 4
+    },
+    {
+      "name": "rug_rubber",
+      "directions": 4
+    },
+    {
+      "name": "scrap",
+      "directions": 4
+    },
+    {
+      "name": "rope",
+      "directions": 4
+    },
+    {
+      "name": "Lights"
+    },
+    {
+      "name": "flashlight_crafted",
+      "directions": 4
+    },
+    {
+      "name": "flashlight_crafted-on",
+      "directions": 4
+    },
+    {
+      "name": "flashlight_old",
+      "directions": 4
+    },
+    {
+      "name": "flashlight_old-on",
+      "directions": 4
+    },
+    {
+      "name": "flashlight_mag",
+      "directions": 4
+    },
+    {
+      "name": "flashlight_mag-on",
+      "directions": 4
+    },
+    {
+      "name": "flare",
+      "directions": 4
+    },
+    {
+      "name": "flare-on",
+      "directions": 4
+    },
+    {
+      "name": "flare-empty",
+      "directions": 4
+    },
+    {
+      "name": "Tools"
+    },
+    {
+      "name": "torch",
+      "directions": 4
+    },
+    {
+      "name": "torch1",
+      "directions": 4,
+      "delays": [
+        [
+          0.8,
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ]
+      ]
+    },
+    {
+      "name": "spade",
+      "directions": 4
+    },
+    {
+      "name": "crowbar",
+      "directions": 4
+    },
+    {
+      "name": "hammer",
+      "directions": 4
+    },
+    {
+      "name": "wrench",
+      "directions": 4
+    },
+    {
+      "name": "screwdriver",
+      "directions": 4
+    },
+    {
+      "name": "wirecutter",
+      "directions": 4
+    },
+    {
+      "name": "handsaw",
+      "directions": 4
+    },
+    {
+      "name": "handdrill",
+      "directions": 4
+    },
+    {
+      "name": "scissors",
+      "directions": 4
+    },
+    {
+      "name": "shovel",
+      "directions": 4
+    },
+    {
+      "name": "shovel_snow",
+      "directions": 4
+    },
+    {
+      "name": "rake",
+      "directions": 4
+    },
+    {
+      "name": "handradio",
+      "directions": 4
+    },
+    {
+      "name": "pickaxe",
+      "directions": 4
+    },
+    {
+      "name": "Fishing Rods"
+    },
+    {
+      "name": "basic",
+      "directions": 4
+    },
+    {
+      "name": "telescopic",
+      "directions": 4
+    },
+    {
+      "name": "telescopic-collapsed",
+      "directions": 4
+    },
+    {
+      "name": "advanced",
+      "directions": 4,
+      "delays": [
+        [
+          3.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "Medical"
+    },
+    {
+      "name": "ointment",
+      "directions": 4
+    },
+    {
+      "name": "bandage",
+      "directions": 4
+    },
+    {
+      "name": "bandage_m",
+      "directions": 4
+    },
+    {
+      "name": "stim",
+      "directions": 4
+    },
+    {
+      "name": "stim0",
+      "directions": 4
+    },
+    {
+      "name": "superstim",
+      "directions": 4
+    },
+    {
+      "name": "superstim0",
+      "directions": 4
+    },
+    {
+      "name": "bonesaw",
+      "directions": 4
+    },
+    {
+      "name": "bonesetter",
+      "directions": 4
+    },
+    {
+      "name": "hemostat",
+      "directions": 4
+    },
+    {
+      "name": "retractor",
+      "directions": 4
+    },
+    {
+      "name": "cautery",
+      "directions": 4
+    },
+    {
+      "name": "scalpel",
+      "directions": 4
+    },
+    {
+      "name": "surgical_drapes",
+      "directions": 4
+    },
+    {
+      "name": "belt",
+      "directions": 4
+    },
+    {
+      "name": "medicalkit",
+      "directions": 4
+    },
+    {
+      "name": "doctorsbag",
+      "directions": 4
+    },
+    {
+      "name": "Other"
+    },
+    {
+      "name": "paper",
+      "directions": 4
+    },
+    {
+      "name": "bucket",
+      "directions": 4
+    },
+    {
+      "name": "mop",
+      "directions": 4
+    },
+    {
+      "name": "handcuffs",
+      "directions": 4
+    },
+    {
+      "name": "toolbox",
+      "directions": 4
+    },
+    {
+      "name": "flagpole_poland",
+      "directions": 4
+    },
+    {
+      "name": "flagpole_combine",
+      "directions": 4
+    }
+  ]
+}

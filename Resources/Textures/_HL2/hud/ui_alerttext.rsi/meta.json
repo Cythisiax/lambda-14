@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - hud\\ui_alerttext.dmi",
+  "size": {
+    "x": 125,
+    "y": 24
+  },
+  "states": [
+    {
+      "name": "empty"
+    },
+    {
+      "name": "brutal"
+    },
+    {
+      "name": "dead"
+    },
+    {
+      "name": "cry"
+    },
+    {
+      "name": "sad"
+    },
+    {
+      "name": "nohappy"
+    },
+    {
+      "name": "normal"
+    },
+    {
+      "name": "smallhappy"
+    },
+    {
+      "name": "happy"
+    },
+    {
+      "name": "joke"
+    }
+  ]
+}

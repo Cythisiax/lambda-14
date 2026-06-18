@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\inhands\\grenades_inhand_right.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "molotov",
+      "directions": 4
+    },
+    {
+      "name": "molotov_active",
+      "directions": 4
+    },
+    {
+      "name": "tinbomb",
+      "directions": 4
+    },
+    {
+      "name": "tinbomb_active",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - mob\\inhands\\melee_inhand_left.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Knives"
+    },
+    {
+      "name": "knife_switch_closed",
+      "directions": 4
+    },
+    {
+      "name": "knife_switch_open",
+      "directions": 4
+    },
+    {
+      "name": "knife_razor_closed",
+      "directions": 4
+    },
+    {
+      "name": "knife_razor_open",
+      "directions": 4
+    },
+    {
+      "name": "knife_kitchen",
+      "directions": 4
+    },
+    {
+      "name": "knife_hunting",
+      "directions": 4
+    },
+    {
+      "name": "knife_hunting_u",
+      "directions": 4
+    },
+    {
+      "name": "knife_soviet",
+      "directions": 4
+    },
+    {
+      "name": "knife_bowie",
+      "directions": 4
+    },
+    {
+      "name": "knife_bayonet",
+      "directions": 4
+    },
+    {
+      "name": "knife_cleaver",
+      "directions": 4
+    },
+    {
+      "name": "knife_cleaver_rust",
+      "directions": 4
+    },
+    {
+      "name": "knife_throwing",
+      "directions": 4
+    },
+    {
+      "name": "Hatchets"
+    },
+    {
+      "name": "hatchet",
+      "directions": 4
+    },
+    {
+      "name": "hatchet_broad",
+      "directions": 4
+    },
+    {
+      "name": "tomahawk",
+      "directions": 4
+    },
+    {
+      "name": "ice_pick",
+      "directions": 4
+    },
+    {
+      "name": "tribal_knife",
+      "directions": 4
+    },
+    {
+      "name": "Spears"
+    },
+    {
+      "name": "spear_knife",
+      "directions": 4
+    },
+    {
+      "name": "spear_knife_wielded",
+      "directions": 4
+    },
+    {
+      "name": "spear0",
+      "directions": 4
+    },
+    {
+      "name": "spear1",
+      "directions": 4
+    },
+    {
+      "name": "spear_throwing",
+      "directions": 4
+    },
+    {
+      "name": "spear_throwing_wielded",
+      "directions": 4
+    },
+    {
+      "name": "spear_thunder",
+      "directions": 4
+    },
+    {
+      "name": "spear_thunder_wielded",
+      "directions": 4
+    },
+    {
+      "name": "Machete/Pipe"
+    },
+    {
+      "name": "machete_scrap",
+      "directions": 4
+    },
+    {
+      "name": "machete_gladius",
+      "directions": 4
+    },
+    {
+      "name": "katana_black",
+      "directions": 4
+    },
+    {
+      "name": "katana_red",
+      "directions": 4
+    },
+    {
+      "name": "tire_iron",
+      "directions": 4
+    },
+    {
+      "name": "lead_pipe_alt",
+      "directions": 4
+    },
+    {
+      "name": "lead_pipe",
+      "directions": 4
+    },
+    {
+      "name": "Swords/Axes/Hammers"
+    },
+    {
+      "name": "fire_axe",
+      "directions": 4
+    },
+    {
+      "name": "fire_axe_wielded",
+      "directions": 4
+    },
+    {
+      "name": "bumper_sword",
+      "directions": 4
+    },
+    {
+      "name": "bumper_sword_wielded",
+      "directions": 4
+    },
+    {
+      "name": "rebar_club",
+      "directions": 4
+    },
+    {
+      "name": "rebar_club_wielded",
+      "directions": 4
+    },
+    {
+      "name": "hammer_sledge",
+      "directions": 4
+    },
+    {
+      "name": "hammer_sledge_wielded",
+      "directions": 4
+    },
+    {
+      "name": "hammer_power",
+      "directions": 4
+    },
+    {
+      "name": "hammer_power_wielded",
+      "directions": 4
+    },
+    {
+      "name": "dry_axe",
+      "directions": 4
+    },
+    {
+      "name": "dry_axe_wielded",
+      "directions": 4
+    },
+    {
+      "name": "Powered"
+    },
+    {
+      "name": "ripper_off",
+      "directions": 4
+    },
+    {
+      "name": "ripper_on",
+      "directions": 4
+    },
+    {
+      "name": "ripper_legend_off",
+      "directions": 4
+    },
+    {
+      "name": "ripper_legend_on",
+      "directions": 4
+    },
+    {
+      "name": "auto_axe_off",
+      "directions": 4
+    },
+    {
+      "name": "auto_axe_on",
+      "directions": 4
+    },
+    {
+      "name": "shishkebab_off",
+      "directions": 4
+    },
+    {
+      "name": "shishkebab_on",
+      "directions": 4,
+      "delays": [
+        [
+          1.5,
+          1.5
+        ]
+      ]
+    },
+    {
+      "name": "thermiclance_off",
+      "directions": 4
+    },
+    {
+      "name": "thermiclance_on",
+      "directions": 4,
+      "delays": [
+        [
+          2.0,
+          2.0
+        ]
+      ]
+    },
+    {
+      "name": "Misc"
+    },
+    {
+      "name": "knuckles",
+      "directions": 4
+    },
+    {
+      "name": "knuckles_weighted",
+      "directions": 4
+    },
+    {
+      "name": "knuckles_spike",
+      "directions": 4
+    },
+    {
+      "name": "powerfist",
+      "directions": 4
+    },
+    {
+      "name": "tonfa",
+      "directions": 4
+    },
+    {
+      "name": "brick",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - turf\\floor\\cut\\hl_grass.dmi",
+  "size": {
+    "x": 50,
+    "y": 50
+  },
+  "states": [
+    {
+      "name": "hl_grass-0"
+    },
+    {
+      "name": "hl_grass-1"
+    },
+    {
+      "name": "hl_grass-2"
+    },
+    {
+      "name": "hl_grass-3"
+    },
+    {
+      "name": "hl_grass-4"
+    },
+    {
+      "name": "hl_grass-5"
+    },
+    {
+      "name": "hl_grass-6"
+    },
+    {
+      "name": "hl_grass-7"
+    },
+    {
+      "name": "hl_grass-8"
+    },
+    {
+      "name": "hl_grass-9"
+    },
+    {
+      "name": "hl_grass-10"
+    },
+    {
+      "name": "hl_grass-11"
+    },
+    {
+      "name": "hl_grass-12"
+    },
+    {
+      "name": "hl_grass-13"
+    },
+    {
+      "name": "hl_grass-14"
+    },
+    {
+      "name": "hl_grass-15"
+    },
+    {
+      "name": "hl_grass-21"
+    },
+    {
+      "name": "hl_grass-23"
+    },
+    {
+      "name": "hl_grass-29"
+    },
+    {
+      "name": "hl_grass-31"
+    },
+    {
+      "name": "hl_grass-38"
+    },
+    {
+      "name": "hl_grass-39"
+    },
+    {
+      "name": "hl_grass-46"
+    },
+    {
+      "name": "hl_grass-47"
+    },
+    {
+      "name": "hl_grass-55"
+    },
+    {
+      "name": "hl_grass-63"
+    },
+    {
+      "name": "hl_grass-74"
+    },
+    {
+      "name": "hl_grass-75"
+    },
+    {
+      "name": "hl_grass-78"
+    },
+    {
+      "name": "hl_grass-79"
+    },
+    {
+      "name": "hl_grass-95"
+    },
+    {
+      "name": "hl_grass-110"
+    },
+    {
+      "name": "hl_grass-111"
+    },
+    {
+      "name": "hl_grass-127"
+    },
+    {
+      "name": "hl_grass-137"
+    },
+    {
+      "name": "hl_grass-139"
+    },
+    {
+      "name": "hl_grass-141"
+    },
+    {
+      "name": "hl_grass-143"
+    },
+    {
+      "name": "hl_grass-157"
+    },
+    {
+      "name": "hl_grass-159"
+    },
+    {
+      "name": "hl_grass-175"
+    },
+    {
+      "name": "hl_grass-191"
+    },
+    {
+      "name": "hl_grass-203"
+    },
+    {
+      "name": "hl_grass-207"
+    },
+    {
+      "name": "hl_grass-223"
+    },
+    {
+      "name": "hl_grass-239"
+    },
+    {
+      "name": "hl_grass-255"
+    },
+    {
+      "name": "hl_grass"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from halflife-episode13 (Marmio64) - effects\\progressbar.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "prog_bar_0"
+    },
+    {
+      "name": "prog_bar_5"
+    },
+    {
+      "name": "prog_bar_5_fail"
+    },
+    {
+      "name": "prog_bar_10"
+    },
+    {
+      "name": "prog_bar_10_fail"
+    },
+    {
+      "name": "prog_bar_15"
+    },
+    {
+      "name": "prog_bar_15_fail"
+    },
+    {
+      "name": "prog_bar_20"
+    },
+    {
+      "name": "prog_bar_20_fail"
+    },
+    {
+      "name": "prog_bar_25"
+    },
+    {
+      "name": "prog_bar_25_fail"
+    },
+    {
+      "name": "prog_bar_30"
+    },
+    {
+      "name": "prog_bar_30_fail"
+    },
+    {
+      "name": "prog_bar_35"
+    },
+    {
+      "name": "prog_bar_35_fail"
+    },
+    {
+      "name": "prog_bar_40"
+    },
+    {
+      "name": "prog_bar_40_fail"
+    },
+    {
+      "name": "prog_bar_45"
+    },
+    {
+      "name": "prog_bar_45_fail"
+    },
+    {
+      "name": "prog_bar_50"
+    },
+    {
+      "name": "prog_bar_50_fail"
+    },
+    {
+      "name": "prog_bar_55"
+    },
+    {
+      "name": "prog_bar_55_fail"
+    },
+    {
+      "name": "prog_bar_60"
+    },
+    {
+      "name": "prog_bar_60_fail"
+    },
+    {
+      "name": "prog_bar_65"
+    },
+    {
+      "name": "prog_bar_65_fail"
+    },
+    {
+      "name": "prog_bar_70"
+    },
+    {
+      "name": "prog_bar_70_fail"
+    },
+    {
+      "name": "prog_bar_75"
+    },
+    {
+      "name": "prog_bar_75_fail"
+    },
+    {
+      "name": "prog_bar_80"
+    },
+    {
+      "name": "prog_bar_80_fail"
+    },
+    {
+      "name": "prog_bar_85"
+    },
+    {
+      "name": "prog_bar_85_fail"
+    },
+    {
+      "name": "prog_bar_90"
+    },
+    {
+      "name": "prog_bar_90_fail"
+    },
+    {
+      "name": "prog_bar_95"
+    },
+    {
+      "name": "prog_bar_95_fail"
+    },
+    {
+      "name": "prog_bar_100"
+    },
+    {
+      "name": "cog"
+    }
+  ]
+}
