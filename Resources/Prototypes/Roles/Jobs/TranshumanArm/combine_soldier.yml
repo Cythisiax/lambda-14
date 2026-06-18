@@ -1,0 +1,30 @@
+# #Misfits Change - HL2 Combine Soldier
+- type: job
+  id: CombineSoldier
+  name: job-name-combine-soldier
+  description: job-description-combine-soldier
+  playTimeTracker: JobCombineSoldier
+  startingGear: CombineSoldierGear
+  icon: "JobIconCombineSoldier"
+  supervisors: job-supervisors-transhuman
+  access:
+  - TranshumanArm
+  - CityExternal
+  - Armory
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: CombineSoldierGear
+  equipment:
+    head: ClothingHeadHelmetCombine
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCombine
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterArmorCombine
+    id: CombinePasscard
+    pocket1: WeaponStunbaton
+  storage:
+    back:
+    - WeaponPistolMk58
