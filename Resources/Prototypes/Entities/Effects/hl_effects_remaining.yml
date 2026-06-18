@@ -9,7 +9,7 @@
   description: A large visual effect.
   components:
   - type: Sprite
-    sprite: _HL2/effects/96x96.rsi
+    sprite: _HL/effects/96x96.rsi
     state: icon
 
 - type: entity
@@ -19,7 +19,7 @@
   description: A very large visual effect.
   components:
   - type: Sprite
-    sprite: _HL2/effects/96x157.rsi
+    sprite: _HL/effects/96x157.rsi
     state: icon
 
 - type: entity
@@ -29,7 +29,7 @@
   description: A border effect overlay.
   components:
   - type: Sprite
-    sprite: _HL2/effects/border.rsi
+    sprite: _HL/effects/border.rsi
     state: icon
 
 - type: entity
@@ -39,7 +39,7 @@
   description: A generic visual effect.
   components:
   - type: Sprite
-    sprite: _HL2/effects/effects.rsi
+    sprite: _HL/effects/effects.rsi
     state: icon
 
 - type: entity
@@ -49,7 +49,7 @@
   description: A progress bar indicator.
   components:
   - type: Sprite
-    sprite: _HL2/effects/progressbar.rsi
+    sprite: _HL/effects/progressbar.rsi
     state: icon
 
 - type: entity
@@ -59,7 +59,7 @@
   description: A random spawn point marker.
   components:
   - type: Sprite
-    sprite: _HL2/effects/random_spawners.rsi
+    sprite: _HL/effects/random_spawners.rsi
     state: icon
 
 # ===== COMBINE FORCEFIELD =====
@@ -70,7 +70,7 @@
   description: A Combine energy forcefield barrier.
   components:
   - type: Sprite
-    sprite: _HL2/obj/forcefield.rsi
+    sprite: _HL/obj/forcefield.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -83,7 +83,7 @@
   description: Brick terrain tile.
   components:
   - type: Sprite
-    sprite: _HL2/hl13cutter/brick.rsi
+    sprite: _HL/hl13cutter/brick.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -95,7 +95,7 @@
   description: Bunker terrain tile.
   components:
   - type: Sprite
-    sprite: _HL2/hl13cutter/bunker.rsi
+    sprite: _HL/hl13cutter/bunker.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -107,7 +107,7 @@
   description: Combine-constructed terrain tile.
   components:
   - type: Sprite
-    sprite: _HL2/hl13cutter/combine.rsi
+    sprite: _HL/hl13cutter/combine.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -119,7 +119,7 @@
   description: Alternate concrete terrain tile.
   components:
   - type: Sprite
-    sprite: _HL2/hl13cutter/concretealt.rsi
+    sprite: _HL/hl13cutter/concretealt.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -132,7 +132,7 @@
   description: Miscellaneous clutter.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clutter.rsi
+    sprite: _HL/obj/clutter.rsi
     state: icon
 
 - type: entity
@@ -142,7 +142,7 @@
   description: Various small items.
   components:
   - type: Sprite
-    sprite: _HL2/obj/misc_items.rsi
+    sprite: _HL/obj/misc_items.rsi
     state: icon
 
 - type: entity
@@ -152,7 +152,7 @@
   description: Miscellaneous objects.
   components:
   - type: Sprite
-    sprite: _HL2/obj/miscellaneous.rsi
+    sprite: _HL/obj/miscellaneous.rsi
     state: icon
 
 - type: entity
@@ -162,7 +162,7 @@
   description: Large miscellaneous objects.
   components:
   - type: Sprite
-    sprite: _HL2/obj/miscellaneous_large.rsi
+    sprite: _HL/obj/miscellaneous_large.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -175,7 +175,7 @@
   description: Advisor-associated action icon.
   components:
   - type: Sprite
-    sprite: _HL2/mob/actions/actions_advisor.rsi
+    sprite: _HL/mob/actions/actions_advisor.rsi
     state: icon
 
 - type: entity
@@ -185,7 +185,7 @@
   description: Gonome-associated action icon.
   components:
   - type: Sprite
-    sprite: _HL2/mob/actions/actions_gonome.rsi
+    sprite: _HL/mob/actions/actions_gonome.rsi
     state: icon
 
 - type: entity
@@ -195,7 +195,7 @@
   description: Miscellaneous action icon.
   components:
   - type: Sprite
-    sprite: _HL2/mob/actions/actions_misc.rsi
+    sprite: _HL/mob/actions/actions_misc.rsi
     state: icon
 
 - type: entity
@@ -205,7 +205,7 @@
   description: Uprising-associated action icon.
   components:
   - type: Sprite
-    sprite: _HL2/mob/actions/actions_uprising.rsi
+    sprite: _HL/mob/actions/actions_uprising.rsi
     state: icon
 
 - type: entity
@@ -215,7 +215,7 @@
   description: Vortal energy action icon.
   components:
   - type: Sprite
-    sprite: _HL2/mob/actions/actions_vortal.rsi
+    sprite: _HL/mob/actions/actions_vortal.rsi
     state: icon
 
 # ===== GUN FRAMES =====
@@ -226,7 +226,7 @@
   description: An unfinished gun frame.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/frames.rsi
+    sprite: _HL/obj/guns/frames.rsi
     state: icon
 
 - type: entity
@@ -236,7 +236,7 @@
   description: An unfinished wide gun frame.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/wideframes.rsi
+    sprite: _HL/obj/guns/wideframes.rsi
     state: icon
 
 # ===== INVENTORY / CASES =====
@@ -247,5 +247,5 @@
   description: A gun carrying case.
   components:
   - type: Sprite
-    sprite: _HL2/mob/inhands/cases_lefthand.rsi
+    sprite: _HL/mob/inhands/cases_lefthand.rsi
     state: icon

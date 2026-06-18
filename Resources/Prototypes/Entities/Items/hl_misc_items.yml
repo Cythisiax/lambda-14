@@ -9,7 +9,7 @@
   description: A ration portion.
   components:
   - type: Sprite
-    sprite: _HL2/obj/food.rsi
+    sprite: _HL/obj/food.rsi
     state: icon
 
 - type: entity
@@ -19,7 +19,7 @@
   description: A beverage container.
   components:
   - type: Sprite
-    sprite: _HL2/obj/drinks.rsi
+    sprite: _HL/obj/drinks.rsi
     state: icon
 
 - type: entity
@@ -29,7 +29,7 @@
   description: A glass bottle.
   components:
   - type: Sprite
-    sprite: _HL2/obj/bottles.rsi
+    sprite: _HL/obj/bottles.rsi
     state: icon
 
 # ===== IDENTITY & ACCESS =====
@@ -40,7 +40,7 @@
   description: A Combine-issued identification card.
   components:
   - type: Sprite
-    sprite: _HL2/obj/ID.rsi
+    sprite: _HL/obj/ID.rsi
     state: icon
 
 - type: entity
@@ -50,7 +50,7 @@
   description: A metal key.
   components:
   - type: Sprite
-    sprite: _HL2/obj/keys.rsi
+    sprite: _HL/obj/keys.rsi
     state: icon
 
 - type: entity
@@ -60,7 +60,7 @@
   description: A heavy padlock.
   components:
   - type: Sprite
-    sprite: _HL2/obj/locks.rsi
+    sprite: _HL/obj/locks.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -73,7 +73,7 @@
   description: A Combine-issued ration credit token.
   components:
   - type: Sprite
-    sprite: _HL2/obj/currency.rsi
+    sprite: _HL/obj/currency.rsi
     state: icon
 
 # ===== MATERIALS =====
@@ -84,7 +84,7 @@
   description: A pile of scrap materials.
   components:
   - type: Sprite
-    sprite: _HL2/obj/materials.rsi
+    sprite: _HL/obj/materials.rsi
     state: icon
 
 - type: entity
@@ -94,7 +94,7 @@
   description: A stack of objects.
   components:
   - type: Sprite
-    sprite: _HL2/obj/stack_objects.rsi
+    sprite: _HL/obj/stack_objects.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -107,7 +107,7 @@
   description: A pack of cigarettes.
   components:
   - type: Sprite
-    sprite: _HL2/obj/smokeables_inventory.rsi
+    sprite: _HL/obj/smokeables_inventory.rsi
     state: icon
 
 # ===== FLORA =====
@@ -118,7 +118,7 @@
   description: A potted plant.
   components:
   - type: Sprite
-    sprite: _HL2/obj/flora.rsi
+    sprite: _HL/obj/flora.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -130,7 +130,7 @@
   description: A large plant.
   components:
   - type: Sprite
-    sprite: _HL2/obj/flora96x96.rsi
+    sprite: _HL/obj/flora96x96.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -142,7 +142,7 @@
   description: A tree.
   components:
   - type: Sprite
-    sprite: _HL2/obj/trees.rsi
+    sprite: _HL/obj/trees.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -154,7 +154,7 @@
   description: An alien plant from Xen.
   components:
   - type: Sprite
-    sprite: _HL2/obj/xenflora.rsi
+    sprite: _HL/obj/xenflora.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -167,7 +167,7 @@
   description: A generic machine.
   components:
   - type: Sprite
-    sprite: _HL2/obj/machines.rsi
+    sprite: _HL/obj/machines.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -179,7 +179,7 @@
   description: A Combine fusion power engine.
   components:
   - type: Sprite
-    sprite: _HL2/obj/fusion_engine.rsi
+    sprite: _HL/obj/fusion_engine.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -191,7 +191,7 @@
   description: A hazardous nuclear device.
   components:
   - type: Sprite
-    sprite: _HL2/obj/nuke.rsi
+    sprite: _HL/obj/nuke.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -203,7 +203,7 @@
   description: A Combine repair pod.
   components:
   - type: Sprite
-    sprite: _HL2/obj/repairpod.rsi
+    sprite: _HL/obj/repairpod.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -215,7 +215,7 @@
   description: A Combine deployment data terminal.
   components:
   - type: Sprite
-    sprite: _HL2/obj/deployment_dataterminal.rsi
+    sprite: _HL/obj/deployment_dataterminal.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -227,7 +227,7 @@
   description: Factory construction materials.
   components:
   - type: Sprite
-    sprite: _HL2/obj/factory_construction.rsi
+    sprite: _HL/obj/factory_construction.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -239,7 +239,7 @@
   description: A Combine ration dispenser under construction.
   components:
   - type: Sprite
-    sprite: _HL2/obj/ration_construction.rsi
+    sprite: _HL/obj/ration_construction.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -252,7 +252,7 @@
   description: A street name sign.
   components:
   - type: Sprite
-    sprite: _HL2/obj/street_signs.rsi
+    sprite: _HL/obj/street_signs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -264,7 +264,7 @@
   description: A metal street pole.
   components:
   - type: Sprite
-    sprite: _HL2/obj/streetpoles.rsi
+    sprite: _HL/obj/streetpoles.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -277,7 +277,7 @@
   description: A fire hazard.
   components:
   - type: Sprite
-    sprite: _HL2/obj/fires.rsi
+    sprite: _HL/obj/fires.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -293,7 +293,7 @@
   description: A lighting effect overlay.
   components:
   - type: Sprite
-    sprite: _HL2/obj/lighting_overlay.rsi
+    sprite: _HL/obj/lighting_overlay.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -305,5 +305,5 @@
   description: A Combine hopper mine — it jumps and explodes.
   components:
   - type: Sprite
-    sprite: _HL2/obj/hoppermines.rsi
+    sprite: _HL/obj/hoppermines.rsi
     state: icon

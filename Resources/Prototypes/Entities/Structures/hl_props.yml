@@ -9,7 +9,7 @@
   description: A simple wooden chair.
   components:
   - type: Sprite
-    sprite: _HL2/obj/chairs.rsi
+    sprite: _HL/obj/chairs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -21,7 +21,7 @@
   description: A cot for sleeping.
   components:
   - type: Sprite
-    sprite: _HL2/obj/beds.rsi
+    sprite: _HL/obj/beds.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -33,7 +33,7 @@
   description: A wooden bench.
   components:
   - type: Sprite
-    sprite: _HL2/obj/bench.rsi
+    sprite: _HL/obj/bench.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -45,7 +45,7 @@
   description: A metal storage cabinet.
   components:
   - type: Sprite
-    sprite: _HL2/obj/cabinets.rsi
+    sprite: _HL/obj/cabinets.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -58,7 +58,7 @@
   description: A standard metal barrel.
   components:
   - type: Sprite
-    sprite: _HL2/obj/barrels.rsi
+    sprite: _HL/obj/barrels.rsi
     state: grey_1
 
 - type: entity
@@ -68,7 +68,7 @@
   description: A large metal dumpster.
   components:
   - type: Sprite
-    sprite: _HL2/obj/dumpster.rsi
+    sprite: _HL/obj/dumpster.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -80,7 +80,7 @@
   description: A wooden shipping crate.
   components:
   - type: Sprite
-    sprite: _HL2/obj/storage/crates.rsi
+    sprite: _HL/obj/storage/crates.rsi
     state: icon
 
 # ===== DEFENSES =====
@@ -91,7 +91,7 @@
   description: A stack of sandbags for cover.
   components:
   - type: Sprite
-    sprite: _HL2/obj/sandbags.rsi
+    sprite: _HL/obj/sandbags.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -103,7 +103,7 @@
   description: Sharp barbed wire coils.
   components:
   - type: Sprite
-    sprite: _HL2/obj/barbedwire.rsi
+    sprite: _HL/obj/barbedwire.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -115,7 +115,7 @@
   description: A concrete barrier.
   components:
   - type: Sprite
-    sprite: _HL2/obj/barriers.rsi
+    sprite: _HL/obj/barriers.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -127,7 +127,7 @@
   description: A chainlink fence section.
   components:
   - type: Sprite
-    sprite: _HL2/obj/fences.rsi
+    sprite: _HL/obj/fences.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -140,7 +140,7 @@
   description: A tall street lamp.
   components:
   - type: Sprite
-    sprite: _HL2/obj/streetlamps.rsi
+    sprite: _HL/obj/streetlamps.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -152,7 +152,7 @@
   description: A heavy metal manhole cover.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clutter.rsi
+    sprite: _HL/obj/clutter.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -164,7 +164,7 @@
   description: A directional signpost.
   components:
   - type: Sprite
-    sprite: _HL2/obj/signs.rsi
+    sprite: _HL/obj/signs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -176,7 +176,7 @@
   description: An old CRT television.
   components:
   - type: Sprite
-    sprite: _HL2/obj/television.rsi
+    sprite: _HL/obj/television.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -188,7 +188,7 @@
   description: A large Combine propaganda monitor displaying Dr. Breen's announcements.
   components:
   - type: Sprite
-    sprite: _HL2/obj/breencast.rsi
+    sprite: _HL/obj/breencast.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -200,7 +200,7 @@
   description: A sturdy workbench for crafting and repairs.
   components:
   - type: Sprite
-    sprite: _HL2/obj/workbenches.rsi
+    sprite: _HL/obj/workbenches.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -213,7 +213,7 @@
   description: A metal ladder.
   components:
   - type: Sprite
-    sprite: _HL2/obj/ladders.rsi
+    sprite: _HL/obj/ladders.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -225,7 +225,7 @@
   description: A concrete stairway.
   components:
   - type: Sprite
-    sprite: _HL2/obj/stairs.rsi
+    sprite: _HL/obj/stairs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -237,7 +237,7 @@
   description: A metal catwalk section.
   components:
   - type: Sprite
-    sprite: _HL2/obj/catwalk.rsi
+    sprite: _HL/obj/catwalk.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -250,7 +250,7 @@
   description: A heavy metal door.
   components:
   - type: Sprite
-    sprite: _HL2/obj/mojavedoors.rsi
+    sprite: _HL/obj/mojavedoors.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -263,7 +263,7 @@
   description: A pane of glass.
   components:
   - type: Sprite
-    sprite: _HL2/obj/windows.rsi
+    sprite: _HL/obj/windows.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -276,7 +276,7 @@
   description: Industrial piping.
   components:
   - type: Sprite
-    sprite: _HL2/obj/pipes.rsi
+    sprite: _HL/obj/pipes.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -289,7 +289,7 @@
   description: A wall-mounted light fixture.
   components:
   - type: Sprite
-    sprite: _HL2/obj/lighting.rsi
+    sprite: _HL/obj/lighting.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -306,7 +306,7 @@
   description: A Combine propaganda poster.
   components:
   - type: Sprite
-    sprite: _HL2/obj/poster.rsi
+    sprite: _HL/obj/poster.rsi
     state: icon
   - type: Transform
     anchored: true

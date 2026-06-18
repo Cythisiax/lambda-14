@@ -9,7 +9,7 @@
   description: A standard metal table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal.rsi
+    sprite: _HL/obj/tables/table_metal.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -21,7 +21,7 @@
   description: An alternate style metal table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_alt.rsi
+    sprite: _HL/obj/tables/table_metal_alt.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -33,7 +33,7 @@
   description: A table built from metal parts.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_built.rsi
+    sprite: _HL/obj/tables/table_metal_built.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -45,7 +45,7 @@
   description: A table with a grated surface.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_grate.rsi
+    sprite: _HL/obj/tables/table_metal_grate.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -57,7 +57,7 @@
   description: A reinforced heavy-duty metal table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_heavy.rsi
+    sprite: _HL/obj/tables/table_metal_heavy.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -69,7 +69,7 @@
   description: A small side table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_small.rsi
+    sprite: _HL/obj/tables/table_metal_small.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -81,7 +81,7 @@
   description: A wooden table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_wood.rsi
+    sprite: _HL/obj/tables/table_wood.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -93,7 +93,7 @@
   description: A tall wooden bar table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_wood_bar.rsi
+    sprite: _HL/obj/tables/table_wood_bar.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -105,7 +105,7 @@
   description: A table built from wooden planks.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_wood_built.rsi
+    sprite: _HL/obj/tables/table_wood_built.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -117,7 +117,7 @@
   description: A crudely built wooden table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_wood_built_LQ.rsi
+    sprite: _HL/obj/tables/table_wood_built_LQ.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -129,7 +129,7 @@
   description: A crudely built metal table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tables/table_metal_built_LQ.rsi
+    sprite: _HL/obj/tables/table_metal_built_LQ.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -142,7 +142,7 @@
   description: A sturdy metal storage crate.
   components:
   - type: Sprite
-    sprite: _HL2/obj/storage/crates.rsi
+    sprite: _HL/obj/storage/crates.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -154,7 +154,7 @@
   description: A bag of Combine-issued rations.
   components:
   - type: Sprite
-    sprite: _HL2/obj/storage/rationbags.rsi
+    sprite: _HL/obj/storage/rationbags.rsi
     state: icon
 
 - type: entity
@@ -164,7 +164,7 @@
   description: A metal storage unit.
   components:
   - type: Sprite
-    sprite: _HL2/obj/storage/storage.rsi
+    sprite: _HL/obj/storage/storage.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -176,7 +176,7 @@
   description: A general storage container.
   components:
   - type: Sprite
-    sprite: _HL2/obj/storage.rsi
+    sprite: _HL/obj/storage.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -189,7 +189,7 @@
   description: A decorative floor rug.
   components:
   - type: Sprite
-    sprite: _HL2/obj/32x32_rugs.rsi
+    sprite: _HL/obj/32x32_rugs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -201,7 +201,7 @@
   description: A large decorative floor rug.
   components:
   - type: Sprite
-    sprite: _HL2/obj/64x64_rugs.rsi
+    sprite: _HL/obj/64x64_rugs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -213,7 +213,7 @@
   description: A tall piece of furniture.
   components:
   - type: Sprite
-    sprite: _HL2/obj/32x64_tall_furniture.rsi
+    sprite: _HL/obj/32x64_tall_furniture.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -225,7 +225,7 @@
   description: A large piece of furniture.
   components:
   - type: Sprite
-    sprite: _HL2/obj/64x64_large_furniture.rsi
+    sprite: _HL/obj/64x64_large_furniture.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -237,7 +237,7 @@
   description: A large directional sign.
   components:
   - type: Sprite
-    sprite: _HL2/obj/64x64_signs.rsi
+    sprite: _HL/obj/64x64_signs.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -249,7 +249,7 @@
   description: A metal railing.
   components:
   - type: Sprite
-    sprite: _HL2/obj/railings.rsi
+    sprite: _HL/obj/railings.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -261,7 +261,7 @@
   description: A standalone table.
   components:
   - type: Sprite
-    sprite: _HL2/obj/standalone_tables.rsi
+    sprite: _HL/obj/standalone_tables.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -274,7 +274,7 @@
   description: A grenade as seen in inventory.
   components:
   - type: Sprite
-    sprite: _HL2/obj/throwables/grenades_inventory.rsi
+    sprite: _HL/obj/throwables/grenades_inventory.rsi
     state: icon
 
 # ===== TOOLS =====
@@ -285,7 +285,7 @@
   description: A collection of tools.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tools/tools_inventory.rsi
+    sprite: _HL/obj/tools/tools_inventory.rsi
     state: icon
 
 - type: entity
@@ -295,7 +295,7 @@
   description: A standard metal crowbar.
   components:
   - type: Sprite
-    sprite: _HL2/obj/misc_items.rsi
+    sprite: _HL/obj/misc_items.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5
@@ -312,7 +312,7 @@
   description: The wreckage of a vehicle.
   components:
   - type: Sprite
-    sprite: _HL2/obj/wrecks.rsi
+    sprite: _HL/obj/wrecks.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -324,7 +324,7 @@
   description: An industrial liquid tank.
   components:
   - type: Sprite
-    sprite: _HL2/obj/tank.rsi
+    sprite: _HL/obj/tank.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -336,7 +336,7 @@
   description: A fabric flag on a pole.
   components:
   - type: Sprite
-    sprite: _HL2/obj/flags32x64.rsi
+    sprite: _HL/obj/flags32x64.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -348,7 +348,7 @@
   description: Exercise equipment.
   components:
   - type: Sprite
-    sprite: _HL2/obj/gym_equipment.rsi
+    sprite: _HL/obj/gym_equipment.rsi
     state: icon
   - type: Transform
     anchored: true

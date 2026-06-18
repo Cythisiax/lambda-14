@@ -9,7 +9,7 @@
   description: A standard-issue Civil Protection stun baton.
   components:
   - type: Sprite
-    sprite: _HL2/obj/baton.rsi
+    sprite: _HL/obj/baton.rsi
     state: stunbaton_active
   - type: MeleeWeapon
     angle: 0
@@ -30,7 +30,7 @@
   description: A standard crowbar, useful for prying open crates and stunning opponents.
   components:
   - type: Sprite
-    sprite: _HL2/obj/melee.rsi
+    sprite: _HL/obj/melee.rsi
     state: tireiron
   - type: MeleeWeapon
     angle: 0
@@ -48,7 +48,7 @@
   description: A sharpened scrap blade.
   components:
   - type: Sprite
-    sprite: _HL2/obj/melee.rsi
+    sprite: _HL/obj/melee.rsi
     state: machete_scrap
   - type: MeleeWeapon
     angle: 0
@@ -66,7 +66,7 @@
   description: A blinding and disorienting explosive.
   components:
   - type: Sprite
-    sprite: _HL2/obj/grenade.rsi
+    sprite: _HL/obj/grenade.rsi
     state: flashbang
 
 - type: entity
@@ -76,7 +76,7 @@
   description: A standard fragmentation grenade.
   components:
   - type: Sprite
-    sprite: _HL2/obj/grenade.rsi
+    sprite: _HL/obj/grenade.rsi
     state: bouncer
 
 # ===== MANHACK =====
@@ -87,7 +87,7 @@
   description: A flying autonomous circular saw blade. Deployed by Combine forces.
   components:
   - type: Sprite
-    sprite: _HL2/obj/grenade.rsi
+    sprite: _HL/obj/grenade.rsi
     state: manhack
 
 # ===== MEDICAL ITEMS =====
@@ -98,7 +98,7 @@
   description: A Combine-issue medical kit for treating injuries.
   components:
   - type: Sprite
-    sprite: _HL2/obj/medkits.rsi
+    sprite: _HL/obj/medkits.rsi
     state: medkit
   - type: MedicalItem
     heal:
@@ -113,7 +113,7 @@
   description: A rapid-injection health pen for quick field treatment.
   components:
   - type: Sprite
-    sprite: _HL2/obj/medkits.rsi
+    sprite: _HL/obj/medkits.rsi
     state: healthpen
   - type: MedicalItem
     heal:
@@ -128,7 +128,7 @@
   description: A portable Combine power cell.
   components:
   - type: Sprite
-    sprite: _HL2/obj/fuel_cell.rsi
+    sprite: _HL/obj/fuel_cell.rsi
     state: cell-full
   - type: PowerCell
     maxCharge: 100
@@ -141,7 +141,7 @@
   description: A highly flammable barrel. Keep away from open flames.
   components:
   - type: Sprite
-    sprite: _HL2/obj/barrels.rsi
+    sprite: _HL/obj/barrels.rsi
     state: red_1
 
 # ===== SHIELD (Combine Charger/Wallhammer) =====
@@ -152,7 +152,7 @@
   description: A heavy forearm-mounted force shield generator used by Combine Charger units.
   components:
   - type: Sprite
-    sprite: _HL2/obj/shields.rsi
+    sprite: _HL/obj/shields.rsi
     state: wallhammer
 
 # ===== COMBINE RADIO =====
@@ -163,7 +163,7 @@
   description: A handheld radio for Combine communications.
   components:
   - type: Sprite
-    sprite: _HL2/obj/radio.rsi
+    sprite: _HL/obj/radio.rsi
     state: icon
   - type: Radio
     channels:

@@ -9,10 +9,10 @@
   description: A standard-issue Civil Protection cap with the Universal Union insignia.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: military
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: milhelm
@@ -24,10 +24,10 @@
   description: A reinforced Civil Protection helmet with visor.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: milhelm
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: military
@@ -51,10 +51,10 @@
   description: A distinguished cap worn by Civil Protection Captains.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: beret
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: beret
@@ -66,10 +66,10 @@
   description: A crisp beret denoting Overwatch division membership.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: beret
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: beret
@@ -85,10 +85,10 @@
   description: Full-face helmet issued to Combine Transhuman Arm soldiers.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: steel_helmet
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: steel_helmet
@@ -111,10 +111,10 @@
   description: An advanced enclosed helmet for Elite Transhuman soldiers.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/hats.rsi
+    sprite: _HL/obj/clothing/hats.rsi
     state: steel_helmet
   - type: Clothing
-    sprite: _HL2/mob/clothing/head.rsi
+    sprite: _HL/mob/clothing/head.rsi
     clothingVisuals:
       head:
       - state: steel_helmet
@@ -140,10 +140,10 @@
   description: A standard gas mask issued to Civil Protection units.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/masks.rsi
+    sprite: _HL/obj/clothing/masks.rsi
     state: civilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/masks.rsi
+    sprite: _HL/mob/clothing/masks.rsi
     clothingVisuals:
       mask:
       - state: civilprotection
@@ -157,10 +157,10 @@
   description: A sleek respirator for Overwatch division personnel.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/masks.rsi
+    sprite: _HL/obj/clothing/masks.rsi
     state: overwatch
   - type: Clothing
-    sprite: _HL2/mob/clothing/masks.rsi
+    sprite: _HL/mob/clothing/masks.rsi
     clothingVisuals:
       mask:
       - state: overwatch
@@ -174,10 +174,10 @@
   description: Standard-issue Civil Protection uniform, dark blue with utility pockets.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/uniforms.rsi
+    sprite: _HL/obj/clothing/uniforms.rsi
     state: civilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/uniform.rsi
+    sprite: _HL/mob/clothing/uniform.rsi
     clothingVisuals:
       uniform:
       - state: civilprotection
@@ -189,10 +189,10 @@
   description: An upgraded Civil Protection uniform with reinforced stitching.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/uniforms.rsi
+    sprite: _HL/obj/clothing/uniforms.rsi
     state: elitecivilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/uniform.rsi
+    sprite: _HL/mob/clothing/uniform.rsi
     clothingVisuals:
       uniform:
       - state: elitecivilprotection
@@ -204,10 +204,10 @@
   description: A sharp grey uniform worn by Overwatch administration.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/uniforms.rsi
+    sprite: _HL/obj/clothing/uniforms.rsi
     state: overwatch
   - type: Clothing
-    sprite: _HL2/mob/clothing/uniform.rsi
+    sprite: _HL/mob/clothing/uniform.rsi
     clothingVisuals:
       uniform:
       - state: overwatch
@@ -219,10 +219,10 @@
   description: A skin-tight transhuman combat bodyglove.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/uniforms.rsi
+    sprite: _HL/obj/clothing/uniforms.rsi
     state: grunt
   - type: Clothing
-    sprite: _HL2/mob/clothing/uniform.rsi
+    sprite: _HL/mob/clothing/uniform.rsi
     clothingVisuals:
       uniform:
       - state: grunt
@@ -235,10 +235,10 @@
   description: A standard-issue Civil Protection armoured vest.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: civilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: civilprotection
@@ -250,10 +250,10 @@
   description: A heavy trenchcoat worn by Metro Police units.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: metropolice
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: metropolice
@@ -265,10 +265,10 @@
   description: A sleek grey overcoat bearing Overwatch insignia.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: overwatch
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: overwatch
@@ -280,10 +280,10 @@
   description: A white variant Overwatch coat.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: overwatch_white
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: overwatch_white
@@ -295,10 +295,10 @@
   description: A red variant Overwatch coat for high-ranking officials.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: overwatch_red
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: overwatch_red
@@ -310,10 +310,10 @@
   description: Heavy combat armor issued to Combine soldiers.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: armor
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: armor
@@ -325,10 +325,10 @@
   description: Advanced heavy combat armor for Elite Transhuman soldiers.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: armor
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: armor
@@ -340,10 +340,10 @@
   description: A Hazardous Environment Vest with integrated life-support systems.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: hev
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: hev
@@ -355,10 +355,10 @@
   description: An upgraded armoured vest for elite Civil Protection units.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/suits.rsi
+    sprite: _HL/obj/clothing/suits.rsi
     state: elitecpo_vest
   - type: Clothing
-    sprite: _HL2/mob/clothing/suit.rsi
+    sprite: _HL/mob/clothing/suit.rsi
     clothingVisuals:
       outerClothing:
       - state: elitecpo_vest
@@ -371,10 +371,10 @@
   description: Sturdy combat boots issued to Civil Protection.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/shoes.rsi
+    sprite: _HL/obj/clothing/shoes.rsi
     state: civilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/feet.rsi
+    sprite: _HL/mob/clothing/feet.rsi
     clothingVisuals:
       shoes:
       - state: civilprotection
@@ -386,10 +386,10 @@
   description: Polished boots worn by Overwatch personnel.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/shoes.rsi
+    sprite: _HL/obj/clothing/shoes.rsi
     state: overwatch
   - type: Clothing
-    sprite: _HL2/mob/clothing/feet.rsi
+    sprite: _HL/mob/clothing/feet.rsi
     clothingVisuals:
       shoes:
       - state: overwatch
@@ -401,10 +401,10 @@
   description: Heavy-duty leather work boots.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/shoes.rsi
+    sprite: _HL/obj/clothing/shoes.rsi
     state: workboots
   - type: Clothing
-    sprite: _HL2/mob/clothing/feet.rsi
+    sprite: _HL/mob/clothing/feet.rsi
     clothingVisuals:
       shoes:
       - state: workboots
@@ -417,10 +417,10 @@
   description: Standard-issue Civil Protection gloves.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/gloves.rsi
+    sprite: _HL/obj/clothing/gloves.rsi
     state: civilprotection
   - type: Clothing
-    sprite: _HL2/mob/clothing/hands.rsi
+    sprite: _HL/mob/clothing/hands.rsi
     clothingVisuals:
       gloves:
       - state: civilprotection
@@ -432,10 +432,10 @@
   description: Sleek black Overwatch gloves.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/gloves.rsi
+    sprite: _HL/obj/clothing/gloves.rsi
     state: overwatch
   - type: Clothing
-    sprite: _HL2/mob/clothing/hands.rsi
+    sprite: _HL/mob/clothing/hands.rsi
     clothingVisuals:
       gloves:
       - state: overwatch
@@ -447,10 +447,10 @@
   description: Reinforced tactical gloves for combat personnel.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/gloves.rsi
+    sprite: _HL/obj/clothing/gloves.rsi
     state: grunt
   - type: Clothing
-    sprite: _HL2/mob/clothing/hands.rsi
+    sprite: _HL/mob/clothing/hands.rsi
     clothingVisuals:
       gloves:
       - state: grunt
@@ -462,10 +462,10 @@
   description: Simple leather gloves for everyday use.
   components:
   - type: Sprite
-    sprite: _HL2/obj/clothing/gloves.rsi
+    sprite: _HL/obj/clothing/gloves.rsi
     state: leather
   - type: Clothing
-    sprite: _HL2/mob/clothing/hands.rsi
+    sprite: _HL/mob/clothing/hands.rsi
     clothingVisuals:
       gloves:
       - state: leather

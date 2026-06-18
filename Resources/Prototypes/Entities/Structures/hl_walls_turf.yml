@@ -9,7 +9,7 @@
   description: A smooth Combine-constructed wall panel.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/combine.rsi
+    sprite: _HL/turf/walls/combine.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -21,7 +21,7 @@
   description: A weathered brick wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/brick.rsi
+    sprite: _HL/turf/walls/brick.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -33,7 +33,7 @@
   description: A grey brick wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/brickgrey.rsi
+    sprite: _HL/turf/walls/brickgrey.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -45,7 +45,7 @@
   description: A rough concrete wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/concrete.rsi
+    sprite: _HL/turf/walls/concrete.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -57,7 +57,7 @@
   description: An alternate concrete wall panel.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/concretealt.rsi
+    sprite: _HL/turf/walls/concretealt.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -69,7 +69,7 @@
   description: A reinforced bunker wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/bunker.rsi
+    sprite: _HL/turf/walls/bunker.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -81,7 +81,7 @@
   description: A solid metal wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/metal.rsi
+    sprite: _HL/turf/walls/metal.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -93,7 +93,7 @@
   description: A damp sewer wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/sewer.rsi
+    sprite: _HL/turf/walls/sewer.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -105,7 +105,7 @@
   description: A rough stone wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/stone.rsi
+    sprite: _HL/turf/walls/stone.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -117,7 +117,7 @@
   description: A wall panel from a train carriage.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/train.rsi
+    sprite: _HL/turf/walls/train.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -129,7 +129,7 @@
   description: A wooden wall.
   components:
   - type: Sprite
-    sprite: _HL2/turf/walls/woodwall.rsi
+    sprite: _HL/turf/walls/woodwall.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -142,7 +142,7 @@
   description: An asphalt road surface.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/road.rsi
+    sprite: _HL/turf/floor/road.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -154,7 +154,7 @@
   description: A concrete sidewalk.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/sidewalk.rsi
+    sprite: _HL/turf/floor/sidewalk.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -166,7 +166,7 @@
   description: A damp sewer pathway.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/sewer_floor.rsi
+    sprite: _HL/turf/floor/sewer_floor.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -178,7 +178,7 @@
   description: A stone brick paved floor.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/stonebrick.rsi
+    sprite: _HL/turf/floor/stonebrick.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -190,7 +190,7 @@
   description: Overgrown grass.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/cut/hl_grass.rsi
+    sprite: _HL/turf/floor/cut/hl_grass.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -202,7 +202,7 @@
   description: A layer of snow.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/cut/hl_snow.rsi
+    sprite: _HL/turf/floor/cut/hl_snow.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -214,7 +214,7 @@
   description: Shallow contaminated water.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/water.rsi
+    sprite: _HL/turf/floor/water.rsi
     state: icon
   - type: Transform
     anchored: true
@@ -225,7 +225,7 @@
   description: Indoor tiled flooring.
   components:
   - type: Sprite
-    sprite: _HL2/turf/floor/floors.rsi
+    sprite: _HL/turf/floor/floors.rsi
     state: lino
   - type: Transform
     anchored: true

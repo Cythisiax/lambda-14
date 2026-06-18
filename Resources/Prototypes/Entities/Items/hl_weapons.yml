@@ -9,10 +9,10 @@
   description: A semi-automatic pistol used by Combine Civil Protection officers.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: uspmatch
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: usp
@@ -35,10 +35,10 @@
   description: A compact submachine gun favored by Combine units.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: mp7
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: mp7
@@ -61,10 +61,10 @@
   description: The standard-issue Combine pulse rifle. Fires energy pulse rounds.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: ar2
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: ar2
@@ -87,7 +87,7 @@
   description: A powerful semi-automatic combat shotgun.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: spas12
   - type: Gun
     fireRate: 1.5
@@ -105,7 +105,7 @@
   description: A rapid-fire Combine energy submachine gun.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: pulsesmg
   - type: Gun
     fireRate: 10
@@ -121,7 +121,7 @@
   description: A standard military assault rifle.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: m4a1
   - type: Gun
     fireRate: 7
@@ -140,10 +140,10 @@
   description: A rugged and reliable assault rifle, commonly found in the hands of Resistance fighters.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: ak47
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: ak47
@@ -166,10 +166,10 @@
   description: A bolt-action rifle with high damage and low fire rate.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/wideguns.rsi
+    sprite: _HL/obj/guns/wideguns.rsi
     state: mosin_nagant
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: mosin_nagant
@@ -191,10 +191,10 @@
   description: A high-powered Combine sniper rifle with advanced optics.
   components:
   - type: Sprite
-    sprite: _HL2/obj/guns/projectile.rsi
+    sprite: _HL/obj/guns/projectile.rsi
     state: combine_sniper
   - type: Clothing
-    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    sprite: _HL/mob/inhands/guns_lefthand.rsi
     clothingVisuals:
       left:
       - state: combine_sniper
@@ -215,7 +215,7 @@
   description: A heavy crowbar. The quintessential Resistance tool and weapon.
   components:
   - type: Sprite
-    sprite: _HL2/obj/melee.rsi
+    sprite: _HL/obj/melee.rsi
     state: tireiron
   - type: MeleeWeapon
     animation: WeaponArcPunch

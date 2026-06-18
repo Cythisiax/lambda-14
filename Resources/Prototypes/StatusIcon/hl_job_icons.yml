@@ -4,7 +4,7 @@
   parent: JobIcon
   id: JobIconCivilProtectionOfficer
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CPOfficer
   jobName: job-name-cpofficer
 
@@ -12,7 +12,7 @@
   parent: JobIcon
   id: JobIconCivilProtectionSergeant
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CPSergeant
   jobName: job-name-cpsergeant
 
@@ -20,7 +20,7 @@
   parent: JobIcon
   id: JobIconCivilProtectionCaptain
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CPCaptain
   jobName: job-name-cpcaptain
 
@@ -28,7 +28,7 @@
   parent: JobIcon
   id: JobIconOverwatchOfficer
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: OverwatchOfficer
   jobName: job-name-ovwatch-officer
 
@@ -36,7 +36,7 @@
   parent: JobIcon
   id: JobIconCombineSoldier
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CombineSoldier
   jobName: job-name-combine-soldier
 
@@ -44,7 +44,7 @@
   parent: JobIcon
   id: JobIconEliteSoldier
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: EliteSoldier
   jobName: job-name-elite-soldier
 
@@ -52,7 +52,7 @@
   parent: JobIcon
   id: JobIconHunterSeeker
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: HunterSeeker
   jobName: job-name-hunter-seeker
 
@@ -60,7 +60,7 @@
   parent: JobIcon
   id: JobIconOverwatchAdmin
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: OverwatchAdmin
   jobName: job-name-ovwatch-admin
 
@@ -68,7 +68,7 @@
   parent: JobIcon
   id: JobIconOverwatchOperator
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: OverwatchOperator
   jobName: job-name-ovwatch-operator
 
@@ -76,7 +76,7 @@
   parent: JobIcon
   id: JobIconMaintenanceWorker
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: MaintenanceWorker
   jobName: job-name-maintenance
 
@@ -84,7 +84,7 @@
   parent: JobIcon
   id: JobIconLogisticsOfficer
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: LogisticsOfficer
   jobName: job-name-logistics
 
@@ -92,7 +92,7 @@
   parent: JobIcon
   id: JobIconTrainYardWorker
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: TrainYardWorker
   jobName: job-name-train-yard
 
@@ -100,7 +100,7 @@
   parent: JobIcon
   id: JobIconCivilWorker
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CivilWorker
   jobName: job-name-civil-worker
 
@@ -108,7 +108,7 @@
   parent: JobIcon
   id: JobIconCivilMedical
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: CivilMedical
   jobName: job-name-civil-medic
 
@@ -116,7 +116,7 @@
   parent: JobIcon
   id: JobIconUnionRep
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: UnionRep
   jobName: job-name-union-rep
 
@@ -124,7 +124,7 @@
   parent: JobIcon
   id: JobIconCitizen
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: Citizen
   jobName: job-name-citizen
 
@@ -132,7 +132,7 @@
   parent: JobIcon
   id: JobIconRefugee
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: Refugee
   jobName: job-name-refugee
 
@@ -140,7 +140,7 @@
   parent: JobIcon
   id: JobIconLambdaCell
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: LambdaCell
   jobName: job-name-lambda-cell
 
@@ -148,7 +148,7 @@
   parent: JobIcon
   id: JobIconResistanceScout
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: ResistanceScout
   jobName: job-name-resistance-scout
 
@@ -156,6 +156,6 @@
   parent: JobIcon
   id: JobIconLambdaLeader
   icon:
-    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    sprite: /Textures/Interface/Misc/job_icons_hl.rsi
     state: LambdaLeader
   jobName: job-name-lambda-leader

@@ -16,7 +16,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: headcrab
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -39,7 +39,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: fastcrab
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: MovementSpeedModifier
     baseWalkSpeed: 6
     baseSprintSpeed: 10
@@ -60,7 +60,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: poisonheadcrab
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -78,7 +78,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: armoredheadcrab
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -101,7 +101,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: zombie
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -124,7 +124,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: fastzombie
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: MovementSpeedModifier
     baseWalkSpeed: 5
     baseSprintSpeed: 9
@@ -145,7 +145,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: poisonzombie
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -164,7 +164,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: zombine
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -187,7 +187,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: antlion
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -210,7 +210,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: antlionworker
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -233,7 +233,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: houndeye
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -253,7 +253,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: barnacle
-      sprite: _HL2/mob/barnacle.rsi
+      sprite: _HL/mob/barnacle.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -276,7 +276,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gonarch
-      sprite: _HL2/mob/gonarch.rsi
+      sprite: _HL/mob/gonarch.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -304,7 +304,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bullsquid
-      sprite: _HL2/mob/halflife_large.rsi
+      sprite: _HL/mob/halflife_large.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -332,7 +332,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: manhack_nolight
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -371,7 +371,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cityscanner
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -405,7 +405,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: hunter
-      sprite: _HL2/mob/halflife_tall.rsi
+      sprite: _HL/mob/halflife_tall.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -433,7 +433,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: grunt
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -452,7 +452,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: elite
-      sprite: _HL2/mob/halflife.rsi
+      sprite: _HL/mob/halflife.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -475,7 +475,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: gonome
-      sprite: _HL2/mob/halflife_tall.rsi
+      sprite: _HL/mob/halflife_tall.rsi
   - type: DamageStateVisuals
     states:
       Alive:
@@ -498,7 +498,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: advisor
-      sprite: _HL2/mob/halflife_large.rsi
+      sprite: _HL/mob/halflife_large.rsi
   - type: DamageStateVisuals
     states:
       Alive:
