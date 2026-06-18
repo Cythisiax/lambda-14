@@ -218,3 +218,14 @@
     state: icon
   - type: Transform
     anchored: true
+- type: entity
+  name: tiled floor
+  parent: BaseItem
+  id: FloorTiledHL2
+  description: Indoor tiled flooring.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/floors.rsi
+    state: lino
+  - type: Transform
+    anchored: true
