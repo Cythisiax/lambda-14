@@ -1,0 +1,149 @@
+# #Misfits Change - HL2 Effects & Decal Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== EFFECTS =====
+- type: entity
+  name: fire
+  parent: BaseItem
+  id: EffectFireHL2
+  description: A blazing fire.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/fire.rsi
+    state: red_1
+
+- type: entity
+  name: smoke
+  parent: BaseItem
+  id: EffectSmokeHL2
+  description: Thick smoke.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/smoke.rsi
+    state: icon
+
+- type: entity
+  name: road decal
+  parent: BaseItem
+  id: DecalRoadHL2
+  description: A road marking.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/road_decals.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: wall covering
+  parent: BaseItem
+  id: WallCoveringHL2
+  description: Wallpaper or paneling.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/wallcovering.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: particles
+  parent: BaseItem
+  id: EffectParticlesHL2
+  description: Floating particles.
+  components:
+  - type: Sprite
+    sprite: _HL2/effects/generic_particles.rsi
+    state: icon
+
+# ===== AMMO =====
+- type: entity
+  name: pistol magazine
+  parent: BaseItem
+  id: MagazinePistolHL2
+  description: A 9mm pistol magazine.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/ammo.rsi
+    state: usp-full
+
+- type: entity
+  name: SMG magazine
+  parent: BaseItem
+  id: MagazineSMGHL2
+  description: A 9mm submachine gun magazine.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/ammo.rsi
+    state: smg9mm-full
+
+- type: entity
+  name: rifle magazine
+  parent: BaseItem
+  id: MagazineRifleHL2
+  description: A 5.56mm rifle magazine.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/ammo.rsi
+    state: ar762-full
+
+- type: entity
+  name: shotgun shells
+  parent: BaseItem
+  id: ShellShotgunHL2
+  description: A box of 12-gauge shotgun shells.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/ammo.rsi
+    state: gshell
+
+- type: entity
+  name: pulse SMG battery
+  parent: BaseItem
+  id: CellPulseSMGHL2
+  description: A power cell for a pulse SMG.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/ammo.rsi
+    state: pulsesmg-full
+
+# ===== HUD OVERLAYS =====
+- type: entity
+  name: combine HUD
+  parent: BaseItem
+  id: HudCombineHL2
+  description: A Combine heads-up display overlay.
+  components:
+  - type: Sprite
+    sprite: _HL2/hud/screen_combine.rsi
+    state: icon
+
+- type: entity
+  name: dark screen
+  parent: BaseItem
+  id: HudDarkHL2
+  description: A dark background screen.
+  components:
+  - type: Sprite
+    sprite: _HL2/hud/screen_dark.rsi
+    state: icon
+
+- type: entity
+  name: ghost screen
+  parent: BaseItem
+  id: HudGhostHL2
+  description: A spectral ghost screen.
+  components:
+  - type: Sprite
+    sprite: _HL2/hud/screen_ghost.rsi
+    state: icon
+
+- type: entity
+  name: alert text
+  parent: BaseItem
+  id: HudAlertTextHL2
+  description: Alert text overlay.
+  components:
+  - type: Sprite
+    sprite: _HL2/hud/ui_alerttext.rsi
+    state: icon
