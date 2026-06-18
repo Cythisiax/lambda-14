@@ -1,0 +1,220 @@
+# #Misfits Change - HL2 Wall & Floor Tile Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== WALLS =====
+- type: entity
+  name: combine wall
+  parent: BaseItem
+  id: WallCombineHL2
+  description: A smooth Combine-constructed wall panel.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/combine.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: brick wall
+  parent: BaseItem
+  id: WallBrickHL2
+  description: A weathered brick wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/brick.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: grey brick wall
+  parent: BaseItem
+  id: WallBrickGreyHL2
+  description: A grey brick wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/brickgrey.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: concrete wall
+  parent: BaseItem
+  id: WallConcreteHL2
+  description: A rough concrete wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/concrete.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: concrete wall (alt)
+  parent: BaseItem
+  id: WallConcreteAltHL2
+  description: An alternate concrete wall panel.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/concretealt.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: bunker wall
+  parent: BaseItem
+  id: WallBunkerHL2
+  description: A reinforced bunker wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/bunker.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: metal wall
+  parent: BaseItem
+  id: WallMetalHL2
+  description: A solid metal wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/metal.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: sewer wall
+  parent: BaseItem
+  id: WallSewerHL2
+  description: A damp sewer wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/sewer.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: stone wall
+  parent: BaseItem
+  id: WallStoneHL2
+  description: A rough stone wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/stone.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: train wall
+  parent: BaseItem
+  id: WallTrainHL2
+  description: A wall panel from a train carriage.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/train.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: wood wall
+  parent: BaseItem
+  id: WallWoodHL2
+  description: A wooden wall.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/walls/woodwall.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== FLOORS =====
+- type: entity
+  name: road
+  parent: BaseItem
+  id: FloorRoadHL2
+  description: An asphalt road surface.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/road.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: sidewalk
+  parent: BaseItem
+  id: FloorSidewalkHL2
+  description: A concrete sidewalk.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/sidewalk.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: sewer floor
+  parent: BaseItem
+  id: FloorSewerHL2
+  description: A damp sewer pathway.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/sewer_floor.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: stone brick floor
+  parent: BaseItem
+  id: FloorStoneBrickHL2
+  description: A stone brick paved floor.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/stonebrick.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: grass
+  parent: BaseItem
+  id: FloorGrassHL2
+  description: Overgrown grass.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/cut/hl_grass.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: snow
+  parent: BaseItem
+  id: FloorSnowHL2
+  description: A layer of snow.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/cut/hl_snow.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: water
+  parent: BaseItem
+  id: FloorWaterHL2
+  description: Shallow contaminated water.
+  components:
+  - type: Sprite
+    sprite: _HL2/turf/floor/water.rsi
+    state: icon
+  - type: Transform
+    anchored: true
