@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Lambda-14 HL2 job icons",
+  "size": {
+    "x": 16,
+    "y": 16
+  },
+  "states": [
+    {
+      "name": "CPOfficer"
+    },
+    {
+      "name": "CPSergeant"
+    },
+    {
+      "name": "CPCaptain"
+    },
+    {
+      "name": "OverwatchOfficer"
+    },
+    {
+      "name": "CombineSoldier"
+    },
+    {
+      "name": "EliteSoldier"
+    },
+    {
+      "name": "HunterSeeker"
+    },
+    {
+      "name": "OverwatchAdmin"
+    },
+    {
+      "name": "OverwatchOperator"
+    },
+    {
+      "name": "MaintenanceWorker"
+    },
+    {
+      "name": "LogisticsOfficer"
+    },
+    {
+      "name": "TrainYardWorker"
+    },
+    {
+      "name": "CivilWorker"
+    },
+    {
+      "name": "CivilMedical"
+    },
+    {
+      "name": "UnionRep"
+    },
+    {
+      "name": "Citizen"
+    },
+    {
+      "name": "Refugee"
+    },
+    {
+      "name": "LambdaCell"
+    },
+    {
+      "name": "ResistanceScout"
+    },
+    {
+      "name": "LambdaLeader"
+    }
+  ]
+}
