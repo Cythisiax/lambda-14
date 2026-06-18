@@ -110,6 +110,30 @@
   - type: Transform
     anchored: true
 
+- type: entity
+  name: built wood table (LQ)
+  parent: BaseItem
+  id: TableWoodBuiltLQHL2
+  description: A crudely built wooden table.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/tables/table_wood_built_LQ.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: built metal table (LQ)
+  parent: BaseItem
+  id: TableMetalBuiltLQHL2
+  description: A crudely built metal table.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/tables/table_metal_built_LQ.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
 # ===== STORAGE =====
 - type: entity
   name: metal crate
