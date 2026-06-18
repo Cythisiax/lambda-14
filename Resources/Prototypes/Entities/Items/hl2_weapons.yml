@@ -1,0 +1,226 @@
+# #Misfits Change - HL2 Weapon Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== USP MATCH PISTOL =====
+- type: entity
+  parent: BaseItem
+  id: WeaponPistolUSP
+  name: USP Match
+  description: A semi-automatic pistol used by Combine Civil Protection officers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: uspmatch
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: usp
+      right:
+      - state: usp
+  - type: Gun
+    fireRate: 4
+    shotsPerBurst: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazinePistol
+
+# ===== MP7 SUBMACHINE GUN =====
+- type: entity
+  parent: BaseItem
+  id: WeaponSubMachineGunMP7
+  name: MP7
+  description: A compact submachine gun favored by Combine units.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: mp7
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: mp7
+      right:
+      - state: mp7
+  - type: Gun
+    fireRate: 8
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazineSMG
+
+# ===== AR2 PULSE RIFLE =====
+- type: entity
+  parent: BaseItem
+  id: WeaponRifleAR2
+  name: AR2
+  description: The standard-issue Combine pulse rifle. Fires energy pulse rounds.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: ar2
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: ar2
+      right:
+      - state: ar2
+  - type: Gun
+    fireRate: 5
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazineRifle
+
+# ===== SPAS-12 COMBAT SHOTGUN =====
+- type: entity
+  parent: BaseItem
+  id: WeaponShotgunSpas12
+  name: SPAS-12
+  description: A powerful semi-automatic combat shotgun.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: spas12
+  - type: Gun
+    fireRate: 1.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazineShotgun
+
+# ===== PULSE SMG =====
+- type: entity
+  parent: BaseItem
+  id: WeaponPulseSMG
+  name: pulse SMG
+  description: A rapid-fire Combine energy submachine gun.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: pulsesmg
+  - type: Gun
+    fireRate: 10
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+
+# ===== M4A1 =====
+- type: entity
+  parent: BaseItem
+  id: WeaponRifleM4A1
+  name: M4A1
+  description: A standard military assault rifle.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: m4a1
+  - type: Gun
+    fireRate: 7
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazineRifle
+
+# ===== AK-47 =====
+- type: entity
+  parent: BaseItem
+  id: WeaponRifleAK47
+  name: AK-47
+  description: A rugged and reliable assault rifle, commonly found in the hands of Resistance fighters.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: ak47
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: ak47
+      right:
+      - state: ak47
+  - type: Gun
+    fireRate: 6
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+  - type: ChamberMagazineAmmoProvider
+    mag: MagazineRifle
+
+# ===== MOSIN-NAGANT =====
+- type: entity
+  parent: BaseItem
+  id: WeaponRifleMosin
+  name: Mosin-Nagant
+  description: A bolt-action rifle with high damage and low fire rate.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/wideguns.rsi
+    state: mosin_nagant
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: mosin_nagant
+      right:
+      - state: mosin_nagant
+  - type: Gun
+    fireRate: 0.8
+    shotsPerBurst: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: ChamberMagazineAmmoProvider
+
+# ===== COMBINE SNIPER RIFLE =====
+- type: entity
+  parent: BaseItem
+  id: WeapnSniperCombine
+  name: Combine sniper rifle
+  description: A high-powered Combine sniper rifle with advanced optics.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/guns/projectile.rsi
+    state: combine_sniper
+  - type: Clothing
+    sprite: _HL2/mob/inhands/guns_lefthand.rsi
+    clothingVisuals:
+      left:
+      - state: combine_sniper
+      right:
+      - state: combine_sniper
+  - type: Gun
+    fireRate: 0.5
+    shotsPerBurst: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+
+# ===== CROWBAR (Rebel signature weapon) =====
+- type: entity
+  parent: BaseItem
+  id: WeaponCrowbarRebel
+  name: crowbar
+  description: A heavy crowbar. The quintessential Resistance tool and weapon.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/melee.rsi
+    state: tireiron
+  - type: MeleeWeapon
+    animation: WeaponArcPunch
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 10
+        Structural: 15
