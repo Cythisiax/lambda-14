@@ -1,0 +1,507 @@
+# #Misfits Change - HL2 Creature NPCs
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== HEADCRAB =====
+- type: entity
+  name: headcrab
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobHeadcrab
+  description: A parasitic alien creature that latches onto hosts.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4
+    baseSprintSpeed: 7
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: headcrab
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: headcrab
+      Dead:
+        Base: headcrab_dead
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      types:
+        Slash: 5
+
+- type: entity
+  name: fast headcrab
+  parent: MobHeadcrab
+  id: MobFastHeadcrab
+  description: A faster, more aggressive headcrab variant.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fastcrab
+      sprite: _HL2/mob/halflife.rsi
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 6
+    baseSprintSpeed: 10
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fastcrab
+      Dead:
+        Base: fastcrab_dead
+
+- type: entity
+  name: poison headcrab
+  parent: MobHeadcrab
+  id: MobPoisonHeadcrab
+  description: A venomous headcrab with a toxic bite.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: poisonheadcrab
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: poisonheadcrab
+      Dead:
+        Base: poisonheadcrab_dead
+
+- type: entity
+  name: armored headcrab
+  parent: MobHeadcrab
+  id: MobArmoredHeadcrab
+  description: A headcrab with a thick armored carapace.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: armoredheadcrab
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: armoredheadcrab
+      Dead:
+        Base: armoredheadcrab_dead
+
+# ===== ZOMBIE =====
+- type: entity
+  name: zombie
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobZombie
+  description: A human host taken over by a headcrab.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 4
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: zombie
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: zombie
+      Dead:
+        Base: zombie_dead
+  - type: MeleeWeapon
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 8
+
+- type: entity
+  name: fast zombie
+  parent: MobZombie
+  id: MobFastZombie
+  description: An agile zombie that moves at terrifying speed.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: fastzombie
+      sprite: _HL2/mob/halflife.rsi
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5
+    baseSprintSpeed: 9
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: fastzombie
+      Dead:
+        Base: fastzombie_dead
+
+- type: entity
+  name: poison zombie
+  parent: MobZombie
+  id: MobPoisonZombie
+  description: A bloated zombie that releases toxic spores.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: poisonzombie
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: poisonzombie
+      Dead:
+        Base: poisonzombie_dead
+
+# ===== ZOMBINE (Combine Zombie) =====
+- type: entity
+  name: zombine
+  parent: MobZombie
+  id: MobZombine
+  description: A Combine soldier taken over by a headcrab.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: zombine
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: zombine
+      Dead:
+        Base: zombine_dead
+
+# ===== ANTLION =====
+- type: entity
+  name: antlion
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobAntlion
+  description: A hostile insectoid creature from Xen.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4
+    baseSprintSpeed: 7
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: antlion
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: antlion
+      Dead:
+        Base: antlion_dead
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 10
+
+- type: entity
+  name: antlion worker
+  parent: MobAntlion
+  id: MobAntlionWorker
+  description: A smaller antlion worker drone.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: antlionworker
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: antlionworker
+      Dead:
+        Base: antlionworker_dead
+
+# ===== HOUNDEYE =====
+- type: entity
+  name: houndeye
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobHoundeye
+  description: A blind pack-hunting creature from Xen.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 6
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: houndeye
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: houndeye
+      Dead:
+        Base: houndeye_dead
+
+# ===== BARNACLE =====
+- type: entity
+  name: barnacle
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobBarnacle
+  description: A ceiling-dwelling alien that uses its tongue to catch prey.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: barnacle
+      sprite: _HL2/mob/barnacle.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: barnacle
+      Dead:
+        Base: barnacle_dead
+
+# ===== GONARCH =====
+- type: entity
+  name: gonarch
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobGonarch
+  description: A massive headcrab mother.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2
+    baseSprintSpeed: 4
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: gonarch
+      sprite: _HL2/mob/gonarch.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: gonarch
+      Dead:
+        Base: gonarch_dead
+  - type: MeleeWeapon
+    attackRate: 0.8
+    damage:
+      types:
+        Blunt: 20
+
+# ===== BULLSQUID =====
+- type: entity
+  name: bullsquid
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobBullsquid
+  description: A dangerous alien predator with a powerful bite.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: bullsquid
+      sprite: _HL2/mob/halflife_large.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: bullsquid
+      Dead:
+        Base: bullsquid_dead
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 15
+
+# ===== MANHACK =====
+- type: entity
+  name: manhack
+  parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
+  id: MobManhack
+  description: A flying autonomous Combine security drone.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5
+    baseSprintSpeed: 8
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: manhack_nolight
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: manhack_nolight
+      Dead:
+        Base: manhack_nolight
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Slash: 8
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        density: 5
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+
+# ===== CITY SCANNER =====
+- type: entity
+  name: city scanner
+  parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
+  id: MobCityScanner
+  description: A floating Combine surveillance camera.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4
+    baseSprintSpeed: 6
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: cityscanner
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: cityscanner
+      Dead:
+        Base: cityscanner
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        density: 10
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+
+# ===== HUNTER =====
+- type: entity
+  name: hunter
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobHunter
+  description: A fast, agile Combine Synth scout.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5
+    baseSprintSpeed: 9
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: hunter
+      sprite: _HL2/mob/halflife_tall.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: hunter
+      Dead:
+        Base: hunter_dead
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Piercing: 15
+
+# ===== COMBINE GRUNT NPC =====
+- type: entity
+  name: combine grunt
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobCombineGrunt
+  description: A low-ranking Combine transhuman soldier.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: grunt
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: grunt
+      Dead:
+        Base: grunt_dead
+
+# ===== COMBINE ELITE NPC =====
+- type: entity
+  name: combine elite
+  parent: MobCombineGrunt
+  id: MobCombineElite
+  description: An elite Combine transhuman soldier.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: elite
+      sprite: _HL2/mob/halflife.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: elite
+      Dead:
+        Base: elite_dead
+
+# ===== GONOME =====
+- type: entity
+  name: gonome
+  parent: [ SimpleMobBase, MobCombat ]
+  id: MobGonome
+  description: A mutated humanoid creature from Xen.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 6
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: gonome
+      sprite: _HL2/mob/halflife_tall.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: gonome
+      Dead:
+        Base: gonome_dead
+
+# ===== ADVISOR =====
+- type: entity
+  name: advisor
+  parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
+  id: MobAdvisor
+  description: A floating Combine Advisor — the true rulers of the occupation.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: advisor
+      sprite: _HL2/mob/halflife_large.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: advisor
+      Dead:
+        Base: advisor_dead
