@@ -1,0 +1,25 @@
+# #Misfits Change - HL2 Hunter-Seeker Operator
+- type: job
+  id: HunterSeekerOperator
+  name: job-name-hunter-seeker
+  description: job-description-hunter-seeker
+  playTimeTracker: JobHunterSeekerOperator
+  startingGear: HunterSeekerGear
+  icon: "JobIconHunterSeeker"
+  supervisors: job-supervisors-transhuman
+  access:
+  - TranshumanArm
+  - CityExternal
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: HunterSeekerGear
+  equipment:
+    head: ClothingHeadHelmetCombine
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCombine
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterArmorCombine
+    id: CombinePasscard

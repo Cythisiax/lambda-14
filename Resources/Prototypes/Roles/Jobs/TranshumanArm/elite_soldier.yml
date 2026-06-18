@@ -1,0 +1,35 @@
+# #Misfits Change - HL2 Elite Soldier
+- type: job
+  id: EliteSoldier
+  name: job-name-elite-soldier
+  description: job-description-elite-soldier
+  playTimeTracker: JobEliteSoldier
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: TranshumanArm
+      time: 16h
+  startingGear: EliteSoldierGear
+  icon: "JobIconEliteSoldier"
+  supervisors: job-supervisors-transhuman
+  access:
+  - TranshumanArm
+  - TranshumanArmCommand
+  - CityExternal
+  - Armory
+  - Brig
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: EliteSoldierGear
+  equipment:
+    head: ClothingHeadHelmetElite
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCombine
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterArmorElite
+    id: ElitePasscard
+  storage:
+    back:
+    - WeaponPistolMk58
