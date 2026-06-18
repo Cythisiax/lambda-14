@@ -1,0 +1,62 @@
+# #Misfits Change - HL2 Combine Civil Protection Department
+- type: department
+  id: CivilProtection
+  name: department-CivilProtection
+  description: department-CivilProtection-description
+  color: "#5E7DC4"
+  weight: 10
+  roles:
+  - CivilProtectionOfficer
+  - CivilProtectionSergeant
+  - CivilProtectionCaptain
+  - OverwatchOfficer
+
+- type: department
+  id: TranshumanArm
+  name: department-TranshumanArm
+  description: department-TranshumanArm-description
+  color: "#8B0000"
+  roles:
+  - CombineSoldier
+  - EliteSoldier
+  - HunterSeekerOperator
+
+- type: department
+  id: Overwatch
+  name: department-Overwatch
+  description: department-Overwatch-description
+  color: "#334E6D"
+  roles:
+  - OverwatchAdministrator
+  - OverwatchOperator
+
+- type: department
+  id: Logistics
+  name: department-Logistics
+  description: department-Logistics-description
+  color: "#EFB341"
+  roles:
+  - MaintenanceWorker
+  - LogisticsOfficer
+  - TrainYardWorker
+
+- type: department
+  id: CivilServices
+  name: department-CivilServices
+  description: department-CivilServices-description
+  color: "#52B4E9"
+  roles:
+  - CivilWorker
+  - CivilMedicalWorker
+  - UnionRepresentative
+
+- type: department
+  id: Resistance
+  name: department-Resistance
+  description: department-Resistance-description
+  color: "#DE3A3A"
+  weight: 20
+  roles:
+  - LambdaCellMember
+  - ResistanceScout
+  - LambdaCellLeader

@@ -34,6 +34,15 @@ chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
      [true] {CAPITALIZE($entityName)} {$message}[/italic]
     }
 
+# #Misfits Change - wrap name in [Name] tags so client can apply chat name color
+# #Misfits Fix - Capitalize "The" for sentence-start emote messages when no ID is present
+chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
+    *[false] The [Name]{$entityName}[/Name] {$message}[/italic]
+     [true] [Name]{$entityName}[/Name] {$message}[/italic]
+    }
+
+chat-manager-entity-do-wrap-message = [italic]{$message}[/italic]
+
 chat-manager-entity-looc-wrap-message = LOOC: [bold]{$entityName}:[/bold] {$message}
 chat-manager-send-ooc-wrap-message = OOC: [bold]{$playerName}:[/bold] {$message}
 chat-manager-send-ooc-patron-wrap-message = OOC: [bold][color={$patronColor}]{$playerName}[/color]:[/bold] {$message}
