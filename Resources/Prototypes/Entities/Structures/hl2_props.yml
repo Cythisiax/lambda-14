@@ -1,0 +1,312 @@
+# #Misfits Change - HL2 Prop & Structure Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== FURNITURE =====
+- type: entity
+  name: chair
+  parent: BaseItem
+  id: ChairHL2
+  description: A simple wooden chair.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/chairs.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: bed
+  parent: BaseItem
+  id: BedHL2
+  description: A cot for sleeping.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/beds.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: bench
+  parent: BaseItem
+  id: BenchHL2
+  description: A wooden bench.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/bench.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: cabinet
+  parent: BaseItem
+  id: CabinetHL2
+  description: A metal storage cabinet.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/cabinets.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== CONTAINERS =====
+- type: entity
+  name: barrel
+  parent: BaseItem
+  id: BarrelHL2
+  description: A standard metal barrel.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/barrels.rsi
+    state: grey_1
+
+- type: entity
+  name: dumpster
+  parent: BaseItem
+  id: DumpsterHL2
+  description: A large metal dumpster.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/dumpster.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: crate
+  parent: BaseItem
+  id: CrateHL2
+  description: A wooden shipping crate.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/storage/crates.rsi
+    state: icon
+
+# ===== DEFENSES =====
+- type: entity
+  name: sandbag
+  parent: BaseItem
+  id: SandbagHL2
+  description: A stack of sandbags for cover.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/sandbags.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: barbed wire
+  parent: BaseItem
+  id: BarbedWireHL2
+  description: Sharp barbed wire coils.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/barbedwire.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: barrier
+  parent: BaseItem
+  id: BarrierHL2
+  description: A concrete barrier.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/barriers.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: fence
+  parent: BaseItem
+  id: FenceHL2
+  description: A chainlink fence section.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/fences.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== CITY PROPS =====
+- type: entity
+  name: street lamp
+  parent: BaseItem
+  id: StreetLampHL2
+  description: A tall street lamp.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/streetlamps.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: manhole cover
+  parent: BaseItem
+  id: ManholeHL2
+  description: A heavy metal manhole cover.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clutter.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: sign
+  parent: BaseItem
+  id: SignHL2
+  description: A directional signpost.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/signs.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: television
+  parent: BaseItem
+  id: TelevisionHL2
+  description: An old CRT television.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/television.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: breencast monitor
+  parent: BaseItem
+  id: BreencastMonitor
+  description: A large Combine propaganda monitor displaying Dr. Breen's announcements.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/breencast.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: workbench
+  parent: BaseItem
+  id: WorkbenchHL2
+  description: A sturdy workbench for crafting and repairs.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/workbenches.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== LADDERS & STAIRS =====
+- type: entity
+  name: ladder
+  parent: BaseItem
+  id: LadderHL2
+  description: A metal ladder.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/ladders.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: stairs
+  parent: BaseItem
+  id: StairsHL2
+  description: A concrete stairway.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/stairs.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: catwalk
+  parent: BaseItem
+  id: CatwalkHL2
+  description: A metal catwalk section.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/catwalk.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== DOORS =====
+- type: entity
+  name: door
+  parent: BaseItem
+  id: DoorHL2
+  description: A heavy metal door.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/mojavedoors.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== WINDOWS =====
+- type: entity
+  name: window
+  parent: BaseItem
+  id: WindowHL2
+  description: A pane of glass.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/windows.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== CABLES / PIPES =====
+- type: entity
+  name: pipes
+  parent: BaseItem
+  id: PipesHL2
+  description: Industrial piping.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/pipes.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== LIGHTING =====
+- type: entity
+  name: light fixture
+  parent: BaseItem
+  id: LightFixtureHL2
+  description: A wall-mounted light fixture.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/lighting.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+  - type: PointLight
+    radius: 8
+    energy: 1.5
+    color: "#FFE082"
+
+# ===== WALL PLACARD / POSTER =====
+- type: entity
+  name: poster
+  parent: BaseItem
+  id: PosterHL2
+  description: A Combine propaganda poster.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/poster.rsi
+    state: icon
+  - type: Transform
+    anchored: true
