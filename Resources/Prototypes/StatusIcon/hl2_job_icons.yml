@@ -1,0 +1,161 @@
+# #Misfits Change - HL2 Job Icons
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCivilProtectionOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CPOfficer
+  jobName: job-name-cpofficer
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCivilProtectionSergeant
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CPSergeant
+  jobName: job-name-cpsergeant
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCivilProtectionCaptain
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CPCaptain
+  jobName: job-name-cpcaptain
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOverwatchOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: OverwatchOfficer
+  jobName: job-name-ovwatch-officer
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCombineSoldier
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CombineSoldier
+  jobName: job-name-combine-soldier
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconEliteSoldier
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: EliteSoldier
+  jobName: job-name-elite-soldier
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHunterSeeker
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: HunterSeeker
+  jobName: job-name-hunter-seeker
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOverwatchAdmin
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: OverwatchAdmin
+  jobName: job-name-ovwatch-admin
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOverwatchOperator
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: OverwatchOperator
+  jobName: job-name-ovwatch-operator
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMaintenanceWorker
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: MaintenanceWorker
+  jobName: job-name-maintenance
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconLogisticsOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: LogisticsOfficer
+  jobName: job-name-logistics
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconTrainYardWorker
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: TrainYardWorker
+  jobName: job-name-train-yard
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCivilWorker
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CivilWorker
+  jobName: job-name-civil-worker
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCivilMedical
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: CivilMedical
+  jobName: job-name-civil-medic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUnionRep
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: UnionRep
+  jobName: job-name-union-rep
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCitizen
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: Citizen
+  jobName: job-name-citizen
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRefugee
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: Refugee
+  jobName: job-name-refugee
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconLambdaCell
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: LambdaCell
+  jobName: job-name-lambda-cell
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconResistanceScout
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: ResistanceScout
+  jobName: job-name-resistance-scout
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconLambdaLeader
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons_hl2.rsi
+    state: LambdaLeader
+  jobName: job-name-lambda-leader
