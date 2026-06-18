@@ -1,0 +1,170 @@
+# #Misfits Change - HL2 Weapon & Item Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== STUN BATON =====
+- type: entity
+  parent: BaseItem
+  id: WeaponStunBatonHL2
+  name: stun baton
+  description: A standard-issue Civil Protection stun baton.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/baton.rsi
+    state: stunbaton_active
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcPunch
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 5
+  - type: Stunbaton
+    energy: 100
+    maxEnergy: 100
+
+# ===== MELEE WEAPONS =====
+- type: entity
+  parent: BaseItem
+  id: WeaponCrowbarHL2
+  name: crowbar
+  description: A standard crowbar, useful for prying open crates and stunning opponents.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/melee.rsi
+    state: tireiron
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcPunch
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 8
+        Structural: 10
+
+- type: entity
+  parent: BaseItem
+  id: WeaponMachete
+  name: machete
+  description: A sharpened scrap blade.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/melee.rsi
+    state: machete_scrap
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcPunch
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 12
+
+# ===== GRENADES / THROWABLES =====
+- type: entity
+  parent: BaseItem
+  id: GrenadeFlashbangHL2
+  name: flashbang
+  description: A blinding and disorienting explosive.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/grenade.rsi
+    state: flashbang
+
+- type: entity
+  parent: BaseItem
+  id: GrenadeFragHL2
+  name: fragmentation grenade
+  description: A standard fragmentation grenade.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/grenade.rsi
+    state: bouncer
+
+# ===== MANHACK =====
+- type: entity
+  parent: BaseItem
+  id: ManhackHL2
+  name: manhack
+  description: A flying autonomous circular saw blade. Deployed by Combine forces.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/grenade.rsi
+    state: manhack
+
+# ===== MEDICAL ITEMS =====
+- type: entity
+  parent: BaseItem
+  id: MedkitHL2
+  name: medkit
+  description: A Combine-issue medical kit for treating injuries.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/medkits.rsi
+    state: medkit
+  - type: MedicalItem
+    heal:
+      types:
+        Brute: 30
+        Burn: 20
+
+- type: entity
+  parent: BaseItem
+  id: HealthPenHL2
+  name: health pen
+  description: A rapid-injection health pen for quick field treatment.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/medkits.rsi
+    state: healthpen
+  - type: MedicalItem
+    heal:
+      types:
+        Brute: 15
+
+# ===== FUEL CELL / ENERGY CELL =====
+- type: entity
+  parent: BaseItem
+  id: CombineEnergyCell
+  name: energy cell
+  description: A portable Combine power cell.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/fuel_cell.rsi
+    state: cell-full
+  - type: PowerCell
+    maxCharge: 100
+
+# ===== BARRELS (Explosive) =====
+- type: entity
+  parent: BaseItem
+  id: ExplosiveBarrelHL2
+  name: explosive barrel
+  description: A highly flammable barrel. Keep away from open flames.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/barrels.rsi
+    state: red_1
+
+# ===== SHIELD (Combine Charger/Wallhammer) =====
+- type: entity
+  parent: BaseItem
+  id: CombineShield
+  name: wallhammer shield
+  description: A heavy forearm-mounted force shield generator used by Combine Charger units.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/shields.rsi
+    state: wallhammer
+
+# ===== COMBINE RADIO =====
+- type: entity
+  parent: BaseItem
+  id: CombineRadio
+  name: Combine radio
+  description: A handheld radio for Combine communications.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/radio.rsi
+    state: icon
+  - type: Radio
+    channels:
+    - Security
