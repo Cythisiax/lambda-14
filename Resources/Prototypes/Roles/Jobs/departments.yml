@@ -30,6 +30,8 @@
   - Reporter
   - Visitor
   - ServiceWorker
+  - Citizen
+  - Refugee
 
 - type: department
   id: CentralCommand
