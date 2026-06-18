@@ -30,9 +30,12 @@ job-name-cpsergeant = [CP-SGT] Civil Protection Sergeant
 job-name-cpcaptain = [CP-CPT] Civil Protection Captain
 job-name-ovwatch-officer = [OW-IA] Overwatch Officer
 
+job-name-combine-grunt = [TA-G] Combine Grunt
 job-name-combine-soldier = [TA-S] Combine Soldier
 job-name-elite-soldier = [TA-E] Elite Soldier
+job-name-combine-ordinal = [TA-O] Combine Ordinal
 job-name-hunter-seeker = [TA-H] Hunter-Seeker Operator
+job-name-combine-worker = [TA-W] Combine Worker
 
 job-name-ovwatch-admin = [OW-ADM] Overwatch Administrator
 job-name-ovwatch-operator = [OW-OP] Overwatch Operator
@@ -58,7 +61,10 @@ job-description-cpsergeant = Lead a squad of Civil Protection officers. Coordina
 job-description-cpcaptain = Command the Civil Protection forces in your sector. Report directly to Overwatch administration.
 job-description-ovwatch-officer = Monitor Civil Protection for compliance. Report internal breaches and ensure loyalty to the Universal Union.
 
+job-description-combine-grunt = A freshly-converted transhuman soldier. Perform patrol duty outside city walls and support CP units when needed.
 job-description-combine-soldier = You are the fist of the Universal Union. Deploy to neutralize threats that exceed Civil Protection capabilities.
+job-description-combine-ordinal = Lead squads of Combine soldiers into combat. Deploy manhacks and coordinate tactical responses against Resistance activity.
+job-description-combine-worker = Maintain Combine infrastructure as a non-combat worker. Repair equipment, construct barriers, and keep the war machine running.
 job-description-elite-soldier = An enhanced transhuman warrior. You lead critical assaults and guard high-value Combine assets.
 job-description-hunter-seeker = Operate and maintain Combine Hunter-Synth units and surveillance drones. Support ground forces from a technical vantage.
 

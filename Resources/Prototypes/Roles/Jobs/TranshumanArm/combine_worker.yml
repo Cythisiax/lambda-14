@@ -1,0 +1,22 @@
+# #Misfits Change - HL2 Combine Worker (non-combat maintenance)
+- type: job
+  id: CombineWorker
+  name: job-name-combine-worker
+  description: job-description-combine-worker
+  playTimeTracker: JobCombineWorker
+  startingGear: CombineWorkerGear
+  icon: "JobIconMaintenanceWorker"
+  supervisors: job-supervisors-logistics
+  access:
+  - Logistics
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: CombineWorkerGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    gloves: ClothingHandsGlovesLeather
+    head: ClothingHeadHatHardhat
+    ears: ClothingHeadsetEngineering
+    id: ClothingHeadsetEngineering

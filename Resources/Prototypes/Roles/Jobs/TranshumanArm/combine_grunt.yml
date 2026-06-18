@@ -1,0 +1,24 @@
+# #Misfits Change - HL2 Combine Grunt (lower transhuman soldier)
+- type: job
+  id: CombineGrunt
+  name: job-name-combine-grunt
+  description: job-description-combine-grunt
+  playTimeTracker: JobCombineGrunt
+  startingGear: CombineGruntGear
+  icon: "JobIconCombineSoldier"
+  supervisors: job-supervisors-transhuman
+  access:
+  - TranshumanArm
+  - CityExternal
+  - Cryogenics
+
+- type: startingGear
+  id: CombineGruntGear
+  equipment:
+    uniform: ClothingUniformJumpsuitCombine
+    head: ClothingHeadHelmetCombine
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCp
+    id: ClothingHeadsetSecurity

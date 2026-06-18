@@ -17,9 +17,12 @@
   description: department-TranshumanArm-description
   color: "#8B0000"
   roles:
+  - CombineGrunt
   - CombineSoldier
   - EliteSoldier
+  - CombineOrdinal
   - HunterSeekerOperator
+  - CombineWorker
 
 - type: department
   id: Overwatch

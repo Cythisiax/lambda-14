@@ -1,0 +1,31 @@
+# #Misfits Change - HL2 Combine Ordinal (squad leader)
+- type: job
+  id: CombineOrdinal
+  name: job-name-combine-ordinal
+  description: job-description-combine-ordinal
+  playTimeTracker: JobCombineOrdinal
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: TranshumanArm
+      time: 8h
+  startingGear: CombineOrdinalGear
+  icon: "JobIconEliteSoldier"
+  supervisors: job-supervisors-transhuman
+  access:
+  - TranshumanArm
+  - TranshumanArmCommand
+  - CityExternal
+  - Armory
+  - Brig
+  - Cryogenics
+
+- type: startingGear
+  id: CombineOrdinalGear
+  equipment:
+    uniform: ClothingUniformJumpsuitCombine
+    head: ClothingHeadHelmetCombine
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsCp
+    id: ClothingHeadsetSecurity
