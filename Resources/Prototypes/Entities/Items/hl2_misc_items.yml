@@ -1,0 +1,309 @@
+# #Misfits Change - HL2 Consumable, ID & Misc Item Prototypes
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== CONSUMABLES =====
+- type: entity
+  name: food
+  parent: BaseItem
+  id: FoodHL2
+  description: A ration portion.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/food.rsi
+    state: icon
+
+- type: entity
+  name: drink
+  parent: BaseItem
+  id: DrinkHL2
+  description: A beverage container.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/drinks.rsi
+    state: icon
+
+- type: entity
+  name: bottle
+  parent: BaseItem
+  id: BottleHL2
+  description: A glass bottle.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/bottles.rsi
+    state: icon
+
+# ===== IDENTITY & ACCESS =====
+- type: entity
+  name: ID card
+  parent: BaseItem
+  id: IDCardHL2
+  description: A Combine-issued identification card.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/ID.rsi
+    state: icon
+
+- type: entity
+  name: key
+  parent: BaseItem
+  id: KeyHL2
+  description: A metal key.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/keys.rsi
+    state: icon
+
+- type: entity
+  name: lock
+  parent: BaseItem
+  id: LockHL2
+  description: A heavy padlock.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/locks.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== CURRENCY =====
+- type: entity
+  name: ration credit
+  parent: BaseItem
+  id: CreditHL2
+  description: A Combine-issued ration credit token.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/currency.rsi
+    state: icon
+
+# ===== MATERIALS =====
+- type: entity
+  name: scrap material
+  parent: BaseItem
+  id: MaterialHL2
+  description: A pile of scrap materials.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/materials.rsi
+    state: icon
+
+- type: entity
+  name: stacked objects
+  parent: BaseItem
+  id: StackObjectsHL2
+  description: A stack of objects.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/stack_objects.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== SMOKEABLES =====
+- type: entity
+  name: cigarettes (inventory)
+  parent: BaseItem
+  id: SmokeablesInventoryHL2
+  description: A pack of cigarettes.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/smokeables_inventory.rsi
+    state: icon
+
+# ===== FLORA =====
+- type: entity
+  name: plant
+  parent: BaseItem
+  id: FloraHL2
+  description: A potted plant.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/flora.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: large plant
+  parent: BaseItem
+  id: FloraLargeHL2
+  description: A large plant.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/flora96x96.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: tree
+  parent: BaseItem
+  id: TreeHL2
+  description: A tree.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/trees.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: xen flora
+  parent: BaseItem
+  id: XenFloraHL2
+  description: An alien plant from Xen.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/xenflora.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== MACHINES & EQUIPMENT =====
+- type: entity
+  name: machine
+  parent: BaseItem
+  id: MachineHL2
+  description: A generic machine.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/machines.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: fusion engine
+  parent: BaseItem
+  id: FusionEngineHL2
+  description: A Combine fusion power engine.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/fusion_engine.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: nuclear device
+  parent: BaseItem
+  id: NukeHL2
+  description: A hazardous nuclear device.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/nuke.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: repair pod
+  parent: BaseItem
+  id: RepairPodHL2
+  description: A Combine repair pod.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/repairpod.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: deployment terminal
+  parent: BaseItem
+  id: DeploymentTerminalHL2
+  description: A Combine deployment data terminal.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/deployment_dataterminal.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: factory construction
+  parent: BaseItem
+  id: FactoryConstructionHL2
+  description: Factory construction materials.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/factory_construction.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: ration dispenser
+  parent: BaseItem
+  id: RationConstructionHL2
+  description: A Combine ration dispenser under construction.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/ration_construction.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== STREET PROPS =====
+- type: entity
+  name: street sign
+  parent: BaseItem
+  id: StreetSignHL2
+  description: A street name sign.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/street_signs.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: street pole
+  parent: BaseItem
+  id: StreetPoleHL2
+  description: A metal street pole.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/streetpoles.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+# ===== FIRE & LIGHTING =====
+- type: entity
+  name: fire
+  parent: BaseItem
+  id: FireObjectHL2
+  description: A fire hazard.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/fires.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+  - type: PointLight
+    radius: 6
+    energy: 1.5
+    color: "#FF6F00"
+
+- type: entity
+  name: lighting overlay
+  parent: BaseItem
+  id: LightingOverlayHL2
+  description: A lighting effect overlay.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/lighting_overlay.rsi
+    state: icon
+  - type: Transform
+    anchored: true
+
+- type: entity
+  name: hopper mine
+  parent: BaseItem
+  id: HopperMineHL2
+  description: A Combine hopper mine — it jumps and explodes.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/hoppermines.rsi
+    state: icon
