@@ -1,0 +1,23 @@
+# #Misfits Change - HL2 Civil Medical Worker
+- type: job
+  id: CivilMedicalWorker
+  name: job-name-civil-medic
+  description: job-description-civil-medic
+  playTimeTracker: JobCivilMedicalWorker
+  startingGear: CivilMedicGear
+  icon: "JobIconCivilMedical"
+  supervisors: job-supervisors-civil
+  access:
+  - CivilServices
+  - Medical
+  - Cryogenics
+
+- type: startingGear
+  id: CivilMedicGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    gloves: ClothingHandsGlovesLatex
+    id: CivilPasscard
+  storage:
+    back:
+    - Medkit

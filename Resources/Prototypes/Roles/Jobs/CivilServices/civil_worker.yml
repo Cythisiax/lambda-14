@@ -1,0 +1,20 @@
+# #Misfits Change - HL2 Civil Worker
+- type: job
+  id: CivilWorker
+  name: job-name-civil-worker
+  description: job-description-civil-worker
+  playTimeTracker: JobCivilWorker
+  startingGear: CivilWorkerGear
+  icon: "JobIconCivilWorker"
+  supervisors: job-supervisors-civil
+  access:
+  - CivilServices
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: CivilWorkerGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    gloves: ClothingHandsGlovesWork
+    id: CivilPasscard

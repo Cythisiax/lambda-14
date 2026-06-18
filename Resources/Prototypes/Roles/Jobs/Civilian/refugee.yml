@@ -1,0 +1,16 @@
+# #Misfits Change - HL2 Refugee
+- type: job
+  id: Refugee
+  name: job-name-refugee
+  description: job-description-refugee
+  playTimeTracker: JobRefugee
+  startingGear: RefugeeGear
+  icon: "JobIconRefugee"
+  supervisors: job-supervisors-civil
+  access:
+  - Cryogenics
+
+- type: startingGear
+  id: RefugeeGear
+  equipment:
+    id: CitizenPasscard

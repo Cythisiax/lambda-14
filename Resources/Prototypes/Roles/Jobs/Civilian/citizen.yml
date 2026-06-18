@@ -1,0 +1,16 @@
+# #Misfits Change - HL2 Citizen
+- type: job
+  id: Citizen
+  name: job-name-citizen
+  description: job-description-citizen
+  playTimeTracker: JobCitizen
+  startingGear: CitizenGear
+  icon: "JobIconCitizen"
+  supervisors: job-supervisors-civil
+  access:
+  - Cryogenics
+
+- type: startingGear
+  id: CitizenGear
+  equipment:
+    id: CitizenPasscard

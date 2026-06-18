@@ -1,0 +1,18 @@
+# #Misfits Change - HL2 Union Representative
+- type: job
+  id: UnionRepresentative
+  name: job-name-union-rep
+  description: job-description-union-rep
+  playTimeTracker: JobUnionRepresentative
+  startingGear: UnionRepGear
+  icon: "JobIconUnionRep"
+  supervisors: job-supervisors-civil
+  access:
+  - CivilServices
+  - CivilProtection
+  - Cryogenics
+
+- type: startingGear
+  id: UnionRepGear
+  equipment:
+    id: CivilPasscard
