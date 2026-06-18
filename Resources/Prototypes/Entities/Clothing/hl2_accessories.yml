@@ -1,0 +1,10 @@
+# #Misfits Change - HL2 Accessories & Misc
+- type: entity
+  name: accessory
+  parent: BaseItem
+  id: AccessoryHL2
+  description: A wearable accessory.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/accessories.rsi
+    state: icon
