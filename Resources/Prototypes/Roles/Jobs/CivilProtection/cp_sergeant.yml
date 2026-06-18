@@ -1,0 +1,36 @@
+# #Misfits Change - HL2 Civil Protection Sergeant
+- type: job
+  id: CivilProtectionSergeant
+  name: job-name-cpsergeant
+  description: job-description-cpsergeant
+  playTimeTracker: JobCivilProtectionSergeant
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CivilProtection
+      time: 8h
+  startingGear: CPSergeantGear
+  icon: "JobIconCivilProtectionSergeant"
+  supervisors: job-supervisors-cp
+  access:
+  - CivilProtection
+  - CivilProtectionCommand
+  - CityExternal
+  - Maintenance
+  - Cryogenics
+  - Armory
+
+- type: startingGear
+  id: CPSergeantGear
+  equipment:
+    head: ClothingHeadHatCpHelmet
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCivilProtection
+    gloves: ClothingHandsGlovesLeather
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterVestCp
+    id: CPSergeantPasscard
+    pocket1: WeaponStunbaton
+  storage:
+    back:
+    - Flash
+    - WeaponPistolMk58

@@ -1,0 +1,37 @@
+# #Misfits Change - HL2 Civil Protection Captain
+- type: job
+  id: CivilProtectionCaptain
+  name: job-name-cpcaptain
+  description: job-description-cpcaptain
+  playTimeTracker: JobCivilProtectionCaptain
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CivilProtection
+      time: 24h
+  startingGear: CPCaptainGear
+  icon: "JobIconCivilProtectionCaptain"
+  supervisors: job-supervisors-ovwatch
+  access:
+  - CivilProtection
+  - CivilProtectionCommand
+  - CityExternal
+  - Maintenance
+  - Armory
+  - Brig
+  - Cryogenics
+
+- type: startingGear
+  id: CPCaptainGear
+  equipment:
+    head: ClothingHeadHatCpCaptain
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCivilProtection
+    gloves: ClothingHandsGlovesLeather
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterVestCp
+    id: CPCaptainPasscard
+    pocket1: WeaponStunbaton
+  storage:
+    back:
+    - WeaponPistolMk58
+    - Flash

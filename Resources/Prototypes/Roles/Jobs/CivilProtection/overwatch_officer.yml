@@ -1,0 +1,34 @@
+# #Misfits Change - HL2 Overwatch Officer (Internal Affairs)
+- type: job
+  id: OverwatchOfficer
+  name: job-name-ovwatch-officer
+  description: job-description-ovwatch-officer
+  playTimeTracker: JobOverwatchOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CivilProtection
+      time: 16h
+  startingGear: OverwatchOfficerGear
+  icon: "JobIconOverwatchOfficer"
+  supervisors: job-supervisors-ovwatch
+  access:
+  - CivilProtection
+  - CivilProtectionCommand
+  - Overwatch
+  - Brig
+  - Cryogenics
+  - Maintenance
+
+- type: startingGear
+  id: OverwatchOfficerGear
+  equipment:
+    head: ClothingHeadHatOverwatch
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCivilProtection
+    gloves: ClothingHandsGlovesLeather
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterVestOverwatch
+    id: OverwatchPasscard
+  storage:
+    back:
+    - WeaponPistolMk58

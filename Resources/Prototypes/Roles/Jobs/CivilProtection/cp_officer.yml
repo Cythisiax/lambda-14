@@ -1,0 +1,29 @@
+# #Misfits Change - HL2 Civil Protection Officer
+- type: job
+  id: CivilProtectionOfficer
+  name: job-name-cpofficer
+  description: job-description-cpofficer
+  playTimeTracker: JobCivilProtectionOfficer
+  startingGear: CPOfficerGear
+  icon: "JobIconCivilProtectionOfficer"
+  supervisors: job-supervisors-cp
+  access:
+  - CivilProtection
+  - CityExternal
+  - Maintenance
+  - Cryogenics
+
+- type: startingGear
+  id: CPOfficerGear
+  equipment:
+    head: ClothingHeadHatCpHat
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetCivilProtection
+    gloves: ClothingHandsGlovesLeather
+    shoes: ClothingShoesBootsCombat
+    outerClothing: ClothingOuterVestCp
+    id: CPPasscard
+    pocket1: WeaponStunbaton
+  storage:
+    back:
+    - Flash
