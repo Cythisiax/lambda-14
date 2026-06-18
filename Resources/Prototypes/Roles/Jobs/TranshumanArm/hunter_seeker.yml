@@ -16,10 +16,12 @@
 - type: startingGear
   id: HunterSeekerGear
   equipment:
+    uniform: ClothingUniformJumpsuitCombine
     head: ClothingHeadHelmetCombine
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCombine
+    ears: ClothingHeadsetSecurity
     gloves: ClothingHandsGlovesCombat
-    shoes: ClothingShoesBootsCombat
+    shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterArmorCombine
-    id: CombinePasscard
+    mask: ClothingMaskGasCp
+    id: ClothingHeadsetSecurity

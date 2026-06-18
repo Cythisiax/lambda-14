@@ -24,13 +24,14 @@
   equipment:
     head: ClothingHeadHatCpHelmet
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCivilProtection
-    gloves: ClothingHandsGlovesLeather
-    shoes: ClothingShoesBootsCombat
-    outerClothing: ClothingOuterVestCp
-    id: CPSergeantPasscard
-    pocket1: WeaponStunbaton
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesCp
+    shoes: ClothingShoesBootsCp
+    outerClothing: ClothingOuterVestCpMetropolice
+    mask: ClothingMaskGasCp
+    id: ClothingHeadsetSecurity
   storage:
     back:
     - Flash
     - WeaponPistolMk58
+    pocket1: WeaponStunbaton

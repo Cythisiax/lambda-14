@@ -16,8 +16,9 @@
   id: CivilMedicGear
   equipment:
     shoes: ClothingShoesBootsWork
-    gloves: ClothingHandsGlovesLatex
-    id: CivilPasscard
+    gloves: ClothingHandsGlovesLeather
+    outerClothing: ClothingOuterLabcoat
+    id: ClothingHeadsetMedical
   storage:
     back:
     - Medkit

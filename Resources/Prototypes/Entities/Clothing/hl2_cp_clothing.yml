@@ -1,0 +1,471 @@
+# #Misfits Change - HL2 Civil Protection Clothing Items
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== HEADGEAR =====
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCpCap
+  name: CP cap
+  description: A standard-issue Civil Protection cap with the Universal Union insignia.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: military
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: milhelm
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCpHelmet
+  name: CP helmet
+  description: A reinforced Civil Protection helmet with visor.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: milhelm
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: military
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    layers:
+      HeadTop: HEAD
+      HeadSide: HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCpCaptain
+  name: CP captain cap
+  description: A distinguished cap worn by Civil Protection Captains.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: beret
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: beret
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatOverwatch
+  name: Overwatch beret
+  description: A crisp beret denoting Overwatch division membership.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: beret
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: beret
+  - type: HideLayerClothing
+    layers:
+      HeadTop: HEAD
+      HeadSide: HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetCombine
+  name: Combine helmet
+  description: Full-face helmet issued to Combine Transhuman Arm soldiers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: steel_helmet
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: steel_helmet
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+  - type: HideLayerClothing
+    layers:
+      HeadTop: HEAD
+      HeadSide: HEAD
+      Hair: HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetElite
+  name: elite Combine helmet
+  description: An advanced enclosed helmet for Elite Transhuman soldiers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: steel_helmet
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: steel_helmet
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.85
+        Heat: 0.9
+  - type: HideLayerClothing
+    layers:
+      HeadTop: HEAD
+      HeadSide: HEAD
+      Hair: HEAD
+      Head: HEAD
+
+# ===== MASKS =====
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGasCp
+  name: CP gas mask
+  description: A standard gas mask issued to Civil Protection units.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/masks.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/masks.rsi
+    clothingVisuals:
+      mask:
+      - state: civilprotection
+  - type: BreathMask
+  - type: IngestionBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGasOverwatch
+  name: Overwatch gas mask
+  description: A sleek respirator for Overwatch division personnel.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/masks.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _HL2/mob/clothing/masks.rsi
+    clothingVisuals:
+      mask:
+      - state: overwatch
+  - type: BreathMask
+
+# ===== UNIFORMS =====
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCp
+  name: CP uniform
+  description: Standard-issue Civil Protection uniform, dark blue with utility pockets.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: civilprotection
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCpElite
+  name: elite CP uniform
+  description: An upgraded Civil Protection uniform with reinforced stitching.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: elitecivilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: elitecivilprotection
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitOverwatch
+  name: Overwatch uniform
+  description: A sharp grey uniform worn by Overwatch administration.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: overwatch
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCombine
+  name: Combine bodyglove
+  description: A skin-tight transhuman combat bodyglove.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: grunt
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: grunt
+
+# ===== OUTER CLOTHING =====
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestCp
+  name: CP vest
+  description: A standard-issue Civil Protection armoured vest.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: civilprotection
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestCpMetropolice
+  name: metropolice coat
+  description: A heavy trenchcoat worn by Metro Police units.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: metropolice
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: metropolice
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestOverwatch
+  name: Overwatch coat
+  description: A sleek grey overcoat bearing Overwatch insignia.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: overwatch
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestOverwatchWhite
+  name: Overwatch white coat
+  description: A white variant Overwatch coat.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: overwatch_white
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: overwatch_white
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestOverwatchRed
+  name: Overwatch red coat
+  description: A red variant Overwatch coat for high-ranking officials.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: overwatch_red
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: overwatch_red
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterArmorCombine
+  name: Combine armor
+  description: Heavy combat armor issued to Combine soldiers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: armor
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: armor
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterArmorElite
+  name: elite Combine armor
+  description: Advanced heavy combat armor for Elite Transhuman soldiers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: armor
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: armor
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestHev
+  name: HEV suit
+  description: A Hazardous Environment Vest with integrated life-support systems.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: hev
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: hev
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestEliteCp
+  name: elite CP vest
+  description: An upgraded armoured vest for elite Civil Protection units.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: elitecpo_vest
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: elitecpo_vest
+
+# ===== SHOES =====
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsCp
+  name: CP boots
+  description: Sturdy combat boots issued to Civil Protection.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/shoes.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/feet.rsi
+    clothingVisuals:
+      shoes:
+      - state: civilprotection
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsOverwatch
+  name: Overwatch boots
+  description: Polished boots worn by Overwatch personnel.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/shoes.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _HL2/mob/clothing/feet.rsi
+    clothingVisuals:
+      shoes:
+      - state: overwatch
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsWork
+  name: work boots
+  description: Heavy-duty leather work boots.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/shoes.rsi
+    state: workboots
+  - type: Clothing
+    sprite: _HL2/mob/clothing/feet.rsi
+    clothingVisuals:
+      shoes:
+      - state: workboots
+
+# ===== GLOVES =====
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesCp
+  name: CP gloves
+  description: Standard-issue Civil Protection gloves.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/gloves.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/hands.rsi
+    clothingVisuals:
+      gloves:
+      - state: civilprotection
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesOverwatch
+  name: Overwatch gloves
+  description: Sleek black Overwatch gloves.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/gloves.rsi
+    state: overwatch
+  - type: Clothing
+    sprite: _HL2/mob/clothing/hands.rsi
+    clothingVisuals:
+      gloves:
+      - state: overwatch
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesCombat
+  name: combat gloves
+  description: Reinforced tactical gloves for combat personnel.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/gloves.rsi
+    state: grunt
+  - type: Clothing
+    sprite: _HL2/mob/clothing/hands.rsi
+    clothingVisuals:
+      gloves:
+      - state: grunt
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesLeather
+  name: leather gloves
+  description: Simple leather gloves for everyday use.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/gloves.rsi
+    state: leather
+  - type: Clothing
+    sprite: _HL2/mob/clothing/hands.rsi
+    clothingVisuals:
+      gloves:
+      - state: leather

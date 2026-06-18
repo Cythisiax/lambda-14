@@ -15,4 +15,6 @@
 - type: startingGear
   id: UnionRepGear
   equipment:
-    id: CivilPasscard
+    uniform: ClothingUniformJumpsuitBlackSuit
+    shoes: ClothingShoesBootsWork
+    id: ClothingHeadsetService

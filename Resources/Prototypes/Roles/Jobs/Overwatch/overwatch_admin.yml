@@ -24,5 +24,7 @@
 - type: startingGear
   id: OverwatchAdminGear
   equipment:
-    ears: ClothingHeadsetOverwatch
-    id: OverwatchAdminPasscard
+    uniform: ClothingUniformJumpsuitOverwatch
+    ears: ClothingHeadsetCommand
+    shoes: ClothingShoesBootsOverwatch
+    id: ClothingHeadsetCommand

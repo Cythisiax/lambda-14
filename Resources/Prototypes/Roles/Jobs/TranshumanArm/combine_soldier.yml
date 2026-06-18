@@ -17,14 +17,15 @@
 - type: startingGear
   id: CombineSoldierGear
   equipment:
+    uniform: ClothingUniformJumpsuitCombine
     head: ClothingHeadHelmetCombine
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCombine
+    ears: ClothingHeadsetSecurity
     gloves: ClothingHandsGlovesCombat
-    shoes: ClothingShoesBootsCombat
+    shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterArmorCombine
-    id: CombinePasscard
-    pocket1: WeaponStunbaton
+    mask: ClothingMaskGasCp
+    id: ClothingHeadsetSecurity
   storage:
     back:
     - WeaponPistolMk58

@@ -21,4 +21,7 @@
 - type: startingGear
   id: LambdaLeaderGear
   equipment:
-    id: ResistanceLeaderPasscard
+    uniform: ClothingUniformJumpsuitRebelBlue
+    shoes: ClothingShoesBootsWork
+    outerClothing: ClothingOuterArmorRebelHeavy
+    head: ClothingHeadHatScoutHat

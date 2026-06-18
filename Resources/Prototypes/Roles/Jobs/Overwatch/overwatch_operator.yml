@@ -19,6 +19,8 @@
 - type: startingGear
   id: OverwatchOperatorGear
   equipment:
-    ears: ClothingHeadsetOverwatch
+    uniform: ClothingUniformJumpsuitOverwatch
+    ears: ClothingHeadsetCommand
     eyes: ClothingEyesGlassesSecurity
-    id: OverwatchPasscard
+    shoes: ClothingShoesBootsOverwatch
+    id: ClothingHeadsetCommand

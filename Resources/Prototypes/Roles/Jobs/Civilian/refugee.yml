@@ -13,4 +13,5 @@
 - type: startingGear
   id: RefugeeGear
   equipment:
-    id: CitizenPasscard
+    uniform: ClothingUniformJumpsuitRefugee
+    shoes: ClothingShoesBootsWork

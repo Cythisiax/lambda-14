@@ -21,8 +21,10 @@
 - type: startingGear
   id: LogisticsOfficerGear
   equipment:
-    ears: ClothingHeadsetLogistics
-    id: LogisticsOfficerPasscard
+    uniform: ClothingUniformJumpsuitBrownSuit
+    shoes: ClothingShoesBootsWork
+    ears: ClothingHeadsetEngineering
+    id: ClothingHeadsetEngineering
   storage:
     back:
     - Crowbar

@@ -24,11 +24,12 @@
   equipment:
     head: ClothingHeadHatOverwatch
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCivilProtection
-    gloves: ClothingHandsGlovesLeather
-    shoes: ClothingShoesBootsCombat
+    ears: ClothingHeadsetCommand
+    gloves: ClothingHandsGlovesOverwatch
+    shoes: ClothingShoesBootsOverwatch
     outerClothing: ClothingOuterVestOverwatch
-    id: OverwatchPasscard
+    mask: ClothingMaskGasOverwatch
+    id: ClothingHeadsetCommand
   storage:
     back:
     - WeaponPistolMk58

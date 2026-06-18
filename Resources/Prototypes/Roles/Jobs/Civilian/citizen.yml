@@ -13,4 +13,5 @@
 - type: startingGear
   id: CitizenGear
   equipment:
-    id: CitizenPasscard
+    uniform: ClothingUniformJumpsuitCitizenBlue
+    shoes: ClothingShoesBootsWork

@@ -16,14 +16,15 @@
 - type: startingGear
   id: CPOfficerGear
   equipment:
-    head: ClothingHeadHatCpHat
+    head: ClothingHeadHatCpHelmet
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCivilProtection
-    gloves: ClothingHandsGlovesLeather
-    shoes: ClothingShoesBootsCombat
+    ears: ClothingHeadsetSecurity
+    gloves: ClothingHandsGlovesCp
+    shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterVestCp
-    id: CPPasscard
-    pocket1: WeaponStunbaton
+    mask: ClothingMaskGasCp
+    id: ClothingHeadsetSecurity
   storage:
     back:
     - Flash
+    - WeaponStunbaton

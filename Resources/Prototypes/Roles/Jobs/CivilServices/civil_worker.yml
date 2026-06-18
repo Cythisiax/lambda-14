@@ -16,5 +16,7 @@
   id: CivilWorkerGear
   equipment:
     shoes: ClothingShoesBootsWork
-    gloves: ClothingHandsGlovesWork
-    id: CivilPasscard
+    gloves: ClothingHandsGlovesLeather
+    head: ClothingHeadHatHardhat
+    outerClothing: ClothingOuterVestCleanup
+    id: ClothingHeadsetService

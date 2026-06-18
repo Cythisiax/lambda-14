@@ -16,9 +16,10 @@
   id: MaintenanceGear
   equipment:
     shoes: ClothingShoesBootsWork
-    gloves: ClothingHandsGlovesWork
-    ears: ClothingHeadsetLogistics
-    id: LogisticsPasscard
+    gloves: ClothingHandsGlovesLeather
+    head: ClothingHeadHatHardhat
+    ears: ClothingHeadsetEngineering
+    id: ClothingHeadsetEngineering
   storage:
     back:
     - Crowbar

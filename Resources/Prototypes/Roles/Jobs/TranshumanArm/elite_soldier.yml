@@ -23,13 +23,15 @@
 - type: startingGear
   id: EliteSoldierGear
   equipment:
+    uniform: ClothingUniformJumpsuitCombine
     head: ClothingHeadHelmetElite
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetCombine
+    ears: ClothingHeadsetSecurity
     gloves: ClothingHandsGlovesCombat
-    shoes: ClothingShoesBootsCombat
+    shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterArmorElite
-    id: ElitePasscard
+    mask: ClothingMaskGasCp
+    id: ClothingHeadsetSecurity
   storage:
     back:
     - WeaponPistolMk58

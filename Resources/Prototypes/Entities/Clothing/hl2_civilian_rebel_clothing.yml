@@ -1,0 +1,393 @@
+# #Misfits Change - HL2 Civilian and Rebel Clothing Items
+# Sprites ported from halflife-episode13 (Marmio64)
+
+# ===== CIVILIAN UNIFORMS =====
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCitizenBlue
+  name: citizen blue uniform
+  description: A plain blue citizen's jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: citizenblue
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: citizenblue
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRefugee
+  name: refugee rags
+  description: Tattered clothing worn by a displaced refugee.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: refugee
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: refugee
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPrisoner
+  name: prisoner uniform
+  description: A drab orange prisoner jumpsuit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: prisoner
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: prisoner
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFormal
+  name: formal suit
+  description: A well-tailored formal suit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: formal
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: formal
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBrownSuit
+  name: brown suit
+  description: A comfortable brown suit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: brownsuit
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: brownsuit
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlackSuit
+  name: black suit
+  description: A sharp black suit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: blacksuit
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: blacksuit
+
+# ===== CIVILIAN OUTER =====
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestBrownOver
+  name: brown overcoat
+  description: A durable brown overcoat.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: brownover
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: brownover
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestBlueJacket
+  name: blue jacket
+  description: A simple blue work jacket.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: bluejacket
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: bluejacket
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestGreenJacket
+  name: green jacket
+  description: A weather-beaten green jacket.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: greenjacket
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: greenjacket
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestWhiteJacket
+  name: white jacket
+  description: A clean white jacket.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: whitejacket
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: whitejacket
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLabcoat
+  name: lab coat
+  description: A standard white medical lab coat.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: labcoat
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: labcoat
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestCleanup
+  name: cleanup vest
+  description: A hi-vis vest for sanitation and cleanup workers.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: cleanup
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: cleanup
+
+# ===== CIVILIAN HEAD =====
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHardhat
+  name: hard hat
+  description: A standard yellow hard hat for industrial work.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: hardhat
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: hardhat
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeanie
+  name: beanie
+  description: A warm knitted beanie.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: beanie_base
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: beanie_base
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatScoutHat
+  name: scout hat
+  description: A rugged bush hat for outdoor work.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/hats.rsi
+    state: scouthat
+  - type: Clothing
+    sprite: _HL2/mob/clothing/head.rsi
+    clothingVisuals:
+      head:
+      - state: scouthat
+
+# ===== REBEL UNIFORMS =====
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRebelBlue
+  name: rebel blue uniform
+  description: Makeshift blue combat fatigues worn by resistance fighters.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: rebelblue
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: rebelblue
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRebelPrisoner
+  name: rebel disguise uniform
+  description: A worn prisoner-style uniform, used as a disguise.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/uniforms.rsi
+    state: rebelprisoner
+  - type: Clothing
+    sprite: _HL2/mob/clothing/uniform.rsi
+    clothingVisuals:
+      uniform:
+      - state: rebelprisoner
+
+# ===== REBEL OUTER =====
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterArmorRebelHeavy
+  name: heavy rebel armor
+  description: Makeshift heavy armor cobbled together by the resistance.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: rebelarmor_heavy
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: rebelarmor_heavy
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterArmorRebelLight
+  name: light rebel armor
+  description: Lightweight improvised armor for resistance scouts.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: rebelarmor_light
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: rebelarmor_light
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterVestMilVest
+  name: military vest
+  description: A surplus military vest.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/suits.rsi
+    state: milvest
+  - type: Clothing
+    sprite: _HL2/mob/clothing/suit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: milvest
+
+# ===== BACKPACKS =====
+- type: entity
+  parent: ClothingBackpackBase
+  id: ClothingBackpackCp
+  name: CP backpack
+  description: A standard-issue Civil Protection backpack.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/backpack.rsi
+    state: civilprotection
+  - type: Clothing
+    sprite: _HL2/mob/clothing/back.rsi
+    clothingVisuals:
+      back:
+      - state: civilprotection
+
+- type: entity
+  parent: ClothingBackpackBase
+  id: ClothingBackpackMilitary
+  name: military backpack
+  description: A large military-grade backpack.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/backpack.rsi
+    state: military
+  - type: Clothing
+    sprite: _HL2/mob/clothing/back.rsi
+    clothingVisuals:
+      back:
+      - state: military
+
+- type: entity
+  parent: ClothingBackpackBase
+  id: ClothingBackpackSatchel
+  name: satchel
+  description: A simple canvas satchel.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/backpack.rsi
+    state: satchel
+  - type: Clothing
+    sprite: _HL2/mob/clothing/back.rsi
+    clothingVisuals:
+      back:
+      - state: satchel
+
+- type: entity
+  parent: ClothingBackpackBase
+  id: ClothingBackpackSack
+  name: sack
+  description: A crude cloth sack.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/backpack.rsi
+    state: sack
+  - type: Clothing
+    sprite: _HL2/mob/clothing/back.rsi
+    clothingVisuals:
+      back:
+      - state: sack
+
+- type: entity
+  parent: ClothingBackpackBase
+  id: ClothingBackpackRadioPack
+  name: radio pack
+  description: A backpack with an integrated radio unit.
+  components:
+  - type: Sprite
+    sprite: _HL2/obj/clothing/backpack.rsi
+    state: radiopack
+  - type: Clothing
+    sprite: _HL2/mob/clothing/back.rsi
+    clothingVisuals:
+      back:
+      - state: radiopack
