@@ -18,6 +18,9 @@
       - state: usp
       right:
       - state: usp
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 4
     shotsPerBurst: 1
@@ -44,6 +47,9 @@
       - state: mp7
       right:
       - state: mp7
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 8
     selectedMode: FullAuto
@@ -70,6 +76,9 @@
       - state: ar2
       right:
       - state: ar2
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 5
     selectedMode: FullAuto
@@ -149,6 +158,9 @@
       - state: ak47
       right:
       - state: ak47
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 6
     selectedMode: FullAuto
@@ -175,6 +187,9 @@
       - state: mosin_nagant
       right:
       - state: mosin_nagant
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 0.8
     shotsPerBurst: 1
@@ -186,7 +201,7 @@
 # ===== COMBINE SNIPER RIFLE =====
 - type: entity
   parent: BaseItem
-  id: WeapnSniperCombine
+  id: WeaponSniperCombine
   name: Combine sniper rifle
   description: A high-powered Combine sniper rifle with advanced optics.
   components:
@@ -200,6 +215,9 @@
       - state: combine_sniper
       right:
       - state: combine_sniper
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     fireRate: 0.5
     shotsPerBurst: 1
