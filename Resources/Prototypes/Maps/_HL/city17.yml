@@ -3,7 +3,7 @@
   id: City17District
   mapName: 'City 17 District'
   mapPath: /Maps/_HL/city17_district.yml
-  minPlayers: 1
+  minPlayers: 0
   maxPlayers: 40
   stations:
     City17:

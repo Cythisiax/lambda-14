@@ -177,4 +177,4 @@
   components:
   - type: Sprite
     sprite: _HL/obj/radio.rsi
-    state: icon
+    state: radio

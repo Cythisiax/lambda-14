@@ -8,10 +8,6 @@
   },
   "states": [
     {
-      "name": "icon",
-      "directions": 8
-    },
-    {
       "name": "border",
       "directions": 8,
       "delays": [
