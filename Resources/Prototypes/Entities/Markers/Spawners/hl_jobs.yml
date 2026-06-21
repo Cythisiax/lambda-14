@@ -1,0 +1,204 @@
+# #Misfits Change - HL2 Faction Spawn Points
+- type: entity
+  id: SpawnPointCivilProtection
+  parent: SpawnPointJobBase
+  name: civil protection
+  components:
+  - type: SpawnPoint
+    job_id: CivilProtectionOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointCPSergeant
+  parent: SpawnPointJobBase
+  name: cp sergeant
+  components:
+  - type: SpawnPoint
+    job_id: CivilProtectionSergeant
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointCPCaptain
+  parent: SpawnPointJobBase
+  name: cp captain
+  components:
+  - type: SpawnPoint
+    job_id: CivilProtectionCaptain
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointOverwatchOfficer
+  parent: SpawnPointJobBase
+  name: overwatch officer
+  components:
+  - type: SpawnPoint
+    job_id: OverwatchOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointCombineSoldier
+  parent: SpawnPointJobBase
+  name: combine soldier
+  components:
+  - type: SpawnPoint
+    job_id: CombineSoldier
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointEliteSoldier
+  parent: SpawnPointJobBase
+  name: elite soldier
+  components:
+  - type: SpawnPoint
+    job_id: EliteSoldier
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointHunterSeeker
+  parent: SpawnPointJobBase
+  name: hunter-seeker operator
+  components:
+  - type: SpawnPoint
+    job_id: HunterSeekerOperator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointOverwatchAdmin
+  parent: SpawnPointJobBase
+  name: overwatch administrator
+  components:
+  - type: SpawnPoint
+    job_id: OverwatchAdministrator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointOverwatchOperator
+  parent: SpawnPointJobBase
+  name: overwatch operator
+  components:
+  - type: SpawnPoint
+    job_id: OverwatchOperator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security
+
+- type: entity
+  id: SpawnPointMaintenanceWorker
+  parent: SpawnPointJobBase
+  name: maintenance worker
+  components:
+  - type: SpawnPoint
+    job_id: MaintenanceWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: cargo_tech
+
+- type: entity
+  id: SpawnPointLogisticsOfficer
+  parent: SpawnPointJobBase
+  name: logistics officer
+  components:
+  - type: SpawnPoint
+    job_id: LogisticsOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: cargo_tech
+
+- type: entity
+  id: SpawnPointTrainYardWorker
+  parent: SpawnPointJobBase
+  name: train yard worker
+  components:
+  - type: SpawnPoint
+    job_id: TrainYardWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: cargo_tech
+
+- type: entity
+  id: SpawnPointCivilWorker
+  parent: SpawnPointJobBase
+  name: civil worker
+  components:
+  - type: SpawnPoint
+    job_id: CivilWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: service
+
+- type: entity
+  id: SpawnPointCivilMedical
+  parent: SpawnPointJobBase
+  name: civil medical worker
+  components:
+  - type: SpawnPoint
+    job_id: CivilMedicalWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: medical
+
+- type: entity
+  id: SpawnPointUnionRep
+  parent: SpawnPointJobBase
+  name: union representative
+  components:
+  - type: SpawnPoint
+    job_id: UnionRepresentative
+  - type: Sprite
+    layers:
+      - state: green
+      - state: service
+
+- type: entity
+  id: SpawnPointCitizen
+  parent: SpawnPointJobBase
+  name: citizen
+  components:
+  - type: SpawnPoint
+    job_id: Citizen
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointRefugee
+  parent: SpawnPointJobBase
+  name: refugee
+  components:
+  - type: SpawnPoint
+    job_id: Refugee
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

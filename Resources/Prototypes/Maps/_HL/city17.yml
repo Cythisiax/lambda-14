@@ -1,0 +1,46 @@
+# #Misfits Change - HL2 City 17 District Map Definition
+- type: gameMap
+  id: City17District
+  mapName: 'City 17 District'
+  mapPath: /Maps/_HL/city17_district.yml
+  minPlayers: 1
+  maxPlayers: 40
+  stations:
+    City17:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'City 17 District'
+        - type: StationJobs
+          availableJobs:
+            # Civil Protection (8)
+            CivilProtectionOfficer: [ 4, 6 ]
+            CivilProtectionSergeant: [ 1, 2 ]
+            CivilProtectionCaptain: [ 0, 1 ]
+            OverwatchOfficer: [ 0, 1 ]
+            # Transhuman Arm (5)
+            CombineGrunt: [ 1, 2 ]
+            CombineSoldier: [ 1, 2 ]
+            EliteSoldier: [ 0, 1 ]
+            HunterSeekerOperator: [ 0, 1 ]
+            # Overwatch (3)
+            OverwatchAdministrator: [ 0, 1 ]
+            OverwatchOperator: [ 0, 1 ]
+            # Logistics (5)
+            MaintenanceWorker: [ 2, 3 ]
+            LogisticsOfficer: [ 0, 1 ]
+            TrainYardWorker: [ 1, 2 ]
+            # Civil Services (4)
+            CivilWorker: [ 1, 2 ]
+            CivilMedicalWorker: [ 1, 2 ]
+            UnionRepresentative: [ 0, 1 ]
+            # Civilian (10)
+            Bartender: [ 0, 1 ]
+            Botanist: [ 1, 1 ]
+            Chef: [ 1, 1 ]
+            Janitor: [ 1, 1 ]
+            Musician: [ 0, 1 ]
+            Reporter: [ 0, 1 ]
+            ServiceWorker: [ 1, 2 ]
+            Citizen: [ -1, -1 ]
+            Refugee: [ 0, 2 ]
