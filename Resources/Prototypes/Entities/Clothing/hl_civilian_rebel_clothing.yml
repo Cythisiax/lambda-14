@@ -34,7 +34,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitPrisoner
+  id: ClothingUniformJumpsuitPrisonerHL2
   name: prisoner uniform
   description: A drab orange prisoner jumpsuit.
   components:
@@ -334,8 +334,8 @@
 
 # ===== BACKPACKS =====
 - type: entity
-  parent: ClothingBackpackBase
-  id: ClothingBackpackCp
+  parent: ClothingBackpack
+  id: ClothingBackpackCpHL2
   name: CP backpack
   description: A standard-issue Civil Protection backpack.
   components:
@@ -349,8 +349,8 @@
       - state: civilprotection
 
 - type: entity
-  parent: ClothingBackpackBase
-  id: ClothingBackpackMilitary
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitaryHL2
   name: military backpack
   description: A large military-grade backpack.
   components:
@@ -364,8 +364,8 @@
       - state: military
 
 - type: entity
-  parent: ClothingBackpackBase
-  id: ClothingBackpackSatchel
+  parent: ClothingBackpack
+  id: ClothingBackpackSatchelHL2
   name: satchel
   description: A simple canvas satchel.
   components:
@@ -379,8 +379,8 @@
       - state: satchel
 
 - type: entity
-  parent: ClothingBackpackBase
-  id: ClothingBackpackSack
+  parent: ClothingBackpack
+  id: ClothingBackpackSackHL2
   name: sack
   description: A crude cloth sack.
   components:
@@ -394,8 +394,8 @@
       - state: sack
 
 - type: entity
-  parent: ClothingBackpackBase
-  id: ClothingBackpackRadioPack
+  parent: ClothingBackpack
+  id: ClothingBackpackRadioPackHL2
   name: radio pack
   description: A backpack with an integrated radio unit.
   components:

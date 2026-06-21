@@ -396,7 +396,7 @@
 
 - type: entity
   parent: ClothingShoesBase
-  id: ClothingShoesBootsWork
+  id: ClothingShoesBootsHL2
   name: work boots
   description: Heavy-duty leather work boots.
   components:
@@ -442,7 +442,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesCombat
+  id: ClothingHandsGlovesCombatHL2
   name: combat gloves
   description: Reinforced tactical gloves for combat personnel.
   components:
@@ -457,7 +457,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesLeather
+  id: ClothingHandsGlovesLeatherHL2
   name: leather gloves
   description: Simple leather gloves for everyday use.
   components:

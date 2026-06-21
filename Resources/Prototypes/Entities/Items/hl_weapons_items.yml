@@ -100,11 +100,17 @@
   - type: Sprite
     sprite: _HL/obj/medkits.rsi
     state: medkit
-  - type: MedicalItem
-    heal:
+  - type: Healing
+    damageContainers:
+      - Biological
+    damage:
       types:
-        Brute: 30
-        Burn: 20
+        Blunt: -30
+        Slash: -30
+        Piercing: -30
+        Heat: -20
+        Cold: -20
+        Shock: -20
 
 - type: entity
   parent: BaseItem
@@ -115,10 +121,17 @@
   - type: Sprite
     sprite: _HL/obj/medkits.rsi
     state: healthpen
-  - type: MedicalItem
-    heal:
+  - type: Healing
+    damageContainers:
+      - Biological
+    damage:
       types:
-        Brute: 15
+        Blunt: -15
+        Slash: -15
+        Piercing: -15
+        Heat: -10
+        Cold: -10
+        Shock: -10
 
 # ===== FUEL CELL / ENERGY CELL =====
 - type: entity
@@ -165,6 +178,3 @@
   - type: Sprite
     sprite: _HL/obj/radio.rsi
     state: icon
-  - type: Radio
-    channels:
-    - Security
