@@ -37,11 +37,12 @@
       path: /Audio/Magic/forcewall.ogg
 
 - type: polymorph
-  id: WizardForcedSkeleton
-  configuration:
-    entity: MobSkeletonPerson
-    forced: true
-    inventory: Drop
+# Commented out - non-human species removed
+#  id: WizardForcedSkeleton
+#  configuration:
+#    entity: MobSkeletonPerson
+#    forced: true
+#    inventory: Drop
     transferName: true
     transferDamage: true
     revertOnCrit: false
