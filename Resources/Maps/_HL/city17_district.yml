@@ -1,0 +1,1722 @@
+meta:
+  format: 6
+  category: Map
+  postmapinit: false
+  engineVersion: 270.1.0
+  forkId: ""
+  forkVersion: ""
+  entityCount: 402
+tilemap:
+  0: Space
+  100: FloorSteel
+  101: FloorDark
+  102: FloorWhite
+  103: FloorReinforced
+  104: FloorConcreteSmooth
+  105: FloorConcreteMono
+  106: FloorGrayConcreteMono
+  107: FloorWood
+  108: FloorTechMaint
+  109: FloorPlanetGrass
+  110: FloorPlanetDirt
+  111: FloorConcrete
+  112: FloorGrayConcrete
+  113: Plating
+  114: Lattice
+  115: FloorWater
+  116: FloorCarpet
+entities:
+- proto: ""
+  entities:
+  - uid: 1
+    components:
+    - type: MetaData
+      name: City 17 District
+    - type: Transform
+      parent: 1
+    - type: MapGrid
+      chunks:
+        0,0:
+          ind: 0,0
+          tiles: bQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQA=
+          version: 6
+        1,0:
+          ind: 1,0
+          tiles: bQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQA=
+          version: 6
+        2,0:
+          ind: 2,0
+          tiles: bQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQA=
+          version: 6
+        3,0:
+          ind: 3,0
+          tiles: bQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQBtAG0AbQBtAG0AbgBuAG4AbgBuAG4AbQBtAG0AbQBtAG0AbQBtAG0AbQBuAG4AbgBuAG4AbgBtAG0AbQBtAG0AbQBtAG0AbQBtAG4AbgBuAG4AbgBuAG0AbQBtAG0AbQA=
+          version: 6
+        4,0:
+          ind: 4,0
+          tiles: bQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQBtAG0AbQA=
+          version: 6
+        0,1:
+          ind: 0,1
+          tiles: AABrAGsAawBrAGsAawBrAAAAAAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGsAAAAAAAAAAAAAAAAAAAAAAAAAawBrAGsAawBrAGsAawAAAAAAAAAAAAAAAAAAAAAAAABrAGsAawBrAGsAawBrAAAAAAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGsAAAAAAAAAAAAAAAAAAAAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+          version: 6
+        1,1:
+          ind: 1,1
+          tiles: AABrAGsAawBrAGsAawBoAGgAAAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGgAaAAAAAAAAAAAAAAAAAAAAAAAawBrAGsAawBrAGsAaABoAAAAAAAAAAAAAAAAAAAAAABrAGsAawBrAGsAawBoAGgAAAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGgAaAAAAAAAAAAAAAAAAAAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcABwAHAAcABwAHAAcABoAGgAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAGgAaABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAaABoAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABoAGgAcABwAHAAcABwAHAAcABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAAAAAAAAAAAAAAAAAAAAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAGgAAAAAAAAAAAAAAAAAAAA=
+          version: 6
+        2,1:
+          ind: 2,1
+          tiles: AABrAGsAawBrAGsAawBrAGsAawBrAGsAawBrAGsAAAAAAGsAawBrAGsAawBrAGsAawBrAGsAawBrAGsAawAAAAAAawBrAGsAawBrAGsAawBrAGsAawBrAGsAawBrAAAAAABrAGsAawBrAGsAawBrAGsAawBrAGsAawBrAGsAAAAAAGsAawBrAGsAawBrAGsAawBrAGsAawBrAGsAawAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+          version: 6
+        3,1:
+          ind: 3,1
+          tiles: AABrAGsAawBrAGsAawBoAGgAawBrAGsAawBrAGsAAAAAAGsAawBrAGsAawBrAGgAaABrAGsAawBrAGsAawAAAAAAawBrAGsAawBrAGsAaABoAGsAawBrAGsAawBrAAAAAABrAGsAawBrAGsAawBoAGgAawBrAGsAawBrAGsAAAAAAGsAawBrAGsAawBrAGgAaABrAGsAawBrAGsAawAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcABwAHAAcABwAHAAcABoAGgAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAGgAaABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAaABoAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABoAGgAcABwAHAAcABwAHAAcABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAAAAAAAAAAAAAAAAAAAAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAGgAAAAAAAAAAAAAAAAAAAA=
+          version: 6
+        4,1:
+          ind: 4,1
+          tiles: AAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGsAAAAAAAAAAAAAAAAAAAAAAAAAawBrAGsAawBrAGsAawAAAAAAAAAAAAAAAAAAAAAAAABrAGsAawBrAGsAawBrAAAAAAAAAAAAAAAAAAAAAAAAAGsAawBrAGsAawBrAGsAAAAAAAAAAAAAAAAAAAAAAAAAawBrAGsAawBrAGsAawAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABwAHAAcABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+          version: 6
+        0,2:
+          ind: 0,2
+          tiles: AABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAAAAAGQAZABkAGQAZABkAAAAAAAAAAAAZABkAGQAZAAAAAAAZABkAGQAZABkAGQAAAAAAAAAAABkAGQAZABkAAAAAABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQA=
+          version: 6
+        1,2:
+          ind: 1,2
+          tiles: AABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAAAAAGQAZABkAGQAZABkAAAAAAAAAAAAZABkAGQAZAAAAAAAZABkAGQAZABkAGQAAAAAAAAAAABkAGQAZABkAAAAAABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQA=
+          version: 6
+        2,2:
+          ind: 2,2
+          tiles: AAAAAAAAAABlAGUAZQBlAGUAZQBlAGUAAAAAAAAAAAAAAAAAAAAAAGUAZgBmAGYAZgBmAGYAZQAAAAAAAAAAAAAAAAAAAAAAZQBmAGYAZgBmAGYAZgBlAAAAAAAAAAAAAAAAAAAAAABlAGYAZgBmAGYAZgBmAGUAAAAAAAAAAABoAGgAaABoAGUAZgBmAGYAZgBmAGYAZQBoAGgAaABoAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQA=
+          version: 6
+        3,2:
+          ind: 3,2
+          tiles: AABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAAAAAGQAZABkAGQAZABkAAAAAAAAAAAAZABkAGQAZAAAAAAAZABkAGQAZABkAGQAAAAAAAAAAABkAGQAZABkAAAAAABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQA=
+          version: 6
+        4,2:
+          ind: 4,2
+          tiles: AABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAAAAAGQAZABkAGQAZABkAAAAAAAAAAAAZABkAGQAZAAAAAAAZABkAGQAZABkAGQAAAAAAAAAAABkAGQAZABkAAAAAABkAGQAZABkAGQAZAAAAAAAAAAAAGQAZABkAGQAAABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAagBqAGoAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQBpAGkAaQA=
+          version: 6
+        0,3:
+          ind: 0,3
+          tiles: bwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwA=
+          version: 6
+        1,3:
+          ind: 1,3
+          tiles: bwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwA=
+          version: 6
+        2,3:
+          ind: 2,3
+          tiles: bwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwA=
+          version: 6
+        3,3:
+          ind: 3,3
+          tiles: bwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwA=
+          version: 6
+        4,3:
+          ind: 4,3
+          tiles: bwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBzAHMAcwBoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwBvAG8AbwA=
+          version: 6
+  - uid: 3
+    proto: "WallBrick"
+    - type: Transform
+        pos: -26,14
+  - uid: 4
+    proto: "WallBrick"
+    - type: Transform
+        pos: -25,14
+  - uid: 5
+    proto: "WallBrick"
+    - type: Transform
+        pos: -24,14
+  - uid: 6
+    proto: "WallBrick"
+    - type: Transform
+        pos: -23,14
+  - uid: 7
+    proto: "WallBrick"
+    - type: Transform
+        pos: -22,14
+  - uid: 8
+    proto: "WallBrick"
+    - type: Transform
+        pos: -21,14
+  - uid: 9
+    proto: "WallBrick"
+    - type: Transform
+        pos: -20,14
+  - uid: 10
+    proto: "WallBrick"
+    - type: Transform
+        pos: -19,14
+  - uid: 11
+    proto: "WallBrick"
+    - type: Transform
+        pos: -18,14
+  - uid: 12
+    proto: "WallBrick"
+    - type: Transform
+        pos: -17,14
+  - uid: 13
+    proto: "WallBrick"
+    - type: Transform
+        pos: -16,14
+  - uid: 14
+    proto: "WallBrick"
+    - type: Transform
+        pos: -15,14
+  - uid: 15
+    proto: "WallBrick"
+    - type: Transform
+        pos: -14,14
+  - uid: 16
+    proto: "WallBrick"
+    - type: Transform
+        pos: -13,14
+  - uid: 17
+    proto: "WallBrick"
+    - type: Transform
+        pos: -12,14
+  - uid: 18
+    proto: "WallBrick"
+    - type: Transform
+        pos: -11,14
+  - uid: 19
+    proto: "WallBrick"
+    - type: Transform
+        pos: -10,14
+  - uid: 20
+    proto: "WallBrick"
+    - type: Transform
+        pos: -9,14
+  - uid: 21
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,14
+  - uid: 22
+    proto: "WallBrick"
+    - type: Transform
+        pos: -7,14
+  - uid: 23
+    proto: "WallBrick"
+    - type: Transform
+        pos: -6,14
+  - uid: 24
+    proto: "WallBrick"
+    - type: Transform
+        pos: -5,14
+  - uid: 25
+    proto: "WallBrick"
+    - type: Transform
+        pos: -4,14
+  - uid: 26
+    proto: "WallBrick"
+    - type: Transform
+        pos: -3,14
+  - uid: 27
+    proto: "WallBrick"
+    - type: Transform
+        pos: -2,14
+  - uid: 28
+    proto: "WallBrick"
+    - type: Transform
+        pos: -1,14
+  - uid: 29
+    proto: "WallBrick"
+    - type: Transform
+        pos: 0,14
+  - uid: 30
+    proto: "WallBrick"
+    - type: Transform
+        pos: 1,14
+  - uid: 31
+    proto: "WallBrick"
+    - type: Transform
+        pos: 2,14
+  - uid: 32
+    proto: "WallBrick"
+    - type: Transform
+        pos: 3,14
+  - uid: 33
+    proto: "WallBrick"
+    - type: Transform
+        pos: 4,14
+  - uid: 34
+    proto: "WallBrick"
+    - type: Transform
+        pos: 5,14
+  - uid: 35
+    proto: "WallBrick"
+    - type: Transform
+        pos: 6,14
+  - uid: 36
+    proto: "WallBrick"
+    - type: Transform
+        pos: 7,14
+  - uid: 37
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,14
+  - uid: 38
+    proto: "WallBrick"
+    - type: Transform
+        pos: 9,14
+  - uid: 39
+    proto: "WallBrick"
+    - type: Transform
+        pos: -26,-10
+  - uid: 40
+    proto: "WallBrick"
+    - type: Transform
+        pos: -25,-10
+  - uid: 41
+    proto: "WallBrick"
+    - type: Transform
+        pos: -24,-10
+  - uid: 42
+    proto: "WallBrick"
+    - type: Transform
+        pos: -23,-10
+  - uid: 43
+    proto: "WallBrick"
+    - type: Transform
+        pos: -22,-10
+  - uid: 44
+    proto: "WallBrick"
+    - type: Transform
+        pos: -21,-10
+  - uid: 45
+    proto: "WallBrick"
+    - type: Transform
+        pos: -20,-10
+  - uid: 46
+    proto: "WallBrick"
+    - type: Transform
+        pos: -19,-10
+  - uid: 47
+    proto: "WallBrick"
+    - type: Transform
+        pos: -18,-10
+  - uid: 48
+    proto: "WallBrick"
+    - type: Transform
+        pos: -17,-10
+  - uid: 49
+    proto: "WallBrick"
+    - type: Transform
+        pos: -16,-10
+  - uid: 50
+    proto: "WallBrick"
+    - type: Transform
+        pos: -15,-10
+  - uid: 51
+    proto: "WallBrick"
+    - type: Transform
+        pos: -10,-10
+  - uid: 52
+    proto: "WallBrick"
+    - type: Transform
+        pos: -9,-10
+  - uid: 53
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-10
+  - uid: 54
+    proto: "WallBrick"
+    - type: Transform
+        pos: -7,-10
+  - uid: 55
+    proto: "WallBrick"
+    - type: Transform
+        pos: -6,-10
+  - uid: 56
+    proto: "WallBrick"
+    - type: Transform
+        pos: -5,-10
+  - uid: 57
+    proto: "WallBrick"
+    - type: Transform
+        pos: -4,-10
+  - uid: 58
+    proto: "WallBrick"
+    - type: Transform
+        pos: -3,-10
+  - uid: 59
+    proto: "WallBrick"
+    - type: Transform
+        pos: -2,-10
+  - uid: 60
+    proto: "WallBrick"
+    - type: Transform
+        pos: -1,-10
+  - uid: 61
+    proto: "WallBrick"
+    - type: Transform
+        pos: 0,-10
+  - uid: 62
+    proto: "WallBrick"
+    - type: Transform
+        pos: 1,-10
+  - uid: 63
+    proto: "WallBrick"
+    - type: Transform
+        pos: 2,-10
+  - uid: 64
+    proto: "WallBrick"
+    - type: Transform
+        pos: 3,-10
+  - uid: 65
+    proto: "WallBrick"
+    - type: Transform
+        pos: 4,-10
+  - uid: 66
+    proto: "WallBrick"
+    - type: Transform
+        pos: 5,-10
+  - uid: 67
+    proto: "WallBrick"
+    - type: Transform
+        pos: 6,-10
+  - uid: 68
+    proto: "WallBrick"
+    - type: Transform
+        pos: 7,-10
+  - uid: 69
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-10
+  - uid: 70
+    proto: "WallBrick"
+    - type: Transform
+        pos: 9,-10
+  - uid: 71
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 4,20
+  - uid: 72
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 4,4
+  - uid: 73
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 5,20
+  - uid: 74
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 5,4
+  - uid: 75
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 6,20
+  - uid: 76
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 6,4
+  - uid: 77
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 7,20
+  - uid: 78
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 7,4
+  - uid: 79
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 8,20
+  - uid: 80
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 8,4
+  - uid: 81
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 9,20
+  - uid: 82
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 9,4
+  - uid: 83
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 10,20
+  - uid: 84
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 10,4
+  - uid: 85
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 11,20
+  - uid: 86
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 11,4
+  - uid: 87
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 4,12
+  - uid: 88
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 11,12
+  - uid: 89
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 4,8
+  - uid: 90
+    proto: "WallReinforced"
+    - type: Transform
+        pos: 11,8
+  - uid: 91
+    proto: "Door"
+    - type: Transform
+        pos: 7,4
+  - uid: 92
+    proto: "Door"
+    - type: Transform
+        pos: 8,4
+  - uid: 93
+    proto: "Barricade"
+    - type: Transform
+        pos: 2,0
+  - uid: 94
+    proto: "Barricade"
+    - type: Transform
+        pos: 3,0
+  - uid: 95
+    proto: "Barricade"
+    - type: Transform
+        pos: 12,0
+  - uid: 96
+    proto: "Barricade"
+    - type: Transform
+        pos: 13,0
+  - uid: 97
+    proto: "BreencastMonitor"
+    - type: Transform
+        pos: 7,-2
+  - uid: 98
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -28,6
+  - uid: 99
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -28,-2
+  - uid: 100
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -20,6
+  - uid: 101
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -20,-2
+  - uid: 102
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -12,6
+  - uid: 103
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -12,-2
+  - uid: 104
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -4,6
+  - uid: 105
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: -4,-2
+  - uid: 106
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 4,6
+  - uid: 107
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 4,-2
+  - uid: 108
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 12,6
+  - uid: 109
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 12,-2
+  - uid: 110
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 20,6
+  - uid: 111
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 20,-2
+  - uid: 112
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 28,6
+  - uid: 113
+    proto: "StreetLampHL2"
+    - type: Transform
+        pos: 28,-2
+  - uid: 114
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-14
+  - uid: 115
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-13
+  - uid: 116
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-12
+  - uid: 117
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-11
+  - uid: 118
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-10
+  - uid: 119
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-9
+  - uid: 120
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-8
+  - uid: 121
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-7
+  - uid: 122
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-6
+  - uid: 123
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-5
+  - uid: 124
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-4
+  - uid: 125
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-3
+  - uid: 126
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-2
+  - uid: 127
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,-1
+  - uid: 128
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,0
+  - uid: 129
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,1
+  - uid: 130
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,2
+  - uid: 131
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,3
+  - uid: 132
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,4
+  - uid: 133
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,5
+  - uid: 134
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,6
+  - uid: 135
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,7
+  - uid: 136
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,8
+  - uid: 137
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,9
+  - uid: 138
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,10
+  - uid: 139
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,11
+  - uid: 140
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,12
+  - uid: 141
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,13
+  - uid: 142
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,14
+  - uid: 143
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,15
+  - uid: 144
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,16
+  - uid: 145
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,17
+  - uid: 146
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,18
+  - uid: 147
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,19
+  - uid: 148
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,20
+  - uid: 149
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,21
+  - uid: 150
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,22
+  - uid: 151
+    proto: "WallBrick"
+    - type: Transform
+        pos: -8,23
+  - uid: 152
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-14
+  - uid: 153
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-13
+  - uid: 154
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-12
+  - uid: 155
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-11
+  - uid: 156
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-10
+  - uid: 157
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-9
+  - uid: 158
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-8
+  - uid: 159
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-7
+  - uid: 160
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-6
+  - uid: 161
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-5
+  - uid: 162
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-4
+  - uid: 163
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-3
+  - uid: 164
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-2
+  - uid: 165
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,-1
+  - uid: 166
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,0
+  - uid: 167
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,1
+  - uid: 168
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,2
+  - uid: 169
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,3
+  - uid: 170
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,4
+  - uid: 171
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,5
+  - uid: 172
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,6
+  - uid: 173
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,7
+  - uid: 174
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,8
+  - uid: 175
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,9
+  - uid: 176
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,10
+  - uid: 177
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,11
+  - uid: 178
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,12
+  - uid: 179
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,13
+  - uid: 180
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,14
+  - uid: 181
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,15
+  - uid: 182
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,16
+  - uid: 183
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,17
+  - uid: 184
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,18
+  - uid: 185
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,19
+  - uid: 186
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,20
+  - uid: 187
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,21
+  - uid: 188
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,22
+  - uid: 189
+    proto: "WallBrick"
+    - type: Transform
+        pos: 8,23
+  - uid: 190
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -31,26
+  - uid: 191
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -31,6
+  - uid: 192
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -30,26
+  - uid: 193
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -30,6
+  - uid: 194
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -29,26
+  - uid: 195
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -29,6
+  - uid: 196
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -28,26
+  - uid: 197
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -28,6
+  - uid: 198
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -27,26
+  - uid: 199
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -27,6
+  - uid: 200
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -26,26
+  - uid: 201
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -26,6
+  - uid: 202
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -25,26
+  - uid: 203
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -25,6
+  - uid: 204
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -24,26
+  - uid: 205
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -24,6
+  - uid: 206
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -23,26
+  - uid: 207
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -23,6
+  - uid: 208
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -22,26
+  - uid: 209
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -22,6
+  - uid: 210
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -21,26
+  - uid: 211
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -21,6
+  - uid: 212
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -20,26
+  - uid: 213
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -20,6
+  - uid: 214
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -19,26
+  - uid: 215
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -19,6
+  - uid: 216
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -18,26
+  - uid: 217
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -18,6
+  - uid: 218
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -17,26
+  - uid: 219
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -17,6
+  - uid: 220
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -16,26
+  - uid: 221
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -16,6
+  - uid: 222
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -15,26
+  - uid: 223
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -15,6
+  - uid: 224
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -14,26
+  - uid: 225
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -14,6
+  - uid: 226
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -13,26
+  - uid: 227
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -13,6
+  - uid: 228
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -12,26
+  - uid: 229
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -12,6
+  - uid: 230
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -11,26
+  - uid: 231
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -11,6
+  - uid: 232
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -10,26
+  - uid: 233
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -10,6
+  - uid: 234
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -9,26
+  - uid: 235
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -9,6
+  - uid: 236
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -8,26
+  - uid: 237
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -8,6
+  - uid: 238
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -7,26
+  - uid: 239
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -7,6
+  - uid: 240
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -6,26
+  - uid: 241
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -6,6
+  - uid: 242
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -5,26
+  - uid: 243
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -5,6
+  - uid: 244
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -4,26
+  - uid: 245
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -4,6
+  - uid: 246
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -3,26
+  - uid: 247
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -3,6
+  - uid: 248
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -2,26
+  - uid: 249
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -2,6
+  - uid: 250
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -1,26
+  - uid: 251
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: -1,6
+  - uid: 252
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 0,26
+  - uid: 253
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 0,6
+  - uid: 254
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 1,26
+  - uid: 255
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 1,6
+  - uid: 256
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 2,26
+  - uid: 257
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 2,6
+  - uid: 258
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 3,26
+  - uid: 259
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 3,6
+  - uid: 260
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 4,26
+  - uid: 261
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 4,6
+  - uid: 262
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 5,26
+  - uid: 263
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 5,6
+  - uid: 264
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 6,26
+  - uid: 265
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 6,6
+  - uid: 266
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 7,26
+  - uid: 267
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 7,6
+  - uid: 268
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 8,26
+  - uid: 269
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 8,6
+  - uid: 270
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 9,26
+  - uid: 271
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 9,6
+  - uid: 272
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 10,26
+  - uid: 273
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 10,6
+  - uid: 274
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 11,26
+  - uid: 275
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 11,6
+  - uid: 276
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 12,26
+  - uid: 277
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 12,6
+  - uid: 278
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 13,26
+  - uid: 279
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 13,6
+  - uid: 280
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 14,26
+  - uid: 281
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 14,6
+  - uid: 282
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 15,26
+  - uid: 283
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 15,6
+  - uid: 284
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 16,26
+  - uid: 285
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 16,6
+  - uid: 286
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 17,26
+  - uid: 287
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 17,6
+  - uid: 288
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 18,26
+  - uid: 289
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 18,6
+  - uid: 290
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 19,26
+  - uid: 291
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 19,6
+  - uid: 292
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 20,26
+  - uid: 293
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 20,6
+  - uid: 294
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 21,26
+  - uid: 295
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 21,6
+  - uid: 296
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 22,26
+  - uid: 297
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 22,6
+  - uid: 298
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 23,26
+  - uid: 299
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 23,6
+  - uid: 300
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 24,26
+  - uid: 301
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 24,6
+  - uid: 302
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 25,26
+  - uid: 303
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 25,6
+  - uid: 304
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 26,26
+  - uid: 305
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 26,6
+  - uid: 306
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 27,26
+  - uid: 307
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 27,6
+  - uid: 308
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 28,26
+  - uid: 309
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 28,6
+  - uid: 310
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 29,26
+  - uid: 311
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 29,6
+  - uid: 312
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 30,26
+  - uid: 313
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 30,6
+  - uid: 314
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 31,26
+  - uid: 315
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 31,6
+  - uid: 316
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 32,26
+  - uid: 317
+    proto: "WallConcreteHL2"
+    - type: Transform
+        pos: 32,6
+  - uid: 318
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -31,36
+  - uid: 319
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -30,36
+  - uid: 320
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -29,36
+  - uid: 321
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -28,36
+  - uid: 322
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -27,36
+  - uid: 323
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -26,36
+  - uid: 324
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -25,36
+  - uid: 325
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -24,36
+  - uid: 326
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -23,36
+  - uid: 327
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -22,36
+  - uid: 328
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -21,36
+  - uid: 329
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -20,36
+  - uid: 330
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -19,36
+  - uid: 331
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -18,36
+  - uid: 332
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -17,36
+  - uid: 333
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -16,36
+  - uid: 334
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -15,36
+  - uid: 335
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -14,36
+  - uid: 336
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -13,36
+  - uid: 337
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -12,36
+  - uid: 338
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -11,36
+  - uid: 339
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -10,36
+  - uid: 340
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -9,36
+  - uid: 341
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -8,36
+  - uid: 342
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -7,36
+  - uid: 343
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -6,36
+  - uid: 344
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -5,36
+  - uid: 345
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -4,36
+  - uid: 346
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -3,36
+  - uid: 347
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -2,36
+  - uid: 348
+    proto: "FenceHL2"
+    - type: Transform
+        pos: -1,36
+  - uid: 349
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 0,36
+  - uid: 350
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 1,36
+  - uid: 351
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 2,36
+  - uid: 352
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 3,36
+  - uid: 353
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 4,36
+  - uid: 354
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 5,36
+  - uid: 355
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 6,36
+  - uid: 356
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 7,36
+  - uid: 357
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 8,36
+  - uid: 358
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 9,36
+  - uid: 359
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 10,36
+  - uid: 360
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 11,36
+  - uid: 361
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 12,36
+  - uid: 362
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 13,36
+  - uid: 363
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 14,36
+  - uid: 364
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 15,36
+  - uid: 365
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 16,36
+  - uid: 366
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 17,36
+  - uid: 367
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 18,36
+  - uid: 368
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 19,36
+  - uid: 369
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 20,36
+  - uid: 370
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 21,36
+  - uid: 371
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 22,36
+  - uid: 372
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 23,36
+  - uid: 373
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 24,36
+  - uid: 374
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 25,36
+  - uid: 375
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 26,36
+  - uid: 376
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 27,36
+  - uid: 377
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 28,36
+  - uid: 378
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 29,36
+  - uid: 379
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 30,36
+  - uid: 380
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 31,36
+  - uid: 381
+    proto: "FenceHL2"
+    - type: Transform
+        pos: 32,36
+  - uid: 382
+    proto: "BedHL2"
+    - type: Transform
+        pos: -22,4
+  - uid: 383
+    proto: "TableWoodHL2"
+    - type: Transform
+        pos: -20,2
+  - uid: 384
+    proto: "ChairHL2"
+    - type: Transform
+        pos: -19,2
+  - uid: 385
+    proto: "BedHL2"
+    - type: Transform
+        pos: -14,4
+  - uid: 386
+    proto: "TableWoodHL2"
+    - type: Transform
+        pos: -12,2
+  - uid: 387
+    proto: "ChairHL2"
+    - type: Transform
+        pos: -11,2
+  - uid: 388
+    proto: "ChairHL2"
+    - type: Transform
+        pos: 6,12
+  - uid: 389
+    proto: "ChairHL2"
+    - type: Transform
+        pos: 6,11
+  - uid: 390
+    proto: "TableMetalHL2"
+    - type: Transform
+        pos: 6,10
+  - uid: 391
+    proto: "TableMetalHL2"
+    - type: Transform
+        pos: 9,10
+  - uid: 392
+    proto: "ChairHL2"
+    - type: Transform
+        pos: 9,12
+  - uid: 393
+    proto: "ChairHL2"
+    - type: Transform
+        pos: 9,11
+  - uid: 394
+    proto: "RadioHL2"
+    - type: Transform
+        pos: 7,12
+  - uid: 395
+    proto: "LadderHL2"
+    - type: Transform
+        pos: 6,-12
+  - uid: 396
+    proto: "BarrelHL2"
+    - type: Transform
+        pos: 18,-12
+  - uid: 397
+    proto: "BarrelHL2"
+    - type: Transform
+        pos: 20,-12
+  - uid: 398
+    proto: "BarrelHL2"
+    - type: Transform
+        pos: 22,-12
+  - uid: 399
+    proto: "DumpsterHL2"
+    - type: Transform
+        pos: -24,-6
+  - uid: 400
+    proto: "DumpsterHL2"
+    - type: Transform
+        pos: 22,-6
+  - uid: 401
+    proto: "SpawnPointNukies"
+    - type: Transform
+        pos: 8,10
+  - uid: 402
+    proto: "SpawnPointNukies"
+    - type: Transform
+        pos: -15,2
+  - uid: 403
+    proto: "SpawnPointNukies"
+    - type: Transform
+        pos: 6,-12
