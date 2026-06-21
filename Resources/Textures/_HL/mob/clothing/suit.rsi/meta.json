@@ -8,180 +8,536 @@
   },
   "states": [
     {
-      "name": "black_vest",
+      "name": "icon",
       "directions": 4
+    },
+    {
+      "name": "black_vest",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "labcoat_t",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "labcoat",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "brownover",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "elitecpo_vest",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cp_trenchcoat",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cp_trenchcoatoverseer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "sectorial",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "metropolice",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "pd_taser",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "civilprotection",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "metropolice_vest",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "medicalofficer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "wallhammer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch_white",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch_red",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "hev",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "firesuit",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "rebelarmor_heavy",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "rebelarmor_light",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "bio_boiler",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "whitejacket",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "metropolice_uk",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "bluejacket",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "prisonerjacket",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "milvest",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "platearmor",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "kevlar_heavy",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "bulletproof",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "crematorjacket",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "poland_heavy",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cleanup",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "scientist",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "foreman",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cwuengi",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "heavyplatearmor",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "assassin",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "suppressor",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "reinforcedwinterbrown",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "greenjacket",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "hazsuit",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "dv_vest",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "combatchef",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }

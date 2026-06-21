@@ -8,8 +8,20 @@
   },
   "states": [
     {
-      "name": "hunter",
+      "name": "icon",
       "directions": 4
+    },
+    {
+      "name": "hunter",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "hunter_dead"
@@ -19,15 +31,39 @@
     },
     {
       "name": "gonome",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "weakgonome",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "crematorzombie",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "crematorzombie_dead"
@@ -37,11 +73,27 @@
     },
     {
       "name": "standardgonome",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "lurker",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "lurker_dead"

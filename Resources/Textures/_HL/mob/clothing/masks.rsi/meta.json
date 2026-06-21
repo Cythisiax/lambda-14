@@ -8,84 +8,248 @@
   },
   "states": [
     {
-      "name": "moderngasmask",
+      "name": "icon",
       "directions": 4
+    },
+    {
+      "name": "moderngasmask",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "military_gasmask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "russiamask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "swatmask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "civilprotection",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "combatchef",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "medicalofficer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overseer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "dv_mask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "elitecpo_mask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "sectoral_mask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "wallhammer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch_white",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch_red",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "grunt",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "crematormask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "oldmask",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cwuengi",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "suppressor",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }

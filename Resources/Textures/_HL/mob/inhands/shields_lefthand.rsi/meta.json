@@ -8,8 +8,20 @@
   },
   "states": [
     {
-      "name": "wallhammer",
+      "name": "icon",
       "directions": 4
+    },
+    {
+      "name": "wallhammer",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }

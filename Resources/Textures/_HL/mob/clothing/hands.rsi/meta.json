@@ -8,32 +8,92 @@
   },
   "states": [
     {
-      "name": "civilprotection",
+      "name": "icon",
       "directions": 4
+    },
+    {
+      "name": "civilprotection",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "overwatch",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "grunt",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "engineer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "foreman",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cleanup",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "leather",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }

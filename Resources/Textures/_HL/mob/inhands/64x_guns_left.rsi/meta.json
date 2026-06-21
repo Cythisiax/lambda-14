@@ -8,12 +8,32 @@
   },
   "states": [
     {
-      "name": "spas12",
+      "name": "icon",
       "directions": 4
     },
     {
+      "name": "spas12",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
       "name": "svd",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     }
   ]
 }

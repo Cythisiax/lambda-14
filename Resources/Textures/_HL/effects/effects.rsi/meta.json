@@ -8,15 +8,15 @@
   },
   "states": [
     {
+      "name": "icon"
+    },
+    {
       "name": "rotten"
     },
     {
       "name": "smell",
       "delays": [
         [
-          3.0,
-          3.0,
-          3.0,
           3.0
         ]
       ]

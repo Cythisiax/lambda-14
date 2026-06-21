@@ -8,32 +8,56 @@
   },
   "states": [
     {
+      "name": "icon"
+    },
+    {
       "name": "NewHeadCrabBuddies"
     },
     {
       "name": "headcrab_headcopy",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "armoredheadcrab_headcopy",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "headcrab_icon",
-      "directions": 4
-    },
-    {
-      "name": "headcrab",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "headcrab",
       "directions": 4,
       "delays": [
         [
-          1.0,
-          3.0,
-          3.0
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
       ]
     },
@@ -42,7 +66,15 @@
     },
     {
       "name": "zombie",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "zombie_dead"
@@ -52,11 +84,27 @@
     },
     {
       "name": "zombine",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "zombine_grenade",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "zombine_dead"
@@ -69,16 +117,13 @@
     },
     {
       "name": "fastcrab",
-      "directions": 4
-    },
-    {
-      "name": "fastcrab",
       "directions": 4,
       "delays": [
         [
-          1.0,
-          1.2,
-          1.2
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
       ]
     },
@@ -87,7 +132,15 @@
     },
     {
       "name": "fastzombie",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "fastzombie_dead"
@@ -97,16 +150,13 @@
     },
     {
       "name": "armoredheadcrab",
-      "directions": 4
-    },
-    {
-      "name": "armoredheadcrab",
       "directions": 4,
       "delays": [
         [
-          1.0,
-          3.0,
-          3.0
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
       ]
     },
@@ -115,7 +165,15 @@
     },
     {
       "name": "fungalzombie",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "fungalzombie_dead"
@@ -125,7 +183,15 @@
     },
     {
       "name": "protogonome",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "protogonome_dead"
@@ -135,7 +201,15 @@
     },
     {
       "name": "grunt",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "grunt_dead"
@@ -145,16 +219,13 @@
     },
     {
       "name": "poisonheadcrab",
-      "directions": 4
-    },
-    {
-      "name": "poisonheadcrab",
       "directions": 4,
       "delays": [
         [
-          2.0,
-          4.0,
-          4.0
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
       ]
     },
@@ -163,33 +234,81 @@
     },
     {
       "name": "poisonzombie",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "poisonzombie_dead"
     },
     {
       "name": "headcrabhead",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "zombieoverlay",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "elite",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "elite_grenade",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "elite_dead"
     },
     {
       "name": "engineer",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "engineer_dead"
@@ -199,7 +318,15 @@
     },
     {
       "name": "infestationcontrol",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "infestationcontrol_dead"
@@ -209,22 +336,54 @@
     },
     {
       "name": "cityscanner",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "cityscanner_transform"
     },
     {
       "name": "grub",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "grub_dead",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "grub_anchor",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "bugbait"
@@ -234,29 +393,45 @@
     },
     {
       "name": "antlion",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "antlion_dead"
     },
     {
-      "name": "antlion",
-      "directions": 4
-    },
-    {
       "name": "antlionworker",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "antlionworker_dead"
     },
     {
-      "name": "antlionworker",
-      "directions": 4
-    },
-    {
       "name": "babycrab",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "babycrab_dead"
@@ -266,16 +441,13 @@
     },
     {
       "name": "chumtoad",
-      "directions": 4
-    },
-    {
-      "name": "chumtoad",
       "directions": 4,
       "delays": [
         [
-          2.0,
-          2.0,
-          2.0
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
       ]
     },
@@ -296,16 +468,21 @@
     },
     {
       "name": "houndeye_attack",
-      "directions": 4
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
     },
     {
       "name": "houndeye_rest",
       "delays": [
         [
-          60.0,
-          2.0,
-          2.0,
-          2.0
+          60.0
         ]
       ]
     },
@@ -325,10 +502,6 @@
       "name": "manhack_attack",
       "delays": [
         [
-          0.8,
-          0.8,
-          0.8,
-          0.8,
           0.8
         ]
       ]
