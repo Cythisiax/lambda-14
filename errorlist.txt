@@ -1,0 +1,450 @@
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/halflife_large.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'bullsquid_blue'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/obj/forcefield.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'operate'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/inhands/items_lefthand.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'torch1'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/inhands/items_righthand.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'torch1'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/inhands/melee_inhand_left.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'shishkebab_on'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/inhands/melee_inhand_right.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'shishkebab_on'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/effects/96x96.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'smoke'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/gonarch.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'gonarch'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/mob/halflife.rsi:
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[ERRO] res.preload: Exception while loading RSI /Textures/_HL/obj/smokeables_inventory.rsi:
+Robust.Shared.Resources.RSILoadException: RSI has a duplicate stateId 'Generic'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 137
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.ResourceCache.<>c__DisplayClass44_0.<PreloadRsis>b__6(LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.Preload.cs:line 160
+[DEBG] res.preload: (Meta atlas 0) - cropped utilization: 97.54%, fill percentage: 67.19%
+[DEBG] res.preload: Preloaded 3239 RSIs into 1 Atlas(es?) (37 not atlassed, 10 errored) in 00:00:03.3672956
+[INFO] szr: Serializer Types Hash: 0377DFF6FAB1C31EDB9751845F1B4430C11EF50A8A3100BEEB73B7050974CC8F
+[DEBG] input: Key function in /keybinds.yml does not exist: 'KeyFunction(EquipBackpack)'.
+[INFO] xamlhotreload: code location: H:\lambda-14
+[WARN] proto: Registering an ignored prototype Content.Shared.Maps.GameMapPrototype
+[ERRO] proto: Reading Content.Shared.Roles.StartingGearPrototype(CPCaptainGear) threw the following exception: System.ArgumentException: No mapping node provided for type System.Collections.Generic.List`1[Robust.Shared.Prototypes.EntProtoId] at line: 38
+   at Robust.Shared.Serialization.Manager.SerializationManager.ReadGenericValue[TValue](ValueDataNode node, SerializationHookContext hookCtx, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 497
+   at lambda_method18168(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at Robust.Shared.Serialization.TypeSerializers.Implementations.Generic.DictionarySerializer`2.Read(ISerializationManager serializationManager, MappingDataNode node, IDependencyCollection dependencies, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\TypeSerializers\Implementations\Generic\DictionarySerializer.cs:line 143
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T,TNode](ITypeReader`2 reader, TNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 109
+   at lambda_method17584(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at lambda_method2461(Closure, StartingGearPrototype&, MappingDataNode, SerializationHookContext, ISerializationContext)
+   at Robust.Shared.Serialization.Manager.SerializationManager.ReadGenericMapping[TValue](MappingDataNode node, DataDefinition`1 definition, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 520
+   at lambda_method17543(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at lambda_method17510(Closure, DataNode, SerializationHookContext, ISerializationContext)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read(Type type, DataNode node, SerializationHookContext hookCtx, ISerializationContext context, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 158
+   at Robust.Shared.Prototypes.PrototypeManager.TryReadPrototype(Type kind, String id, MappingDataNode mapping, SerializationHookContext hookCtx) in H:\lambda-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 616
+[ERRO] proto: Reading Content.Shared.Roles.StartingGearPrototype(CPSergeantGear) threw the following exception: System.ArgumentException: No mapping node provided for type System.Collections.Generic.List`1[Robust.Shared.Prototypes.EntProtoId] at line: 37
+   at Robust.Shared.Serialization.Manager.SerializationManager.ReadGenericValue[TValue](ValueDataNode node, SerializationHookContext hookCtx, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 497
+   at lambda_method18168(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at Robust.Shared.Serialization.TypeSerializers.Implementations.Generic.DictionarySerializer`2.Read(ISerializationManager serializationManager, MappingDataNode node, IDependencyCollection dependencies, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\TypeSerializers\Implementations\Generic\DictionarySerializer.cs:line 143
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T,TNode](ITypeReader`2 reader, TNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 109
+   at lambda_method17584(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at lambda_method2461(Closure, StartingGearPrototype&, MappingDataNode, SerializationHookContext, ISerializationContext)
+   at Robust.Shared.Serialization.Manager.SerializationManager.ReadGenericMapping[TValue](MappingDataNode node, DataDefinition`1 definition, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 520
+   at lambda_method17543(Closure, DataNode, SerializationHookContext, ISerializationContext, InstantiationDelegate`1)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read[T](DataNode node, SerializationHookContext hookCtx, ISerializationContext context, InstantiationDelegate`1 instanceProvider, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 82
+   at lambda_method17510(Closure, DataNode, SerializationHookContext, ISerializationContext)
+   at Robust.Shared.Serialization.Manager.SerializationManager.Read(Type type, DataNode node, SerializationHookContext hookCtx, ISerializationContext context, Boolean notNullableOverride) in H:\lambda-14\RobustToolbox\Robust.Shared\Serialization\Manager\SerializationManager.Reading.cs:line 158
+   at Robust.Shared.Prototypes.PrototypeManager.TryReadPrototype(Type kind, String id, MappingDataNode mapping, SerializationHookContext hookCtx) in H:\lambda-14\RobustToolbox\Robust.Shared\Prototypes\PrototypeManager.cs:line 616
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/windows.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_wood_built_LQ.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_built_LQ.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hud/screen_ghost.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/progressbar.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/storage/rationbags.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (elite)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/fusion_engine.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (fastzombie)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tank.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/train.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/fires.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/stonebrick.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/metal.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/road.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/96x157.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/machines.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (poisonheadcrab)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/stone.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/ration_construction.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/chairs.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (armoredheadcrab)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/repairpod.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/water.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (poisonzombie)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/storage/crates.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/concretealt.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/breencast.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife_large.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'bullsquid_blue'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife_large.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (bullsquid)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/actions/actions_gonome.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (antlion)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/actions/actions_uprising.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/clutter.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (headcrab)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/cut/hl_grass.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/road_decals.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/actions/actions_misc.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/actions/actions_vortal.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/ID.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/locks.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/drinks.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/flora96x96.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/workbenches.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/pipes.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hl13cutter/combine.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/bench.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/lighting_overlay.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/catwalk.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife_large.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'bullsquid_blue'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife_large.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (advisor)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/64x64_large_furniture.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hl13cutter/brick.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/stack_objects.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/guns/frames.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/woodwall.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/bottles.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_alt.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/guns/wideframes.rsi'.
+[ERRO] go.comp.sprite: State 'service' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (houndeye)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/cabinets.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_small.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/deployment_dataterminal.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/streetpoles.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_grate.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/lighting.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/standalone_tables.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_wood.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/clothing/accessories.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/sandbags.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_wood_built.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/ladders.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/bunker.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/64x64_rugs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/32x32_rugs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/wrecks.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (grunt)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/signs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/beds.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/effects.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/stairs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hud/screen_dark.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/64x64_signs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tools/tools_inventory.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/gym_equipment.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/flora.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/sewer_floor.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/brickgrey.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/misc_items.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/border.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/flags32x64.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/streetlamps.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/miscellaneous_large.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/clothing/neck.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/obj/forcefield.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'operate'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load RSI '/Textures/_HL/obj/forcefield.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (icon)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hud/ui_alerttext.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/railings.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/inhands/cases_lefthand.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_heavy.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/keys.rsi'.
+[ERRO] go.comp.sprite: State 'service' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/barriers.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/gonarch.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'gonarch'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/gonarch.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (gonarch)
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (zombie)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/smoke.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/hoppermines.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/combine.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (cityscanner)
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/obj/smokeables_inventory.rsi'
+Robust.Shared.Resources.RSILoadException: RSI has a duplicate stateId 'Generic'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 137
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load RSI '/Textures/_HL/obj/smokeables_inventory.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (icon)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/brick.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/cut/hl_snow.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/effects/96x96.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'smoke'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load RSI '/Textures/_HL/effects/96x96.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (icon)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/miscellaneous.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/radio.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hl13cutter/concretealt.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/random_spawners.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/throwables/grenades_inventory.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (zombine)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/currency.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/sewer.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/nuke.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hud/screen_combine.rsi'.
+[ERRO] go.comp.sprite: State 'medical' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/effects/wallcovering.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/food.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/floor/sidewalk.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/32x64_tall_furniture.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/poster.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/storage/crates.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/television.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/hl13cutter/bunker.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/storage.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/factory_construction.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (antlionworker)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/misc_items.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_wood_bar.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/storage/storage.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/clutter.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (fastcrab)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/mojavedoors.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/street_signs.rsi'.
+[ERRO] go.comp.sprite: State 'security' not found in RSI: '/Textures/Markers/jobs.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/mob/actions/actions_advisor.rsi'.
+[ERRO] res: Exception while loading resource Robust.Client.ResourceManagement.RSIResource at '/Textures/_HL/mob/halflife.rsi'
+Robust.Shared.Resources.RSILoadException: Direction frames list count (4) does not match amount of delays specified (1) for state 'headcrab'.
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadataCore(RsiJsonMetadata manifestJson) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 93
+   at Robust.Shared.Resources.RsiLoading.LoadRsiMetadata(Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Shared\Resources\RsiLoading.cs:line 54
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTextureFolder(IResourceManager manager, LoadStepData data, Stream manifestFile) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 83
+   at Robust.Client.ResourceManagement.RSIResource.LoadPreTexture(IResourceManager manager, LoadStepData data) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 62
+   at Robust.Client.ResourceManagement.RSIResource.Load(IDependencyCollection dependencies, ResPath path) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceTypes\RSIResource.cs:line 41
+   at Robust.Client.ResourceManagement.ResourceCache.TryGetResource[T](ResPath path, T& resource) in H:\lambda-14\RobustToolbox\Robust.Client\ResourceManagement\ResourceCache.cs:line 84
+[ERRO] go.comp.sprite: Unable to load layer RSI '/Textures/_HL/mob/halflife.rsi'.
+[ERRO] go.comp.sprite: Layer has no RSI to load states from. Cannot use 'state' property. (manhack_nolight)
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/tables/table_metal_built.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/turf/walls/concrete.rsi'.
+[ERRO] go.comp.sprite: State 'icon' not found in RSI: '/Textures/_HL/obj/materials.rsi'.

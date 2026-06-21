@@ -29,9 +29,9 @@
     shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterVestCpMetropolice
     mask: ClothingMaskGasCp
-    id: ClothingHeadsetSecurity
+    id: SecurityPDA
+    pocket1: WeaponStunbaton
   storage:
     back:
     - Flash
     - WeaponPistolMk58
-    pocket1: WeaponStunbaton
