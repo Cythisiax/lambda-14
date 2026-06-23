@@ -3,5 +3,15 @@
   parent: BaseFloorPlanet
   name: tiles-water-floor
   sprite: /Textures/Tiles/Planet/water.rsi/shoreline_water.png
+  variants: 8
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   footstepSounds:
     collection: FootstepWater
