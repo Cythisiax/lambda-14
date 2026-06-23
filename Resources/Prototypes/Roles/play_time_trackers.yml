@@ -147,3 +147,73 @@
 
 - type: playTimeTracker
   id: JobWarden
+
+# #Misfits Add - HL2 role playtime trackers
+- type: playTimeTracker
+  id: JobCivilProtectionOfficer
+
+- type: playTimeTracker
+  id: JobCivilProtectionSergeant
+
+- type: playTimeTracker
+  id: JobCivilProtectionCaptain
+
+- type: playTimeTracker
+  id: JobOverwatchOfficer
+
+- type: playTimeTracker
+  id: JobCombineGrunt
+
+- type: playTimeTracker
+  id: JobCombineWorker
+
+- type: playTimeTracker
+  id: JobCombineSoldier
+
+- type: playTimeTracker
+  id: JobCombineOrdinal
+
+- type: playTimeTracker
+  id: JobEliteSoldier
+
+- type: playTimeTracker
+  id: JobHunterSeekerOperator
+
+- type: playTimeTracker
+  id: JobOverwatchAdministrator
+
+- type: playTimeTracker
+  id: JobOverwatchOperator
+
+- type: playTimeTracker
+  id: JobMaintenanceWorker
+
+- type: playTimeTracker
+  id: JobLogisticsOfficer
+
+- type: playTimeTracker
+  id: JobTrainYardWorker
+
+- type: playTimeTracker
+  id: JobCivilWorker
+
+- type: playTimeTracker
+  id: JobCivilMedicalWorker
+
+- type: playTimeTracker
+  id: JobUnionRepresentative
+
+- type: playTimeTracker
+  id: JobCitizen
+
+- type: playTimeTracker
+  id: JobRefugee
+
+- type: playTimeTracker
+  id: JobLambdaCellMember
+
+- type: playTimeTracker
+  id: JobResistanceScout
+
+- type: playTimeTracker
+  id: JobLambdaCellLeader

@@ -1,7 +1,6 @@
 ﻿using Content.Server.GameTicking;
 using Content.Server.Spawners.Components;
 using Content.Server.Station.Systems;
-using System.Numerics;
 using Robust.Shared.Map;
 using Robust.Shared.Random;
 
@@ -59,18 +58,8 @@ public sealed partial class SpawnPointSystem : EntitySystem
             }
             else
             {
-                // #Misfits Fix - custom maps should still latejoin even if marker lookup fails.
-                if (args.Station is { } station &&
-                    _stationSystem.GetLargestGrid(station) is { } gridUid)
-                {
-                    Log.Error($"No spawn points were available, falling back to station grid origin.\nRunLevel: {_gameTicker.RunLevel} Station: {ToPrettyString(args.Station)} Job: {args.Job}");
-                    possiblePositions.Add(new EntityCoordinates(gridUid, Vector2.Zero));
-                }
-                else
-                {
-                    Log.Error($"No spawn points were available!\nRunLevel: {_gameTicker.RunLevel} Station: {ToPrettyString(args.Station)} Job: {args.Job}");
-                    return;
-                }
+                Log.Error($"No spawn points were available!\nRunLevel: {_gameTicker.RunLevel} Station: {ToPrettyString(args.Station)} Job: {args.Job}");
+                return;
             }
         }
 
