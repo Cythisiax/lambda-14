@@ -18,7 +18,7 @@
     shoes: ClothingShoesBootsWork
     gloves: ClothingHandsGlovesLeather
     outerClothing: ClothingOuterLabcoat
-    id: ClothingHeadsetMedical
+    id: MedicalPDA
   storage:
     back:
     - Medkit

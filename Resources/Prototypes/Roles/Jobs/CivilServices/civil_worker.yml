@@ -19,4 +19,4 @@
     gloves: ClothingHandsGlovesLeather
     head: ClothingHeadHatHardhat
     outerClothing: ClothingOuterVestCleanup
-    id: ClothingHeadsetService
+    id: ServiceWorkerPDA

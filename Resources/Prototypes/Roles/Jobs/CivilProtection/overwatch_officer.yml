@@ -29,7 +29,7 @@
     shoes: ClothingShoesBootsOverwatch
     outerClothing: ClothingOuterVestOverwatch
     mask: ClothingMaskGasOverwatch
-    id: ClothingHeadsetCommand
+    id: SecurityPDA
   storage:
     back:
     - WeaponPistolMk58

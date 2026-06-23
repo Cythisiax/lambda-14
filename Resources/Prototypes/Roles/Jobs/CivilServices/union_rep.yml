@@ -17,4 +17,4 @@
   equipment:
     uniform: ClothingUniformJumpsuitBlackSuit
     shoes: ClothingShoesBootsWork
-    id: ClothingHeadsetService
+    id: ServiceWorkerPDA

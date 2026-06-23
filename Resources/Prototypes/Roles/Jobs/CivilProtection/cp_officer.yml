@@ -23,7 +23,7 @@
     shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterVestCp
     mask: ClothingMaskGasCp
-    id: ClothingHeadsetSecurity
+    id: SecurityPDA
   storage:
     back:
     - Flash

@@ -19,7 +19,7 @@
     gloves: ClothingHandsGlovesLeather
     head: ClothingHeadHatHardhat
     ears: ClothingHeadsetEngineering
-    id: ClothingHeadsetEngineering
+    id: EngineerPDA
   storage:
     back:
     - Crowbar

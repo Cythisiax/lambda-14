@@ -23,4 +23,4 @@
     ears: ClothingHeadsetCommand
     eyes: ClothingEyesGlassesSecurity
     shoes: ClothingShoesBootsOverwatch
-    id: ClothingHeadsetCommand
+    id: SecurityPDA

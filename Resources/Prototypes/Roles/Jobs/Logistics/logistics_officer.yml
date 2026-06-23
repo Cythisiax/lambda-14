@@ -24,7 +24,7 @@
     uniform: ClothingUniformJumpsuitBrownSuit
     shoes: ClothingShoesBootsWork
     ears: ClothingHeadsetEngineering
-    id: ClothingHeadsetEngineering
+    id: CargoPDA
   storage:
     back:
     - Crowbar

@@ -31,7 +31,7 @@
     shoes: ClothingShoesBootsCp
     outerClothing: ClothingOuterArmorElite
     mask: ClothingMaskGasCp
-    id: ClothingHeadsetSecurity
+    id: HoSPDA
   storage:
     back:
     - WeaponPistolMk58
