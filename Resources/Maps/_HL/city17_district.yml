@@ -82,10 +82,10 @@ tilemap:
   174: FloorRubble
   58: FloorRubbleIndoors
   63: FloorSnow
-  78: FloorSteel
-  69: FloorSteelDiagonal
-  16: FloorSteelDirty
-  81: FloorSteelMono
+  78: FloorTiledHL2
+  69: FloorTiledHL2Diagonal
+  16: FloorTiledHL2Dirty
+  81: FloorTiledHL2Mono
   42: FloorSwampland
   5: FloorTechMaint
   62: FloorWasteland
@@ -36022,6 +36022,7 @@ entities:
     - type: Transform
       parent: 5651
     - type: Stack
+      stackType: Coal
       count: 2
     - type: Physics
       angularDamping: 0
@@ -36960,7 +36961,7 @@ entities:
     - type: Transform
       pos: -37.5,77.5
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 5920
     components:
@@ -36980,7 +36981,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 5922
     components:
@@ -37001,7 +37002,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 5924
     components:
@@ -37011,7 +37012,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 5925
     components:
@@ -57331,8 +57332,6 @@ entities:
     - type: Transform
       pos: -95.5,64.5
       parent: 2
-    - type: Warper
-      id: VaultAnklav
     - type: WarpPoint
       id: VaultAnklav1
       location: '[Vault] The exit from the enclave bunker'
@@ -57344,8 +57343,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 64.5,-29.5
       parent: 2
-    - type: Warper
-      id: house_warcrime_down
     - type: WarpPoint
       id: house_warcrime_up
 - proto: CrateMetalHL2
@@ -57356,8 +57353,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -185.5,-39.5
       parent: 2
-    - type: Warper
-      id: raider_danj1
     - type: WarpPoint
       id: raider_danj
       location: Entrance by the raiders.
@@ -57366,8 +57361,6 @@ entities:
     - type: Transform
       pos: -85.5,-20.5
       parent: 2
-    - type: Warper
-      id: bunker_top
     - type: WarpPoint
       id: bunker_bottom
     - type: Destructible
@@ -57378,8 +57371,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -48.5,-31.5
       parent: 2
-    - type: Warper
-      id: Bazaar_World_2
     - type: WarpPoint
       id: Bazaar_Underworld_2
     - type: Destructible
@@ -57391,8 +57382,6 @@ entities:
     - type: Transform
       pos: -107.5,-31.5
       parent: 2
-    - type: Warper
-      id: customs_gen_down
     - type: WarpPoint
       id: customs_gen_up
 - proto: CrateHL2
@@ -57411,8 +57400,6 @@ entities:
     - type: Transform
       pos: -178.5,-56.5
       parent: 2
-    - type: Warper
-      id: NCR1985
     - type: WarpPoint
       id: NCR1984
       location: Withdrawal from the NKR underground complex
@@ -57423,8 +57410,6 @@ entities:
     - type: Transform
       pos: -13.5,40.5
       parent: 2
-    - type: Warper
-      id: VautZabClassik_1
     - type: WarpPoint
       id: VautZabClassik_2
   - uid: 8725
@@ -57432,8 +57417,6 @@ entities:
     - type: Transform
       pos: -9.5,53.5
       parent: 2
-    - type: Warper
-      id: VautZabClassik_2
     - type: WarpPoint
       id: VautZabClassik_1
 - proto: CrateHL2
@@ -57481,8 +57464,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -48.5,71.5
       parent: 2
-    - type: Warper
-      id: VaultAnklav1
     - type: Fixtures
       fixtures: {}
     - type: WarpPoint
@@ -62107,8 +62088,6 @@ entities:
       name: Box of Prewar Books
     - type: Transform
       parent: 1476
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
     - type: Storage
       storedItems:
         1485:
@@ -62150,8 +62129,6 @@ entities:
     components:
     - type: Transform
       parent: 9420
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -62329,10 +62306,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 147
     components:
     - type: Transform
@@ -62341,10 +62314,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: HealthPenHL2
   entities:
   - uid: 5371
@@ -67413,10 +67382,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67427,10 +67392,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67441,10 +67402,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67455,10 +67412,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67469,10 +67422,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67483,10 +67432,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67497,10 +67442,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67511,10 +67452,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67525,10 +67462,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -67539,10 +67472,6 @@ entities:
     components:
     - type: Transform
       parent: 6415
-    - type: PauseTimedDespawnInEntityStorage
-      pausedLifetime: 300
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -70221,8 +70150,6 @@ entities:
     components:
     - type: Transform
       parent: 80
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -70239,8 +70166,6 @@ entities:
     components:
     - type: Transform
       parent: 1481
-    - type: Stack
-      count: 52
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -70515,8 +70440,6 @@ entities:
     components:
     - type: Transform
       parent: 10328
-    - type: Stack
-      count: 150
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -70706,8 +70629,6 @@ entities:
     components:
     - type: Transform
       parent: 1416
-    - type: Stack
-      count: 1000
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -70716,8 +70637,6 @@ entities:
     components:
     - type: Transform
       parent: 1416
-    - type: Stack
-      count: 1000
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -85018,7 +84937,7 @@ entities:
     - type: Transform
       pos: 78.5,30.5
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 12166
     components:
@@ -87326,8 +87245,6 @@ entities:
     components:
     - type: Transform
       parent: 9213
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87438,8 +87355,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87482,8 +87397,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 4
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87492,8 +87405,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87527,8 +87438,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87537,8 +87446,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87556,8 +87463,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 4
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87566,8 +87471,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87596,8 +87499,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87606,8 +87507,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87636,8 +87535,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -87646,8 +87543,6 @@ entities:
     - type: Transform
       pos: -109.5,-9.5
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -89494,7 +89389,7 @@ entities:
       on: False
     - type: Physics
       bodyType: Static
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 12900
     components:
@@ -89872,8 +89767,6 @@ entities:
     - type: Transform
       pos: -172.30568,-13.438429
       parent: 2
-    - type: Construction
-      defaultTarget: null
 - proto: CrateMetalHL2
   entities:
   - uid: 12941
@@ -89999,40 +89892,24 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 30.79726,41.87597
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12960
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 30.76601,41.87597
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12961
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 30.70351,41.860344
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12962
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 30.687885,41.860344
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateMetalHL2
   entities:
   - uid: 132
@@ -90044,10 +89921,6 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateHL2
   entities:
   - uid: 7148
@@ -90058,10 +89931,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 7149
     components:
     - type: MetaData
@@ -90072,19 +89941,11 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12963
     components:
     - type: Transform
       pos: -102.32199,-3.319694
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12964
     components:
     - type: Transform
@@ -90093,28 +89954,16 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12965
     components:
     - type: Transform
       pos: -75.49449,-45.194023
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12966
     components:
     - type: Transform
       pos: -75.4703,-49.34868
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12968
     components:
     - type: Transform
@@ -90124,37 +89973,21 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12969
     components:
     - type: Transform
       pos: -95.60835,-47.590397
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12970
     components:
     - type: Transform
       pos: -95.66564,-53.507122
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
   - uid: 12971
     components:
     - type: Transform
       pos: -74.054214,-53.52962
       parent: 2
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateHL2
   entities:
   - uid: 12973
@@ -90165,10 +89998,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateHL2
   entities:
   - uid: 1484
@@ -90179,10 +90008,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateHL2
   entities:
   - uid: 95
@@ -90193,10 +90018,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    - type: PipBoyNetwork
-      sosAlerts: []
-      groups: {}
-      contacts: {}
 - proto: CrateHL2
   entities:
   - uid: 10057
@@ -90243,8 +90064,6 @@ entities:
     components:
     - type: Transform
       parent: 10166
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -90303,8 +90122,6 @@ entities:
     components:
     - type: Transform
       parent: 10166
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -90399,8 +90216,6 @@ entities:
     components:
     - type: Transform
       parent: 10166
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94632,8 +94447,6 @@ entities:
     components:
     - type: Transform
       parent: 3534
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94688,8 +94501,6 @@ entities:
     - type: Transform
       pos: -4.5663967,22.774715
       parent: 2
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94718,8 +94529,6 @@ entities:
     - type: Transform
       pos: -4.4361305,22.736534
       parent: 2
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94729,8 +94538,6 @@ entities:
     components:
     - type: Transform
       parent: 9190
-    - type: Stack
-      count: 5
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94740,8 +94547,6 @@ entities:
     - type: Transform
       pos: -30.171963,64.84796
       parent: 2
-    - type: Stack
-      count: 15
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94755,8 +94560,6 @@ entities:
     - type: Transform
       pos: -30.301447,65.184425
       parent: 2
-    - type: Stack
-      count: 15
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -94766,8 +94569,6 @@ entities:
     components:
     - type: Transform
       parent: 9190
-    - type: Stack
-      count: 8
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -97921,8 +97722,6 @@ entities:
     components:
     - type: Transform
       parent: 12993
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -97939,8 +97738,6 @@ entities:
     components:
     - type: Transform
       parent: 13056
-    - type: Stack
-      count: 6
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -97993,8 +97790,6 @@ entities:
     components:
     - type: Transform
       parent: 10228
-    - type: Stack
-      count: 3
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -104556,14 +104351,6 @@ entities:
     - type: DeviceNetwork
       address: Cons 712E-40B2
       receiveFrequency: 2202
-    - type: LanguageSpeaker
-      understoodLanguages:
-      - TauCetiBasic
-      - RobotTalk
-      spokenLanguages:
-      - TauCetiBasic
-      - RobotTalk
-      currentLanguage: TauCetiBasic
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -162894,8 +162681,6 @@ entities:
     components:
     - type: Transform
       parent: 268
-    - type: Cartridge
-      loaderUid: 268
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -162907,28 +162692,28 @@ entities:
     - type: Transform
       pos: -210.49185,-28.567995
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 25223
     components:
     - type: Transform
       pos: -166.5,-39.5
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 25224
     components:
     - type: Transform
       pos: -168.5,-40.5
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 25225
     components:
     - type: Transform
       pos: -167.5,-42.5
       parent: 2
-- proto: FloorSteel
+- proto: FloorTiledHL2
   entities:
   - uid: 25226
     components:
@@ -163020,8 +162805,6 @@ entities:
     components:
     - type: Transform
       parent: 268
-    - type: Cartridge
-      loaderUid: 268
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -163062,8 +162845,6 @@ entities:
     components:
     - type: Transform
       parent: 268
-    - type: Cartridge
-      loaderUid: 268
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -167248,8 +167029,6 @@ entities:
     components:
     - type: Transform
       parent: 1476
-    - type: Stack
-      count: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
@@ -172444,6 +172223,7 @@ entities:
     - type: Transform
       parent: 9196
     - type: Stack
+      stackType: Glass
       count: 4
     - type: Physics
       angularDamping: 0
@@ -172510,6 +172290,7 @@ entities:
     - type: Transform
       parent: 13056
     - type: Stack
+      stackType: Plasteel
       count: 5
     - type: Physics
       angularDamping: 0
@@ -172602,6 +172383,7 @@ entities:
     - type: Transform
       parent: 13027
     - type: Stack
+      stackType: ReinforcedGlass
       count: 5
     - type: Physics
       angularDamping: 0
@@ -172612,6 +172394,7 @@ entities:
     - type: Transform
       parent: 13039
     - type: Stack
+      stackType: ReinforcedGlass
       count: 12
     - type: Physics
       angularDamping: 0
@@ -172718,6 +172501,7 @@ entities:
     - type: Transform
       parent: 13027
     - type: Stack
+      stackType: Steel
       count: 15
     - type: Physics
       angularDamping: 0
@@ -172837,6 +172621,7 @@ entities:
     - type: Transform
       parent: 13039
     - type: Stack
+      stackType: Steel
       count: 30
     - type: Physics
       angularDamping: 0
@@ -172847,6 +172632,7 @@ entities:
     - type: Transform
       parent: 13039
     - type: Stack
+      stackType: Steel
       count: 5
     - type: Physics
       angularDamping: 0
@@ -172927,6 +172713,7 @@ entities:
     - type: Transform
       parent: 10166
     - type: Stack
+      stackType: Steel
       count: 20
     - type: Physics
       angularDamping: 0
@@ -176496,8 +176283,6 @@ entities:
     - type: WarpPoint
       id: Vault-22
       location: '[Vault] Elevator'
-    - type: Warper
-      id: Vault-21
   - uid: 26674
     components:
     - type: MetaData

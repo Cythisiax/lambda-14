@@ -70,3 +70,291 @@
 - type: tileAlias
   id: FloorSteelBurnt
   target: FloorSteelDamaged
+
+# 2026-06-22
+# Legacy Lambda-14 / HL import tile IDs used by city17_district.yml.
+# These names existed in imported maps but were never backed by tile prototypes in this repo.
+
+- type: tileAlias
+  id: CultFloorConcealed
+  target: FloorDark
+
+- type: tileAlias
+  id: FloorBedrock
+  target: FloorBasalt
+
+- type: tileAlias
+  id: FloorDirtNew
+  target: FloorDirt
+
+- type: tileAlias
+  id: FloorMetalBlueSolid
+  target: FloorBlue
+
+- type: tileAlias
+  id: FloorMetalFreezer
+  target: FloorFreezer
+
+- type: tileAlias
+  id: FloorMetalGreyDarkSolid
+  target: FloorDark
+
+- type: tileAlias
+  id: FloorMetalRed
+  target: FloorDark
+
+- type: tileAlias
+  id: FloorMetalRedSolid
+  target: FloorDarkMono
+
+- type: tileAlias
+  id: FloorMetalTunnel
+  target: FloorMono
+
+- type: tileAlias
+  id: FloorMetalTunnelRusty
+  target: FloorSteelDirty
+
+- type: tileAlias
+  id: FloorMetalTunnelWasteland
+  target: FloorDark
+
+- type: tileAlias
+  id: FloorMetalWhite
+  target: FloorWhite
+
+- type: tileAlias
+  id: FloorMetalWhiteSolid
+  target: FloorWhiteMono
+
+- type: tileAlias
+  id: FloorMS13BrickConcrete
+  target: FloorConcrete
+
+- type: tileAlias
+  id: FloorMS13Concrete
+  target: FloorConcreteSmooth
+
+- type: tileAlias
+  id: FloorMS13ConcreteIndustrialAlt
+  target: FloorGrayConcreteSmooth
+
+- type: tileAlias
+  id: FloorMS13MetalGrate
+  target: FloorMetalDiamond
+
+- type: tileAlias
+  id: FloorMS13MetalIndustrial
+  target: FloorSteel
+
+- type: tileAlias
+  id: FloorMS13MetalSolid
+  target: FloorSteelMono
+
+- type: tileAlias
+  id: FloorMS13MetalTile
+  target: FloorSteelMini
+
+- type: tileAlias
+  id: FloorMS13TileBlack
+  target: FloorDark
+
+- type: tileAlias
+  id: FloorMS13TileBlackFull
+  target: FloorDarkMono
+
+- type: tileAlias
+  id: FloorMS13TileBlackLarge
+  target: FloorDarkPlastic
+
+- type: tileAlias
+  id: FloorMS13TileBrown
+  target: FloorWood
+
+- type: tileAlias
+  id: FloorMS13TileCafe
+  target: FloorShowroom
+
+- type: tileAlias
+  id: FloorMS13TileCheck
+  target: FloorSteelCheckerLight
+
+- type: tileAlias
+  id: FloorMS13TileConcreteSmall
+  target: FloorConcrete
+
+- type: tileAlias
+  id: FloorMS13TileFancy
+  target: FloorWhite
+
+- type: tileAlias
+  id: FloorMS13TileGreen
+  target: FloorHydro
+
+- type: tileAlias
+  id: FloorMS13TileGreenFull
+  target: FloorHydro
+
+- type: tileAlias
+  id: FloorMS13TileGrey
+  target: FloorGrayConcreteSmooth
+
+- type: tileAlias
+  id: FloorMS13TileGreyLarge
+  target: FloorGrayConcreteSmooth
+
+- type: tileAlias
+  id: FloorMS13TileGreyLong
+  target: FloorDarkPavementVertical
+
+- type: tileAlias
+  id: FloorMS13TileLongBlue
+  target: FloorBlue
+
+- type: tileAlias
+  id: FloorMS13TileNavy
+  target: FloorBlue
+
+- type: tileAlias
+  id: FloorMS13TileNavyFull
+  target: FloorBlue
+
+- type: tileAlias
+  id: FloorMS13TileNavyLarge
+  target: FloorBlue
+
+- type: tileAlias
+  id: FloorMS13TileWhiteFull
+  target: FloorWhiteMono
+
+- type: tileAlias
+  id: FloorMS13TileWhiteLarge
+  target: FloorWhite
+
+- type: tileAlias
+  id: FloorMS13WoodCommon
+  target: FloorWood
+
+- type: tileAlias
+  id: FloorMS13WoodCommonDamaged
+  target: FloorBrokenWood
+
+- type: tileAlias
+  id: FloorMS13WoodFancy
+  target: FloorWoodTile
+
+- type: tileAlias
+  id: FloorMS13WoodFancyDamaged
+  target: FloorBrokenWood
+
+- type: tileAlias
+  id: FloorMS13WoodMosaic
+  target: FloorWoodTile
+
+- type: tileAlias
+  id: FloorMS13WoodMosaicDamaged
+  target: FloorBrokenWood
+
+- type: tileAlias
+  id: FloorMS13WoodWide
+  target: FloorWoodLarge
+
+- type: tileAlias
+  id: FloorRubble
+  target: FloorAsteroidTile
+
+- type: tileAlias
+  id: FloorRubbleIndoors
+  target: FloorCaveDrought
+
+- type: tileAlias
+  id: FloorSwampland
+  target: FloorDarkAstroGrass
+
+- type: tileAlias
+  id: FloorTiledHL2
+  target: FloorLino
+
+- type: tileAlias
+  id: FloorTiledHL2Diagonal
+  target: FloorWhiteDiagonal
+
+- type: tileAlias
+  id: FloorTiledHL2Dirty
+  target: FloorOldConcrete
+
+- type: tileAlias
+  id: FloorTiledHL2Mono
+  target: FloorWhiteMono
+
+- type: tileAlias
+  id: FloorWasteland
+  target: FloorAsteroidSand
+
+- type: tileAlias
+  id: FloorWoodHouse
+  target: FloorWood
+
+- type: tileAlias
+  id: FloorWoodHouseBroken
+  target: FloorBrokenWood
+
+- type: tileAlias
+  id: FloorWoodOak
+  target: FloorWoodLarge
+
+- type: tileAlias
+  id: ForgeFloorGroundDesert
+  target: FloorDesert
+
+- type: tileAlias
+  id: ForgeFloorWasteland
+  target: FloorAsteroidSand
+
+- type: tileAlias
+  id: N14FloorRoadBottom
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadCorner1
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadCorner2
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadCorner3
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadCorner4
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadLeft
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadOuterMiddlePath
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadRight
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: N14FloorRoadTop
+  target: FloorAsphalt
+
+- type: tileAlias
+  id: WaterShallow
+  target: FloorWater
+
+- type: tileAlias
+  id: WaterMedium
+  target: FloorWater
+
+- type: tileAlias
+  id: WaterDeep
+  target: FloorWater
