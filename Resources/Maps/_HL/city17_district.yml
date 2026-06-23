@@ -29213,7 +29213,7 @@ entities:
     - type: Transform
       pos: -4.3741903,20.355934
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 4589
     components:
@@ -29248,7 +29248,7 @@ entities:
     - type: Transform
       pos: 73.40684,12.81551
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 4595
     components:
@@ -32693,7 +32693,7 @@ entities:
     - type: Transform
       pos: -18.582497,45.999313
       parent: 2
-- proto: Charcoal
+- proto: PillCharcoal
   entities:
   - uid: 5211
     components:
@@ -36960,7 +36960,7 @@ entities:
     - type: Transform
       pos: -37.5,77.5
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 5920
     components:
@@ -36980,7 +36980,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 5922
     components:
@@ -37001,7 +37001,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 5924
     components:
@@ -37011,7 +37011,7 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 5925
     components:
@@ -58919,7 +58919,7 @@ entities:
     - type: Transform
       pos: -31.5,12.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 8933
     components:
@@ -70692,7 +70692,7 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-- proto: Beaker0
+- proto: Beaker
   entities:
   - uid: 148
     components:
@@ -80889,7 +80889,7 @@ entities:
     - type: Transform
       pos: -214.5,-6.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11718
     components:
@@ -80902,7 +80902,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -214.5,-29.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11720
     components:
@@ -80980,7 +80980,7 @@ entities:
       parent: 2
     missingComponents:
     - Door
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11733
     components:
@@ -81205,7 +81205,7 @@ entities:
     - type: DeviceLinkSink
       links:
       - 13817
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11768
     components:
@@ -81422,7 +81422,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 89.5,33.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11802
     components:
@@ -81442,7 +81442,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 31.5,43.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11805
     components:
@@ -81487,7 +81487,7 @@ entities:
     - type: Transform
       pos: 11.5,4.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11813
     components:
@@ -81553,7 +81553,7 @@ entities:
     - type: Transform
       pos: 93.5,22.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11822
     components:
@@ -81748,7 +81748,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -138.5,-44.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11855
     components:
@@ -81807,7 +81807,7 @@ entities:
       - Open
       - Close
       - Toggle
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11862
     components:
@@ -81821,7 +81821,7 @@ entities:
     - type: Transform
       pos: -124.53422,-35.478504
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11864
     components:
@@ -81963,7 +81963,7 @@ entities:
     - type: Transform
       pos: -172.5,-52.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11882
     components:
@@ -82008,7 +82008,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -83.5,7.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11887
     components:
@@ -82054,7 +82054,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -76.5,-48.5
       parent: 2
-- proto: IDCard
+- proto: PassengerPDA
   entities:
   - uid: 11893
     components:
@@ -84469,7 +84469,7 @@ entities:
       angularDamping: 0
       linearDamping: 0
     - type: ActionsContainer
-- proto: FloorWater
+- proto: FloorWaterEntity
   entities:
   - uid: 12074
     components:
@@ -84825,7 +84825,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -20.5,25.5
       parent: 2
-- proto: FloorWater
+- proto: FloorWaterEntity
   entities:
   - uid: 12133
     components:
@@ -85018,7 +85018,7 @@ entities:
     - type: Transform
       pos: 78.5,30.5
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 12166
     components:
@@ -85221,7 +85221,7 @@ entities:
     - type: Transform
       pos: -86.5,-36.5
       parent: 2
-- proto: FloorWater
+- proto: FloorWaterEntity
   entities:
   - uid: 12202
     components:
@@ -87211,7 +87211,7 @@ entities:
     - type: Transform
       pos: -173.5,-59.5
       parent: 2
-- proto: FloorWater
+- proto: FloorWaterEntity
   entities:
   - uid: 12592
     components:
@@ -89494,7 +89494,7 @@ entities:
       on: False
     - type: Physics
       bodyType: Static
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 12900
     components:
@@ -162907,28 +162907,28 @@ entities:
     - type: Transform
       pos: -210.49185,-28.567995
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 25223
     components:
     - type: Transform
       pos: -166.5,-39.5
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 25224
     components:
     - type: Transform
       pos: -168.5,-40.5
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 25225
     components:
     - type: Transform
       pos: -167.5,-42.5
       parent: 2
-- proto: FloorConcreteSmooth
+- proto: FloorSteel
   entities:
   - uid: 25226
     components:
@@ -165625,7 +165625,7 @@ entities:
     - type: Transform
       pos: -31.366695,21.491856
       parent: 2
-- proto: PillCanisterCharcoal
+- proto: PillCharcoal
   entities:
   - uid: 25319
     components:
