@@ -84003,17 +84003,12 @@ entities:
       pos: -84.199135,72.518234
       parent: 2
     - type: Storage
-      storedItems:
-        12024:
-          position: 0,0
-          _rotation: South
     - type: ContainerContainer
       containers:
         storagebase: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 12024
+          ents: []
   - uid: 12025
     components:
     - type: Transform
@@ -93999,7 +93994,8 @@ entities:
   - uid: 12024
     components:
     - type: Transform
-      parent: 12023
+      pos: -83.199135,72.518234
+      parent: 2
     - type: Physics
       angularDamping: 0
       linearDamping: 0
