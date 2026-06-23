@@ -1,4 +1,4 @@
-# #Misfits Change - HL2 Combine Department Locale
+# #Cythisiax Edited - HL2 Combine Department Locale
 
 ## Department Names
 department-CivilProtection = Civil Protection

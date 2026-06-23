@@ -1,4 +1,4 @@
-// #Misfits Add - RP action formatting and .do command support, ported from nuclear-14
+// #Cythisiax Added - RP action formatting and .do command support, ported from nuclear-14
 using Content.Shared.Chat;
 using Content.Shared.Database;
 using Robust.Shared.Console;

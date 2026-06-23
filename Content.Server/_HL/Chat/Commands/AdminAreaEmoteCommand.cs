@@ -1,4 +1,4 @@
-// #Misfits Change
+// #Cythisiax Edited
 // Admin area emote command — sends a green italic emote to all players in local (voice) range.
 using Content.Server.Administration;
 using Content.Server.Chat.Systems;

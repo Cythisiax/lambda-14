@@ -1,4 +1,4 @@
-# #Misfits Change - HL2 Supervisor Locale
+# #Cythisiax Edited - HL2 Supervisor Locale
 job-supervisors-cp = Civil Protection Command
 job-supervisors-ovwatch = Overwatch Administration
 job-supervisors-transhuman = Transhuman Arm Command

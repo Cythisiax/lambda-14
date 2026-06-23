@@ -1,4 +1,4 @@
-// #Misfits Add - Admin area emote (/aemote) ported from nuclear-14
+// #Cythisiax Added - Admin area emote (/aemote) ported from nuclear-14
 using Content.Shared.Chat;
 using Content.Shared.Database;
 using Robust.Shared.Player;

@@ -1,4 +1,4 @@
-# #Misfits Change - HL2 Faction Spawn Points
+# #Cythisiax Edited - HL2 Faction Spawn Points
 - type: entity
   id: SpawnPointCivilProtection
   parent: SpawnPointJobBase

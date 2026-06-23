@@ -1,0 +1,45 @@
+# #Cythisiax Added - HL2 Showcase Map Definition
+- type: gameMap
+  id: HLShowcase
+  mapName: 'HL Showcase'
+  mapPath: /Maps/_HL/hl_showcase.yml
+  minPlayers: 0
+  stations:
+    HLShowcase:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'HL Showcase'
+        - type: StationJobs
+          availableJobs:
+            # Civil Protection
+            CivilProtectionOfficer: [ -1, -1 ]
+            CivilProtectionSergeant: [ -1, -1 ]
+            CivilProtectionCaptain: [ -1, -1 ]
+            OverwatchOfficer: [ -1, -1 ]
+            # Transhuman Arm
+            CombineGrunt: [ -1, -1 ]
+            CombineSoldier: [ -1, -1 ]
+            EliteSoldier: [ -1, -1 ]
+            HunterSeekerOperator: [ -1, -1 ]
+            # Overwatch
+            OverwatchAdministrator: [ -1, -1 ]
+            OverwatchOperator: [ -1, -1 ]
+            # Logistics
+            MaintenanceWorker: [ -1, -1 ]
+            LogisticsOfficer: [ -1, -1 ]
+            TrainYardWorker: [ -1, -1 ]
+            # Civil Services
+            CivilWorker: [ -1, -1 ]
+            CivilMedicalWorker: [ -1, -1 ]
+            UnionRepresentative: [ -1, -1 ]
+            # Civilian
+            Bartender: [ -1, -1 ]
+            Botanist: [ -1, -1 ]
+            Chef: [ -1, -1 ]
+            Janitor: [ -1, -1 ]
+            Musician: [ -1, -1 ]
+            Reporter: [ -1, -1 ]
+            ServiceWorker: [ -1, -1 ]
+            Citizen: [ -1, -1 ]
+            Refugee: [ -1, -1 ]
