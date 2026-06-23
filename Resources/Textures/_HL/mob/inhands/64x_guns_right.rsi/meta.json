@@ -8,6 +8,9 @@
   },
   "states": [
     {
+      "name": "icon"
+    },
+    {
       "name": "spas12",
       "directions": 4,
       "delays": [
