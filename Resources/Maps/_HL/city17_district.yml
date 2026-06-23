@@ -68482,9 +68482,6 @@ entities:
         9865:
           position: 1,1
           _rotation: North
-        invalid:
-          position: 4,1
-          _rotation: North
         9867:
           position: 3,0
           _rotation: East
@@ -68519,7 +68516,6 @@ entities:
           occludes: True
           ents:
           - 9865
-          - invalid
           - 9866
           - 9867
           - 9863
@@ -69857,8 +69853,6 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - invalid
-          - invalid
           - 10218
         paper_label: !type:ContainerSlot
           showEnts: False
@@ -69883,7 +69877,6 @@ entities:
           - 10223
           - 10222
           - 10221
-          - invalid
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -99135,7 +99128,6 @@ entities:
     - type: UserInterface
       actors:
         enum.StorageUiKey.Key:
-        - invalid
     - type: ContainerContainer
       containers:
         storagebase: !type:Container
@@ -174636,8 +174628,6 @@ entities:
         path: /Audio/Effects/teleport_departure.ogg
       arrivalSound: !type:SoundPathSpecifier
         path: /Audio/Effects/teleport_arrival.ogg
-    - type: PortalAutoLink
-      linkKey: kerta_Vault_ToVault
     missingComponents:
     - Damageable
     - Destructible
@@ -174721,8 +174711,6 @@ entities:
         path: /Audio/Effects/teleport_departure.ogg
       arrivalSound: !type:SoundPathSpecifier
         path: /Audio/Effects/teleport_arrival.ogg
-    - type: PortalAutoLink
-      linkKey: TownCave
     missingComponents:
     - Destructible
 - proto: SteelBench
@@ -175201,8 +175189,6 @@ entities:
           Blunt: 1
     - type: ItemToggleSize
       deactivatedSize: Small
-    - type: WeaponStunBatonHL2
-      canKnockDown: True
     - type: MeleeWeapon
       damage:
         groups: null
