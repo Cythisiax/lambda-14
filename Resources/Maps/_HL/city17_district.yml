@@ -5,7 +5,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ''
   forkVersion: ''
-  entityCount: 1606
+  entityCount: 1614
 tilemap:
   0: Space
   100: FloorSteel
@@ -9751,6 +9751,54 @@ entities:
     components:
     - type: Transform
       pos: 0,-2
+      parent: 2
+  - uid: 1607
+    proto: SpawnPointCombineGrunt
+    components:
+    - type: Transform
+      pos: 8,14
+      parent: 2
+  - uid: 1608
+    proto: SpawnPointServiceWorker
+    components:
+    - type: Transform
+      pos: 8,30
+      parent: 2
+  - uid: 1609
+    proto: SpawnPointBartender
+    components:
+    - type: Transform
+      pos: 10,30
+      parent: 2
+  - uid: 1610
+    proto: SpawnPointBotanist
+    components:
+    - type: Transform
+      pos: 12,30
+      parent: 2
+  - uid: 1611
+    proto: SpawnPointChef
+    components:
+    - type: Transform
+      pos: 14,30
+      parent: 2
+  - uid: 1612
+    proto: SpawnPointJanitor
+    components:
+    - type: Transform
+      pos: 16,30
+      parent: 2
+  - uid: 1613
+    proto: SpawnPointMusician
+    components:
+    - type: Transform
+      pos: 18,30
+      parent: 2
+  - uid: 1614
+    proto: SpawnPointReporter
+    components:
+    - type: Transform
+      pos: 20,30
       parent: 2
 maps:
 - 1

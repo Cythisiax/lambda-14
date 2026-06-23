@@ -48,6 +48,18 @@
       - state: security_officer
 
 - type: entity
+  id: SpawnPointCombineGrunt
+  parent: SpawnPointJobBase
+  name: combine grunt
+  components:
+  - type: SpawnPoint
+    job_id: CombineGrunt
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
+
+- type: entity
   id: SpawnPointCombineSoldier
   parent: SpawnPointJobBase
   name: combine soldier
